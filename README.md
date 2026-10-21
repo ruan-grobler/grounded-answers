@@ -45,25 +45,26 @@ The table also shows a loss, and I am leaving it in. The cross-encoder reranker 
 ## How it works
 
 ```mermaid
-flowchart LR
-    subgraph ingest["ga index (once)"]
-        D["34 documents<br/>28 Markdown, 6 PDF"] --> P["Parse sections<br/>keep titles and pages"]
-        P --> C["Chunk with overlap<br/>tables keep headers"]
-        C --> F["Flag planted instructions,<br/>hidden text, personal data"]
-        F --> E["Embed locally<br/>BGE small via fastembed"]
-        E --> DB[("One SQLite file<br/>FTS5 BM25 + sqlite-vec")]
+flowchart TD
+    subgraph ingest["ga index: once, idempotent"]
+        direction LR
+        D["34 documents<br/>28 Markdown, 6 PDF"] --> P["Parse sections,<br/>keep titles and pages"]
+        P --> C["Chunk with overlap,<br/>tables keep headers"]
+        C --> F["Flag planted text<br/>and personal data"]
+        F --> E["Embed locally<br/>BGE small"]
     end
+    E --> DB[("One SQLite file<br/>FTS5 BM25 + sqlite-vec")]
     Q["Staff question"] --> G1{"Asks for a person's<br/>personal data?"}
     G1 -- yes --> R1["Refuse"]
     G1 -- no --> H["Hybrid retrieval<br/>BM25 + dense, RRF"]
     DB --> H
     H --> RR["Cross-encoder rerank<br/>MiniLM, local"]
-    RR --> G2{"Top score<br/>above the gate?"}
+    RR --> G2{"Top score above<br/>the gate?"}
     G2 -- no --> R2["Refuse: not in<br/>the documents"]
     G2 -- yes --> L["Claude adapter<br/>structured output"]
-    L --> G3{"Output guard: every quote<br/>in its source, no unknown<br/>emails, links or numbers"}
-    G3 -- fail --> R3["Refuse: could<br/>not verify"]
-    G3 -- pass --> A["Answer, claims with<br/>citations, confidence"]
+    L --> G3{"Output guard: quotes in<br/>their source, no unknown<br/>emails, links or numbers?"}
+    G3 -- no --> R3["Refuse: could<br/>not verify"]
+    G3 -- yes --> A["Answer with claims,<br/>citations, confidence"]
 ```
 
 - **Ingest.** Markdown with front matter and PDFs with numbered headings. Every chunk keeps its document title, section title and page, so a citation reads "Billing and payments > Deposits for larger treatment". Chunks never cross a section, overlap by up to 30 words, and a table split across chunks repeats its header row.
