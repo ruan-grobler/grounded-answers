@@ -66,12 +66,12 @@ class Question:
 
 _SPACES = re.compile(r"\s+")
 _THOUSANDS = re.compile(r"(?<=\d),(?=\d{3}\b)")
+_QUOTES = str.maketrans({0x2018: "'", 0x2019: "'", 0x201C: '"', 0x201D: '"'})
 
 
 def normalise(text: str) -> str:
     """Lower case, straight quotes, single spaces, and no thousands separators (R4,900 = R4900)."""
-    text = text.replace("’", "'").replace("‘", "'").replace("“", '"')
-    text = text.replace("”", '"').lower()
+    text = text.translate(_QUOTES).lower()
     text = _THOUSANDS.sub("", text)
     return _SPACES.sub(" ", text).strip()
 

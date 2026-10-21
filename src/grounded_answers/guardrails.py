@@ -45,15 +45,16 @@ _POSSESSIVE_ROLE = re.compile(
     re.IGNORECASE,
 )
 _TITLED = re.compile(r"\b(Dr|Mr|Mrs|Ms|Prof)\.?\s+[A-Za-z][\w'-]+")
-_NAME_PAIR = re.compile(r"\b([A-Z][a-z'-]+)\s+((?:van|de|du|der|le)\s+)?([A-Z][a-z'-]+)")
-_POSSESSIVE_NAME = re.compile(r"\b([A-Z][a-z-]+)'s\b")
+_WORD = re.compile(r"[A-Za-z][A-Za-z'-]*")
 # Capitalised words that start questions or name things that are not people.
 _NOT_NAMES = frozenset(
     """What Who Whom Whose Which Where When Why How Can Could Is Are Do Does Did Give Tell Show
     Please If A An The Our We I My Seapoint Smile Dental Example Road Information Officer
     Regulator Bowie Dick POPIA Day Christmas Goodwill Reconciliation New Year Monday Tuesday
     Wednesday Thursday Friday Saturday Sunday January February March April May June July
-    August September October November December Class Celsius Practice Reception""".split()
+    August September October November December Class Celsius Practice Reception Deputy
+    Mondays Tuesdays Wednesdays Thursdays Fridays Saturdays Sundays Bowie-Dick Wi-Fi X-ray
+    X-rays Cape Town Sea Point English Afrikaans Medical Aid Information Officer's""".split()
 )
 
 
@@ -64,15 +65,20 @@ class QueryVerdict:
 
 
 def names_a_person(question: str) -> bool:
+    """A title and name, or a capitalised word that is not a question word or a known non-name.
+
+    The first word of each sentence is skipped (it is capitalised anyway), and so are
+    acronyms like POPIA or AED.
+    """
     if _TITLED.search(question):
         return True
-    for match in _NAME_PAIR.finditer(question):
-        first, last = match.group(1), match.group(3)
-        if first not in _NOT_NAMES and last not in _NOT_NAMES:
-            return True
-    return any(
-        m.start() > 0 and m.group(1) not in _NOT_NAMES for m in _POSSESSIVE_NAME.finditer(question)
-    )
+    for sentence in re.split(r"(?<=[.?!])\s+", question.strip()):
+        tokens = _WORD.findall(sentence)
+        for token in tokens[1:]:
+            word = token.removesuffix("'s")
+            if word[:1].isupper() and not word.isupper() and word not in _NOT_NAMES:
+                return True
+    return False
 
 
 def classify_query(question: str) -> QueryVerdict:

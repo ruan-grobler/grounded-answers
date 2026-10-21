@@ -47,8 +47,15 @@ src = ["src", "tests", "scripts"]
 
 [tool.ruff.lint]
 select = ["E", "W", "F", "I", "B", "UP", "N", "SIM", "RUF", "C4", "PIE", "RET"]
-# CacheMiss and CassetteMiss read better than ...Error in this domain.
-ignore = ["N818"]
+# CacheMiss and CassetteMiss read better than ...Error in this domain. Word lists
+# read better as one string than as a list literal (SIM905).
+ignore = ["N818", "SIM905"]
+
+[tool.ruff.lint.per-file-ignores]
+# The HTML report template is clearer unwrapped.
+"src/grounded_answers/report.py" = ["E501"]
+# Test data strings (YAML snippets, sample policy text) read better on one line.
+"tests/**" = ["E501"]
 
 [tool.ruff.format]
 quote-style = "double"

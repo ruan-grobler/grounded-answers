@@ -34,6 +34,7 @@ def write_atomic(path: Path, data: bytes) -> None:
     try:
         with os.fdopen(fd, "wb") as handle:
             handle.write(data)
+        os.chmod(tmp, 0o644)  # mkstemp creates 0600; these are ordinary project files
         os.replace(tmp, path)
     except BaseException:
         Path(tmp).unlink(missing_ok=True)

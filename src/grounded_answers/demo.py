@@ -13,6 +13,7 @@ from grounded_answers.evalset import Question, load_questions
 from grounded_answers.evaluate import K_VALUES, EvalRun, run_eval
 from grounded_answers.inference import EMBED_MODEL, RERANK_MODEL
 from grounded_answers.report import (
+    CATEGORY_NAMES,
     Row,
     comparison_rows,
     html_report,
@@ -45,7 +46,9 @@ HONESTY = (
 )
 
 
-def retrieval_ablation(rt: Runtime, questions: list[Question]) -> list[tuple[str, dict[str, float | None]]]:
+def retrieval_ablation(
+    rt: Runtime, questions: list[Question]
+) -> list[tuple[str, dict[str, float | None]]]:
     rows = []
     evidence = [q for q in questions if q.evidence]
     for mode in MODES:
@@ -68,6 +71,13 @@ def retrieval_ablation(rt: Runtime, questions: list[Question]) -> list[tuple[str
     return rows
 
 
+def _show(path: Path, root: Path) -> str:
+    try:
+        return str(path.relative_to(root))
+    except ValueError:
+        return str(path)
+
+
 def run_demo(root: Path, out: Path, echo: Echo) -> int:
     rt = open_runtime(root, model_mode="auto")
     paths = rt.paths
@@ -80,11 +90,18 @@ def run_demo(root: Path, out: Path, echo: Echo) -> int:
     echo("Grounded Answers demo")
     echo("=" * 72)
     echo("Fictional business: Seapoint Smile Dental, Cape Town. All data is synthetic.")
-    echo(f"Corpus: {len(docs)} documents ({len(docs) - pdfs} Markdown, {pdfs} PDF), {report.chunks} chunks.")
+    echo(
+        f"Corpus: {len(docs)} documents ({len(docs) - pdfs} Markdown, {pdfs} PDF), "
+        f"{report.chunks} chunks."
+    )
     echo(f"Embeddings: {EMBED_MODEL}. Reranker: {RERANK_MODEL}. Vector store: sqlite-vec.")
     echo(
         "Local models: "
-        + ("live (downloaded), cache first" if rt.live_models else "replayed from the committed cache in index/")
+        + (
+            "live (downloaded), cache first"
+            if rt.live_models
+            else "replayed from the committed cache in index/"
+        )
     )
     echo("Generator and judge: replayed from fixtures/cassettes/ (hand-crafted, see the README).")
     echo("Flagged at ingest, never retrieved by the grounded pipeline:")
@@ -120,14 +137,18 @@ def run_demo(root: Path, out: Path, echo: Echo) -> int:
     echo("")
     echo("Before (naive dense-only RAG) and After (hybrid + rerank + guardrails)")
     echo("-" * 72)
-    echo(text_table(comparison_rows(naive.summary, grounded.summary), ("Metric", "Before", "After", "Note")))
+    echo(
+        text_table(
+            comparison_rows(naive.summary, grounded.summary), ("Metric", "Before", "After", "Note")
+        )
+    )
 
     echo("")
     echo("Correct by category")
     echo("-" * 72)
     cat_rows = [
         Row(
-            f"{cat.replace('_', ' ')} ({v['questions']})",
+            f"{CATEGORY_NAMES.get(cat, cat)} ({v['questions']})",
             str(naive.summary["by_category"][cat]["correct"]),
             str(v["correct"]),
         )
@@ -142,7 +163,12 @@ def run_demo(root: Path, out: Path, echo: Echo) -> int:
     for g in grounded.results:
         n = naive_by_id[g.id]
         if n.correct != g.correct or outcome(n) != outcome(g):
-            mark = "fixed" if g.correct and not n.correct else ("BROKE" if n.correct else "same")
+            if g.correct and not n.correct:
+                mark = "fixed"
+            elif n.correct and not g.correct:
+                mark = "WORSE"
+            else:
+                mark = "same"
             echo(f"  {g.id} {mark:<6} before: {outcome(n):<26} after: {outcome(g)}")
             echo(f"         {g.question}")
 
@@ -161,11 +187,15 @@ def run_demo(root: Path, out: Path, echo: Echo) -> int:
             rt.configs["grounded"].retrieval,
             questions,
         )
-        echo(f"  Live local models on CPU, {b.questions} questions (query embedding, search, rerank):")
+        echo(
+            f"  Live local models on CPU, {b.questions} questions "
+            "(query embedding, search, rerank):"
+        )
         echo(f"  Before p50 {ms(b.naive_ms['p50'])}, p95 {ms(b.naive_ms['p95'])}")
         echo(f"  After  p50 {ms(b.grounded_ms['p50'])}, p95 {ms(b.grounded_ms['p95'])}")
         echo(
-            f"  Cache check: largest live vs committed difference {max(b.max_passage_diff, b.max_query_diff):.1e} "
+            "  Cache check: largest live vs committed difference "
+            f"{max(b.max_passage_diff, b.max_query_diff):.1e} "
             f"(vectors), {b.max_score_diff:.1e} (rerank scores); rankings identical on "
             f"{b.rankings_match} of {b.questions} questions."
         )
@@ -191,7 +221,9 @@ def run_demo(root: Path, out: Path, echo: Echo) -> int:
     code = 0
     if baseline.is_file():
         gate = compare(baseline, grounded)
-        echo(f"Regression gate against {baseline.relative_to(root)}: {'PASS' if gate.passed else 'FAIL'}")
+        echo(
+            f"Regression gate against {_show(baseline, root)}: {'PASS' if gate.passed else 'FAIL'}"
+        )
         for line in gate.regressions:
             echo(f"  regression: {line}")
         code = 0 if gate.passed else 1
@@ -199,6 +231,6 @@ def run_demo(root: Path, out: Path, echo: Echo) -> int:
     if errors:
         echo(f"{errors} question(s) errored. See the JSON reports.")
         code = 2
-    echo(f"Reports: {(out / 'report.html').relative_to(root)}, naive.json, grounded.json")
+    echo(f"Reports: {_show(out / 'report.html', root)}, naive.json, grounded.json")
     rt.close()
     return code

@@ -1,0 +1,56 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # No secrets and no model downloads: CI replays the committed embedding and
+    # rerank caches and the hand-crafted cassettes, so it is free and deterministic.
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: python -m pip install -e '.[dev]'
+
+      - name: Lint
+        run: |
+          ruff check .
+          ruff format --check .
+
+      - name: Typecheck
+        run: mypy
+
+      - name: Tests with coverage
+        run: pytest --cov-report=term-missing:skip-covered --cov-report=xml
+
+      - name: Eval labels and fixture scripts match the corpus
+        run: ga check
+
+      - name: Cassettes match what ga craft builds
+        run: ga craft --check
+
+      - name: Regression gate (grounded pipeline against the saved baseline)
+        run: ga eval --pipeline grounded --baseline baselines/grounded.json --out reports/ci
+
+      - name: Before and After report
+        run: ga demo --out reports/ci-demo
+
+      - name: Upload eval reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-reports
+          path: reports/
+          if-no-files-found: ignore

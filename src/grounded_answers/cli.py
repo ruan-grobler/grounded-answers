@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from collections.abc import Sequence
@@ -12,6 +13,7 @@ from grounded_answers.baseline import compare, save_baseline
 from grounded_answers.cassette import CassetteMiss
 from grounded_answers.config import PIPELINES, ConfigError, find_root
 from grounded_answers.crafting import (
+    ScriptedClaim,
     ScriptedClient,
     craft_cassettes,
     diff_cassettes,
@@ -27,6 +29,9 @@ from grounded_answers.retrieval import MODES
 from grounded_answers.runtime import Runtime, client_factory, open_runtime
 from grounded_answers.store import StoreError
 from grounded_answers.tuning import tune, tune_config
+
+VECTOR_TOLERANCE = 1e-3
+SCORE_TOLERANCE = 1e-2
 
 
 def echo(text: str = "") -> None:
@@ -50,7 +55,10 @@ def cmd_index(args: argparse.Namespace) -> int:
         force_index=args.force,
     )
     report = rt.index_report
-    echo(f"{report.documents} documents, {report.chunks} chunks, index {'rebuilt' if report.rebuilt else 'already current'}.")
+    echo(
+        f"{report.documents} documents, {report.chunks} chunks, "
+        f"index {'rebuilt' if report.rebuilt else 'already current'}."
+    )
     for chunk_id, flags in report.flagged.items():
         echo(f"  flagged {chunk_id}: {', '.join(flags)}")
     # Warm the caches for every eval question, in every retrieval mode both pipelines and the
@@ -63,7 +71,9 @@ def cmd_index(args: argparse.Namespace) -> int:
         for retriever in retrievers:
             retriever.retrieve(question.question)
     if args.prune:
-        dropped = rt.embedder.cache.prune(rt.embedder.used) + rt.reranker.cache.prune(rt.reranker.used)
+        dropped = rt.embedder.cache.prune(rt.embedder.used) + rt.reranker.cache.prune(
+            rt.reranker.used
+        )
         echo(f"Pruned {dropped} unused cache entries.")
     rt.save_caches()
     echo(
@@ -78,7 +88,11 @@ def cmd_search(args: argparse.Namespace) -> int:
     rt = open_runtime(_root(args), model_mode=args.models)
     result = rt.pipelines[args.pipeline].retriever.retrieve(args.question)
     context = {c.chunk.chunk_id for c in result.context}
-    echo(f"{args.pipeline}: top score {result.top_score:.3f}, gated {result.gated}" if result.top_score is not None else "no results")
+    echo(
+        f"{args.pipeline}: top score {result.top_score:.3f}, gated {result.gated}"
+        if result.top_score is not None
+        else "no results"
+    )
     for i, cand in enumerate(result.ranked[: args.k], 1):
         mark = "*" if cand.chunk.chunk_id in context else " "
         echo(f"{mark}{i:>2}. {cand.score:8.3f}  {cand.chunk.chunk_id:<36} {cand.chunk.section}")
@@ -107,11 +121,18 @@ def cmd_ask(args: argparse.Namespace) -> int:
     else:
         question = _question_for(rt, args.question)
         if not isinstance(question, Question):
-            echo("Replay mode only knows the eval questions. Use --mode live with ANTHROPIC_API_KEY set,")
+            echo(
+                "Replay mode only knows the eval questions. "
+                "Use --mode live with ANTHROPIC_API_KEY set,"
+            )
             echo("or `ga search` to see what retrieval finds for any question.")
             return 2
         path = cassette_path(rt.paths.cassettes, args.pipeline, question.id)
-        cassette = Cassette.load(path) if path.is_file() else Cassette(args.pipeline, question.id, question.question, "hand-crafted", "")
+        cassette = (
+            Cassette.load(path)
+            if path.is_file()
+            else Cassette(args.pipeline, question.id, question.question, "hand-crafted", "")
+        )
         client = ReplayClient(cassette)
     result = pipeline.answer(args.question, client)
     echo(result.final_text or "(no answer)")
@@ -120,7 +141,9 @@ def cmd_ask(args: argparse.Namespace) -> int:
     if result.answer and not result.refused:
         echo(f"confidence: {result.answer.confidence}")
         for claim in result.answer.claims:
-            sources = ", ".join(result.labels[s].location for s in claim.source_ids if s in result.labels)
+            sources = ", ".join(
+                result.labels[s].location for s in claim.source_ids if s in result.labels
+            )
             echo(f"  - {claim.statement}")
             echo(f"    source: {sources}")
             echo(f'    quote: "{claim.quote}"')
@@ -149,17 +172,32 @@ def cmd_eval(args: argparse.Namespace) -> int:
     s = run.summary
     echo(f"{args.pipeline} on {len(run.results)} {args.split} questions ({args.mode} mode)")
     echo(
-        f"  end to end correct {pct(s['end_to_end_correct'])}, hit@5 {pct(s['retrieval']['hit@5'])}, "
+        f"  end to end correct {pct(s['end_to_end_correct'])}, "
+        f"hit@5 {pct(s['retrieval']['hit@5'])}, "
         f"refusal accuracy {pct(s['refusals']['refusal_accuracy'])}, "
         f"pii leaks {s['safety']['pii_leaks']}, errors {s['errors']}"
     )
     if run.skipped_for_budget:
-        echo(f"  stopped at the ${budget:.2f} budget: {len(run.skipped_for_budget)} questions not run")
+        echo(
+            f"  stopped at the ${budget:.2f} budget: "
+            f"{len(run.skipped_for_budget)} questions not run"
+        )
     out = Path(args.out) if args.out else rt.paths.reports / args.pipeline
-    save_run(out / f"{args.pipeline}-{args.split}.json", run, {"generated": today(), "mode": args.mode})
-    for r in run.results:
-        if r.error:
-            echo(f"  error {r.id}: {r.error}")
+    save_run(
+        out / f"{args.pipeline}-{args.split}.json", run, {"generated": today(), "mode": args.mode}
+    )
+    failed = [r for r in run.results if r.error]
+    for r in failed:
+        echo(f"  error {r.id}: {r.error}")
+    if failed:
+        # Dead letter: every question that could not be answered, with its error and stage.
+        lines = [
+            json.dumps({"id": r.id, "question": r.question, "stage": r.stage, "error": r.error})
+            for r in failed
+        ]
+        dead = out / "dead-letter.jsonl"
+        dead.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        echo(f"  {len(failed)} question(s) written to {dead}")
     code = 2 if s["errors"] else 0
     if args.save_baseline:
         if s["errors"]:
@@ -217,17 +255,14 @@ def cmd_craft(args: argparse.Namespace) -> int:
     return 0
 
 
-def check_scripts(rt: Runtime, scripts: dict[str, list[object]]) -> list[str]:
+def check_scripts(rt: Runtime, scripts: dict[str, list[ScriptedClaim]]) -> list[str]:
     """Every scripted quote must be in the document it names."""
-    from grounded_answers.crafting import ScriptedClaim
-
     text_by_doc: dict[str, str] = {}
     for chunk in rt.store.chunks:
         text_by_doc[chunk.doc_id] = text_by_doc.get(chunk.doc_id, "") + "\n" + normalise(chunk.text)
     problems = []
     for qid, claims in scripts.items():
         for claim in claims:
-            assert isinstance(claim, ScriptedClaim)
             for doc, quote in claim.sources:
                 if normalise(quote) not in text_by_doc.get(doc, ""):
                     problems.append(f"{qid}: quote not found in {doc}: {quote[:60]!r}")
@@ -239,10 +274,14 @@ def cmd_check(args: argparse.Namespace) -> int:
     problems = []
     for path in (rt.paths.questions, rt.paths.dev_questions):
         problems += check_evidence(load_questions(path), rt.store.chunks)
-    problems += check_scripts(rt, load_scripts(rt.paths.scripts))  # type: ignore[arg-type]
+    problems += check_scripts(rt, load_scripts(rt.paths.scripts))
     for p in problems:
         echo(p)
-    echo("Labels and scripts are consistent with the corpus." if not problems else f"{len(problems)} problem(s)")
+    echo(
+        "Labels and scripts are consistent with the corpus."
+        if not problems
+        else f"{len(problems)} problem(s)"
+    )
     rt.close()
     return 1 if problems else 0
 
@@ -260,12 +299,19 @@ def cmd_tune(args: argparse.Namespace) -> int:
         echo(f"  {row.id} {row.expect:<7} top {top:>6}  evidence [{hops}]{guard}")
     echo(f"gate_min_score: {report.gate_min_score}")
     echo(f"keep_min_score: {report.keep_min_score}")
-    echo(f"Dev refusals the gate would stop before the model: {report.gated_refusals} of {report.refusals_considered}")
+    echo(
+        "Dev refusals the gate would stop before the model: "
+        f"{report.gated_refusals} of {report.refusals_considered}"
+    )
     if args.write:
         path = rt.paths.pipelines
         text = path.read_text(encoding="utf-8")
-        text = re.sub(r"(gate_min_score:\s*)-?[\d.]+", rf"\g<1>{report.gate_min_score}", text)
-        text = re.sub(r"(keep_min_score:\s*)-?[\d.]+", rf"\g<1>{report.keep_min_score}", text)
+        text = re.sub(
+            r"(gate_min_score:\s*)(-?[\d.]+|null)", rf"\g<1>{report.gate_min_score}", text
+        )
+        text = re.sub(
+            r"(keep_min_score:\s*)(-?[\d.]+|null)", rf"\g<1>{report.keep_min_score}", text
+        )
         path.write_text(text, encoding="utf-8")
         echo(f"Wrote the thresholds to {path.relative_to(rt.paths.root)}")
     rt.close()
@@ -275,7 +321,7 @@ def cmd_tune(args: argparse.Namespace) -> int:
 def cmd_bench(args: argparse.Namespace) -> int:
     from grounded_answers.bench import bench
 
-    rt = open_runtime(_root(args), model_mode="live")
+    rt = open_runtime(_root(args), model_mode="live", allow_download=args.download)
     questions = load_questions(rt.paths.questions)
     assert rt.embedder.live is not None and rt.reranker.live is not None
     b = bench(
@@ -292,10 +338,18 @@ def cmd_bench(args: argparse.Namespace) -> int:
     echo(f"{b.questions} questions, live models ({b.threads_note})")
     echo(f"naive    p50 {b.naive_ms['p50']:.1f} ms  p95 {b.naive_ms['p95']:.1f} ms")
     echo(f"grounded p50 {b.grounded_ms['p50']:.1f} ms  p95 {b.grounded_ms['p95']:.1f} ms")
-    echo(f"max |live - cached|: passages {b.max_passage_diff:.2e}, queries {b.max_query_diff:.2e}, rerank {b.max_score_diff:.2e}")
+    echo(
+        f"max |live - cached|: passages {b.max_passage_diff:.2e}, "
+        f"queries {b.max_query_diff:.2e}, rerank {b.max_score_diff:.2e}"
+    )
     echo(f"rankings identical to replay: {b.rankings_match} of {b.questions}")
     rt.close()
-    return 0 if b.rankings_match == b.questions else 1
+    # Another CPU can differ in the last float digits, and a near tie can then swap two
+    # chunks. A cache that is not from these models would be off by far more.
+    genuine = max(b.max_passage_diff, b.max_query_diff) < VECTOR_TOLERANCE
+    genuine = genuine and b.max_score_diff < SCORE_TOLERANCE
+    echo("Caches match the live models." if genuine else "Caches do NOT match the live models.")
+    return 0 if genuine else 1
 
 
 # ---------------------------------------------------------------------- main
@@ -364,6 +418,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(func=cmd_tune)
 
     p = sub.add_parser("bench", help="time retrieval with the live models and check the caches")
+    p.add_argument("--download", action="store_true", help="allow downloading the local models")
     p.set_defaults(func=cmd_bench)
     return parser
 
@@ -372,7 +427,15 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
         code: int = args.func(args)
-    except (CacheMiss, CassetteMiss, ModelUnavailable, StoreError, ConfigError, EvalSetError, LLMError) as exc:
+    except (
+        CacheMiss,
+        CassetteMiss,
+        ModelUnavailable,
+        StoreError,
+        ConfigError,
+        EvalSetError,
+        LLMError,
+    ) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 2
     return code

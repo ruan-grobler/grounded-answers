@@ -208,7 +208,14 @@ def run_eval(
             candidate: str, q: Question = question, c: LLMClient = client
         ) -> tuple[str | None, str, float, int, int, str | None]:
             r = judge_answer(c, settings, q.question, q.reference, candidate)
-            return r.verdict, r.reason, r.cost_usd, r.usage.input_tokens, r.usage.output_tokens, r.error
+            return (
+                r.verdict,
+                r.reason,
+                r.cost_usd,
+                r.usage.input_tokens,
+                r.usage.output_tokens,
+                r.error,
+            )
 
         scored = score_question(question, outcome, judge if use_judge else None)
         results.append(scored)
@@ -275,7 +282,9 @@ def summarise(results: list[QuestionResult]) -> dict[str, Any]:
     cited = sum(len(r.cited_ids) for r in results)
     claims = sum(r.claims for r in results if not r.refused or r.output_blocked)
     citations = {
-        "citation_precision": _rate(sum(r.cited_gold for r in answered), sum(len(r.cited_ids) for r in answered)),
+        "citation_precision": _rate(
+            sum(r.cited_gold for r in answered), sum(len(r.cited_ids) for r in answered)
+        ),
         "quotes_verified": _rate(
             sum(r.verified_claims for r in results), sum(r.claims for r in results)
         ),

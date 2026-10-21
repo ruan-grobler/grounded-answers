@@ -50,18 +50,24 @@ def render(source: Path, target: Path) -> None:
             pdf.ln(1)
         elif line.startswith("meta:"):
             pdf.set_font("Helvetica", "", 8.5)
-            pdf.multi_cell(0, 4.5, line.removeprefix("meta:").strip(), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+            pdf.multi_cell(
+                0, 4.5, line.removeprefix("meta:").strip(), new_x=XPos.LMARGIN, new_y=YPos.NEXT
+            )
             pdf.ln(1)
         elif line.startswith("banner:"):
             pdf.set_font("Helvetica", "I", 8.5)
-            pdf.multi_cell(0, 4.5, line.removeprefix("banner:").strip(), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+            pdf.multi_cell(
+                0, 4.5, line.removeprefix("banner:").strip(), new_x=XPos.LMARGIN, new_y=YPos.NEXT
+            )
             pdf.ln(3)
         elif line == "---page---":
             pdf.add_page()
         elif line.startswith("# "):
             pdf.ln(2)
             pdf.set_font("Helvetica", "B", 12)
-            pdf.multi_cell(0, 7, line.removeprefix("# ").strip(), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+            pdf.multi_cell(
+                0, 7, line.removeprefix("# ").strip(), new_x=XPos.LMARGIN, new_y=YPos.NEXT
+            )
             pdf.ln(0.5)
         elif line.startswith("- "):
             pdf.set_font("Helvetica", "", 10)

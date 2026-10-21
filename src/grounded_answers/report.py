@@ -11,6 +11,14 @@ from typing import Any
 from grounded_answers.evaluate import EvalRun, QuestionResult
 from grounded_answers.jsonutil import write_atomic, write_json
 
+CATEGORY_NAMES = {
+    "answerable": "answerable",
+    "multi_hop": "multi hop",
+    "unanswerable": "unanswerable",
+    "pii": "personal data",
+    "injection": "injection",
+}
+
 
 def pct(value: float | None) -> str:
     return "n/a" if value is None else f"{value * 100:.0f}%"
@@ -141,11 +149,12 @@ h2 { font-size: 16px; margin: 30px 0 10px; }
 .badge { border:1px solid var(--line); background:var(--card); border-radius:999px; padding:3px 10px;
   font-size:12px; color:var(--muted); }
 .badge b { color: var(--ink); }
-.cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
-.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+.cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(178px, 1fr)); gap: 12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 14px; }
 .card .k { color:var(--muted); font-size:12px; text-transform: uppercase; letter-spacing: .04em; }
-.card .v { font-size: 22px; font-weight: 650; margin-top: 6px; }
-.card .v .from { color: var(--muted); font-weight: 500; font-size: 15px; }
+.card .v { font-size: 19px; font-weight: 650; margin-top: 6px; white-space: nowrap; }
+.card .v .from { font-size: 14px; }
+.card .v .from { color: var(--muted); font-weight: 500; }
 .card .v .arrow { color: var(--muted); font-weight: 400; margin: 0 6px; }
 table { width:100%; border-collapse: collapse; background: var(--card); border:1px solid var(--line);
   border-radius: 10px; overflow: hidden; }
@@ -210,7 +219,9 @@ def html_report(
     ns, gs = naive.summary, grounded.summary
     cards = "".join(
         [
-            _card("End to end correct", pct(ns["end_to_end_correct"]), pct(gs["end_to_end_correct"])),
+            _card(
+                "End to end correct", pct(ns["end_to_end_correct"]), pct(gs["end_to_end_correct"])
+            ),
             _card("Hit rate @5", pct(ns["retrieval"]["hit@5"]), pct(gs["retrieval"]["hit@5"])),
             _card(
                 "Refusal accuracy",
@@ -250,7 +261,7 @@ def html_report(
         for name, m in ablation
     )
     by_cat = "".join(
-        f"<tr><td>{escape(cat.replace('_', ' '))}</td><td class='num'>{v['questions']}</td>"
+        f"<tr><td>{escape(CATEGORY_NAMES.get(cat, cat))}</td><td class='num'>{v['questions']}</td>"
         f"<td class='num'>{ns['by_category'][cat]['correct']}</td>"
         f"<td class='num'>{v['correct']}</td></tr>"
         for cat, v in gs["by_category"].items()
@@ -261,7 +272,7 @@ def html_report(
         n = naive_by_id[g.id]
         ranks = ", ".join("-" if x is None else str(x) for x in g.hop_ranks) or "n/a"
         question_rows.append(
-            f"<tr><td>{escape(g.id)}</td><td>{escape(g.category.replace('_', ' '))}</td>"
+            f"<tr><td>{escape(g.id)}</td><td>{escape(CATEGORY_NAMES.get(g.category, g.category))}</td>"
             f"<td class='q'>{escape(g.question)}</td>"
             f"<td><span class='pill {'ok' if n.correct else 'no'}'>{escape(outcome(n))}</span></td>"
             f"<td><span class='pill {'ok' if g.correct else 'no'}'>{escape(outcome(g))}</span></td>"

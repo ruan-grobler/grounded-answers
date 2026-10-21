@@ -32,7 +32,8 @@ INJECTION_PATTERNS: dict[str, re.Pattern[str]] = {
         re.IGNORECASE,
     ),
     "conceal_instruction": re.compile(
-        r"\bdo not (mention|reveal|disclose|tell anyone about) (this|these) (instruction|message)s?\b",
+        r"\bdo not (mention|reveal|disclose|tell anyone about) (this|these) "
+        r"(instruction|message)s?\b",
         re.IGNORECASE,
     ),
     "role_change": re.compile(r"\byou are now\b|\bnew instructions?\s*:", re.IGNORECASE),

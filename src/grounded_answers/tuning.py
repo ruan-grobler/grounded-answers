@@ -44,7 +44,11 @@ def _floor(value: float) -> float:
 
 def tune(retriever: Retriever, dev: list[Question]) -> TuneReport:
     cfg = retriever.config
-    if cfg.mode != "hybrid_rerank" or cfg.gate_min_score is not None or cfg.keep_min_score is not None:
+    if (
+        cfg.mode != "hybrid_rerank"
+        or cfg.gate_min_score is not None
+        or cfg.keep_min_score is not None
+    ):
         raise ValueError("tune needs a hybrid_rerank retriever with no thresholds set")
     rows = []
     for question in dev:

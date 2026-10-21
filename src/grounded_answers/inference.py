@@ -167,20 +167,22 @@ class Reranker(Protocol):
 class FastEmbedReranker:
     """MS MARCO MiniLM cross-encoder. Returns raw logits: above 0 means relevant."""
 
-    def __init__(self, models_dir: Path, *, allow_download: bool = False) -> None:
-        self.model_name = RERANK_MODEL
+    def __init__(
+        self, models_dir: Path, *, allow_download: bool = False, model_name: str = RERANK_MODEL
+    ) -> None:
+        self.model_name = model_name
         try:
             from fastembed.rerank.cross_encoder import TextCrossEncoder
 
             self._model: Any = TextCrossEncoder(
-                model_name=RERANK_MODEL,
+                model_name=model_name,
                 cache_dir=str(models_dir),
                 local_files_only=not allow_download,
             )
         except Exception as exc:
             raise ModelUnavailable(
-                f"{RERANK_MODEL} is not available in {models_dir}. Run `make models` to download it "
-                "(about 80 MB, free, no account needed)."
+                f"{model_name} is not available in {models_dir}. Run `make models` to download it "
+                "(free, no account needed)."
             ) from exc
 
     def score(self, query: str, passages: Sequence[str]) -> list[float]:
@@ -305,11 +307,22 @@ class CachedReranker:
         return [s for s in out if s is not None]
 
 
+def models_downloaded(models_dir: Path) -> bool:
+    """Both pinned models are in the local Hugging Face cache folder (no network check)."""
+    if not models_dir.is_dir():
+        return False
+    names = [p.name.lower() for p in models_dir.iterdir()]
+    wanted = ("bge-small-en-v1.5", RERANK_MODEL.split("/")[-1].lower())
+    return all(any(w in n for n in names) for w in wanted)
+
+
 def load_live_models(
     models_dir: Path, mode: ModelMode, *, allow_download: bool = False
 ) -> tuple[Embedder | None, Reranker | None]:
-    """`replay` never loads models. `auto` loads them only if already downloaded. `live` must load."""
+    """`replay` never loads models, `auto` only if already downloaded, `live` must load them."""
     if mode == "replay":
+        return None, None
+    if mode == "auto" and not models_downloaded(models_dir):
         return None, None
     try:
         return (

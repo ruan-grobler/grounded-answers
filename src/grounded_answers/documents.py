@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 
 # Chunk flags set at ingest time by `scan.py`. The grounded pipeline never
@@ -63,10 +64,47 @@ class Chunk:
 
     @property
     def embed_text(self) -> str:
-        """What the embedder and reranker see: the section path, then the text."""
-        return f"{self.header}\n{self.text}"
+        """What the embedder and reranker see: section path, then text, tables as sentences."""
+        return f"{self.header}\n{linearize_tables(self.text)}"
 
     @property
     def location(self) -> str:
         page = f", page {self.page}" if self.page else ""
         return f"{self.doc_id}, {self.section}{page}"
+
+
+_TABLE_RULE = re.compile(r"^\|?\s*:?-{3,}")
+
+
+def _cells(line: str) -> list[str]:
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+
+def linearize_tables(text: str) -> str:
+    """Rewrite markdown table rows as "Header: value; Header: value" lines.
+
+    Embedding models and cross-encoders are trained on prose and read pipe
+    tables badly. The original text is still what the model is shown and what
+    quotes are checked against; only retrieval sees this version.
+    """
+    lines = text.splitlines()
+    out: list[str] = []
+    header: list[str] | None = None
+    for index, line in enumerate(lines):
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            header = None
+            out.append(line)
+            continue
+        following = lines[index + 1].strip() if index + 1 < len(lines) else ""
+        if header is None and _TABLE_RULE.match(following):
+            header = _cells(stripped)
+            continue
+        if _TABLE_RULE.match(stripped):
+            continue
+        cells = _cells(stripped)
+        if header and len(header) == len(cells):
+            out.append("; ".join(f"{h}: {c}" for h, c in zip(header, cells, strict=True)) + ".")
+        else:
+            out.append(", ".join(cells) + ".")
+    return "\n".join(out)

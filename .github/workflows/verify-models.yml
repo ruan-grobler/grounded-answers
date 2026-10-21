@@ -1,0 +1,43 @@
+name: verify-models
+
+# Downloads the two pinned local models from Hugging Face (about 150 MB, no
+# account) and re-computes every committed vector and rerank score, to show the
+# caches in index/ are genuine model outputs. Kept apart from ci.yml so the main
+# check never depends on a download. Runs when the corpus, caches or model code
+# change, or by hand.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "corpus/**"
+      - "index/**"
+      - "src/grounded_answers/inference.py"
+      - "src/grounded_answers/documents.py"
+      - "src/grounded_answers/chunking.py"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: python -m pip install -e '.[dev]'
+
+      - name: Cache the models
+        uses: actions/cache@v4
+        with:
+          path: .cache/models
+          key: models-bge-small-en-v1.5-ms-marco-MiniLM-L-6-v2
+
+      - name: Live models against the committed caches
+        run: ga bench --download

@@ -90,7 +90,9 @@ def bench(
             score_diff = max(score_diff, abs(a.score - b.score))
         same = [c.chunk.chunk_id for c in grounded.ranked] == [
             c.chunk.chunk_id for c in replay_g.ranked
-        ] and [c.chunk.chunk_id for c in naive.ranked] == [c.chunk.chunk_id for c in replay_n.ranked]
+        ] and [c.chunk.chunk_id for c in naive.ranked] == [
+            c.chunk.chunk_id for c in replay_n.ranked
+        ]
         matches += same
     return BenchReport(
         questions=len(questions),

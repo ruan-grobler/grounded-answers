@@ -160,7 +160,9 @@ class ScriptedClient:
             docs = [(s, d, unescape(t)) for s, d, t in _GROUNDED_DOC.findall(message)]
         else:
             question = message.rsplit("\n\nQuestion: ", 1)[-1]
-            docs = [(s, self.titles.get(title, ""), t) for s, title, t in _NAIVE_DOC.findall(message)]
+            docs = [
+                (s, self.titles.get(title, ""), t) for s, title, t in _NAIVE_DOC.findall(message)
+            ]
         return grounded, question, docs
 
     def _generate(self, request: dict[str, Any]) -> dict[str, Any]:
@@ -247,7 +249,9 @@ def craft_cassettes(
         recorder = RecordingClient(client, cassette)
         result = pipeline.answer(question.question, recorder)
         if question.expect == "answer" and not result.refused:
-            judge_answer(recorder, settings, question.question, question.reference, result.final_text)
+            judge_answer(
+                recorder, settings, question.question, question.reference, result.final_text
+            )
         if cassette.interactions:
             cassettes[question.id] = cassette
     return cassettes

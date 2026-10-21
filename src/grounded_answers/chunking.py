@@ -6,6 +6,8 @@ Rules:
   fee or a table row is never cut in half.
 - Consecutive chunks of the same section share up to `overlap_words` words, so a
   fact that sits on a boundary is still whole in at least one chunk.
+- A table split across chunks repeats its header row, so every chunk can be read
+  on its own.
 """
 
 from __future__ import annotations
@@ -16,6 +18,7 @@ from dataclasses import dataclass
 from grounded_answers.documents import Chunk, Document, Section
 
 _SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\"(])")
+_RULE = re.compile(r"^\|?\s*:?-{3,}")
 
 
 @dataclass(frozen=True)
@@ -35,6 +38,7 @@ class _Unit:
     text: str
     sep: str  # how this unit joins the previous one: "\n" or " "
     page: int | None
+    table_header: tuple[str, ...] = ()  # header and rule lines of the table this row is in
 
     @property
     def words(self) -> int:
@@ -47,13 +51,22 @@ def _units(section: Section, max_words: int) -> list[_Unit]:
         pieces = (
             paragraph.text.splitlines() if paragraph.lines else _SENTENCE_END.split(paragraph.text)
         )
-        for index, piece in enumerate(p.strip() for p in pieces):
+        lines = [p.strip() for p in pieces]
+        header: tuple[str, ...] = ()
+        if (
+            paragraph.lines
+            and len(lines) > 2
+            and lines[0].startswith("|")
+            and _RULE.match(lines[1])
+        ):
+            header = (lines[0], lines[1])
+        for index, piece in enumerate(lines):
             if not piece:
                 continue
             sep = "\n" if index == 0 or paragraph.lines else " "
             words = piece.split()
             if len(words) <= max_words:
-                units.append(_Unit(piece, sep, paragraph.page))
+                units.append(_Unit(piece, sep, paragraph.page, header if index >= 2 else ()))
                 continue
             for start in range(0, len(words), max_words):
                 part = " ".join(words[start : start + max_words])
@@ -92,6 +105,9 @@ def _group(section: Section, config: ChunkingConfig) -> list[list[_Unit]]:
             fresh = 0
             if sum(u.words for u in current) + unit.words > config.max_words:
                 current = []
+            first = current[0] if current else unit
+            if first.table_header:
+                current = [_Unit(line, "\n", first.page) for line in first.table_header] + current
         current.append(unit)
         fresh += unit.words
     if current and fresh:

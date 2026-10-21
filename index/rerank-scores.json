@@ -30,6 +30,11 @@
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
       "score": -8.170615196228027
     },
+    "0099d9e959e9d35d6b075dc5134a0129dbaabdd1ce8eb527b822ae11425dc856": {
+      "passage": "Laboratory work and turnaround times > Sending a case Every ",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -11.16343879699707
+    },
     "00a7e297d7c742ccf614897017a47e020a93bc5aab860b82a2922158ef89d038": {
       "passage": "Patient record requests SOP > Verifying identity Check the r",
       "query": "How often are the dosimeter badges read?",
@@ -45,10 +50,25 @@
       "query": "Who is our Information Officer under POPIA?",
       "score": -6.265782356262207
     },
+    "00ecdee1de97774622475f29cd292cdb601ad0f3dd47c31f9c07571921a697ff": {
+      "passage": "Treatment consent policy > When written consent is needed Wr",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -0.7755056619644165
+    },
     "0102ad04b90a91ee6e0263e7a2da1b942f7b3a85ed3c4cdbe5d98990f047e58c": {
       "passage": "Sterilisation cycle checklist > If a test fails Do not use t",
       "query": "How long can a sterile pouch be stored before it must be redone?",
       "score": -10.958234786987305
+    },
+    "014c59ae5a335573c04cda8e1cd71e0925523adedb7335899e53cc8b3e888f0c": {
+      "passage": "Treatment quotes and estimates > How long a quote is valid A",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -10.318784713745117
+    },
+    "016a2246cef55bb379b26c2bb0d610f25a802dedf913441d1d25cee3ef1222ba": {
+      "passage": "Patient records and retention > Destruction Records past the",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -9.43283462524414
     },
     "016e75e0788800902b0be9967fbfbf136d1e0cba2946702e667c780195e9113b": {
       "passage": "Information security policy > Messaging and email Patient in",
@@ -75,6 +95,11 @@
       "query": "Who signs the consent form for a 15 year old's extraction, and is written consen",
       "score": -7.222361087799072
     },
+    "01f3c3e64bbe26f654c112092f2cd6d38bb49e1facd3c8cfa136a295fc36da9c": {
+      "passage": "Fee schedule 2026 > Consultations - New patient examination,",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.360166549682617
+    },
     "02153147331a86264694401cbe74191ca91b3b08c9e1facac13666f831c0fc29": {
       "passage": "Instrument reprocessing SOP > Storage and shelf life Store s",
       "query": "How often does the autoclave get serviced?",
@@ -84,6 +109,11 @@
       "passage": "Patient records and retention > Retention periods Keep adult",
       "query": "How often does the autoclave get serviced?",
       "score": -11.080446243286133
+    },
+    "02834aa90b640219c9a55e8374d9cf85e4cd950f42b802cbb5e9c7b8484f8b80": {
+      "passage": "Fee schedule 2026 > Crowns and dentures - Porcelain crown, p",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -0.6984766721725464
     },
     "028bd25909aa3954e838c9b6253ce420f4af36d6f0ecb6d7889b76f5b2de5904": {
       "passage": "Medical emergency protocol > Collapse Call for help and phon",
@@ -120,11 +150,6 @@
       "query": "What is the guest Wi-Fi password?",
       "score": -11.391809463500977
     },
-    "03a9cd698a33ccc478f152d95b59107ae13d90548931f23aaa053395470a2532": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
-      "score": -3.0987539291381836
-    },
     "03e9e7014f47f67e7d96d3167a512888ee8a9b9d40eff305b57eeaaa1ccfd495": {
       "passage": "Cancellations and no-shows > When fees are waived The practi",
       "query": "What's the extension for the practice manager?",
@@ -140,6 +165,11 @@
       "query": "How much is a fluoride treatment?",
       "score": -6.559087753295898
     },
+    "0468bcd8ab6463a8f70ad2200b1d06f1897fff0adf538a2e5fdec1e007141b10": {
+      "passage": "Cancellations and no-shows > No-show fee A patient who does ",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -7.121560096740723
+    },
     "048f67d3367b9967778a50eb58a7856a218bbdd2afe8ff7be1b9924390d0be80": {
       "passage": "Patient privacy notice (POPIA) > Why we collect it We use yo",
       "query": "How much does a dental implant cost?",
@@ -149,6 +179,11 @@
       "passage": "Reception phone guide > Privacy on the phone Never confirm t",
       "query": "Do we validate parking for patients who park on Example Road?",
       "score": -11.413963317871094
+    },
+    "04cd5ed4deede3d24299b830f380d3bb760a5f8c73a1371f942710873a10fce7": {
+      "passage": "New patient registration > Medical history updates The medic",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -10.237520217895508
     },
     "0533d1c60028dd5aa84a83f784a64523eec66dc2e85fd8fa7af2a9ed25b8f28e": {
       "passage": "New patient registration > Medical history updates The medic",
@@ -220,6 +255,21 @@
       "query": "How much does Thabo Khumalo earn?",
       "score": -11.352052688598633
     },
+    "092d4fbbac297dc742df9bfe7411bd545c1df677ab5133fb548b0382715d1f64": {
+      "passage": "Children's dentistry > Fissure sealants and fluoride Fissure",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -7.2217936515808105
+    },
+    "095714197b0f37c5cc49b26aacb658888ccc46498e8096ed438b493e42a13386": {
+      "passage": "Billing and payments > Refunds Refunds are paid within 7 wor",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -8.434762954711914
+    },
+    "095a057469b029b3c6be8b854051b266df2ba67f6c8ce800b0061e343fa86510": {
+      "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -11.039714813232422
+    },
     "096ab18964a347dc0206af580a924670d3acc84dbf7e85f0505d821765cb6490": {
       "passage": "Sterilisation cycle checklist > Logs and records The sterili",
       "query": "Who is the infection control lead, and what is their extension?",
@@ -240,6 +290,11 @@
       "query": "Which day is the healthcare risk waste collected?",
       "score": -5.974299907684326
     },
+    "09f66dbb31ef6bc2a802917f3a44c7d348e01152508af6673429ca5bf7dd8188": {
+      "passage": "Patient privacy notice (POPIA) > How long we keep it We keep",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -10.374849319458008
+    },
     "0a2b9623fab90765309f8ee1a9d376fd1403d4549153f4b0160488f83da511ff": {
       "passage": "Information security policy > Messaging and email Patient in",
       "query": "A patient says she might be pregnant. Can we still take her bitewing X-rays toda",
@@ -250,10 +305,10 @@
       "query": "What whitening gel promotion did our supplier announce for November?",
       "score": -11.378426551818848
     },
-    "0ab65a0d34b7c409eaaa23748c2d21ea5b4c3e87960cb5b945c818488d5db33b": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Can staff work from home on Fridays?",
-      "score": -10.965097427368164
+    "0ac72810b071fce159bafd1d8446a8d478e54b50cdeabe4d7be82c1131e06bbc": {
+      "passage": "After-hours emergencies > What counts as a dental emergency ",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -7.404680252075195
     },
     "0ad30df1269655e8babcf36febcf604d2960683e43f2d4e5cc64761418ae4e88": {
       "passage": "Practice overview > Contact details The main line is +27 00 ",
@@ -275,6 +330,16 @@
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
       "score": -4.466030597686768
     },
+    "0b1dc60a61211227ecda0c841d8457c13e7e13440a6b5dec9a2cd260f760c4df": {
+      "passage": "Cancellations and no-shows > When fees are waived The practi",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -10.609878540039062
+    },
+    "0b247c7a178e36254b08c1a06273b17809fc1ce1a03cc46a95c680e452b6fde8": {
+      "passage": "Instrument reprocessing SOP > Zones in the sterilisation roo",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.346992492675781
+    },
     "0b2c3034b771f41f78486c78490ab8d538ec2254d60b36c11e1f415534ac6c36": {
       "passage": "Medical aid claims > Our fees and scheme rates The practice ",
       "query": "How much notice does a patient need to give to avoid a cancellation fee?",
@@ -284,6 +349,11 @@
       "passage": "Medical emergency protocol > Collapse Call for help and phon",
       "query": "Who is Sipho Ndlovu's emergency contact?",
       "score": -10.889216423034668
+    },
+    "0bef4e6a56942d04e3b3a7b38bdbf63043ab750a3326be0a4ed5bb8f93289296": {
+      "passage": "Information security policy > Reporting incidents Report any",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -8.226819038391113
     },
     "0bf4ab7547932dfae965c33aa9bd966373e933ba19c20819f36dc12e6a3e85f9": {
       "passage": "Opening hours and public holidays > Public holidays The prac",
@@ -350,6 +420,11 @@
       "query": "What time do we close on Saturdays?",
       "score": -6.9762773513793945
     },
+    "0dffceefa03485ca5a1d93501955a0b621f556b46670ec1db17420f57aa3c1ab": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -6.179285526275635
+    },
     "0e03a92ac276358deb6f955fab5c7f03a404c9f6e339b2afbe765fe1370ddf64": {
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
       "query": "What is Dr van Wyk's cell number?",
@@ -359,6 +434,11 @@
       "passage": "Medical emergency protocol > Collapse Call for help and phon",
       "query": "A patient fainted in the chair. What do we do?",
       "score": -9.415602684020996
+    },
+    "0e9f0817addca782e8607ae8bfd4107df53fc2b5f1d2b06075c280478a80ae2d": {
+      "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.4318265914917
     },
     "0ebc4232cae33be6907ec8f3ceefe4bad91f638add953251d96940434054a2e2": {
       "passage": "Teeth whitening SOP > Who can have whitening Whitening is of",
@@ -370,10 +450,20 @@
       "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
       "score": -11.150545120239258
     },
+    "0f4389a7f4185bb89959074a454f8041c9d8a109a0239d8f8f79758aea06a437": {
+      "passage": "Patient privacy notice (POPIA) > How long we keep it We keep",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -4.78193473815918
+    },
     "0fb04330a87182d98b649a160aa5d08a723552704551e291c91d88c5c22ed762": {
       "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
       "query": "What brand of composite do we use for fillings?",
       "score": -11.395965576171875
+    },
+    "0fd28eb9db76e8d52664903b7e488eaa6af9737b7524f5b65ff85e9258a8a12f": {
+      "passage": "Medical aid claims > Checking benefits Reception can check a",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -9.793725967407227
     },
     "10152550677a7c2aafbdb152cf39dcd2c8071c339d17149e3783b0627d6fc934": {
       "passage": "Sterilisation cycle checklist > If a test fails Do not use t",
@@ -389,6 +479,11 @@
       "passage": "Code of conduct > Punctuality Arrive at least 15 minutes bef",
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
       "score": -8.062601089477539
+    },
+    "10df00086f890a9584f0b46d301641bb7074f619b9c600f31348a47f98a4a3f1": {
+      "passage": "Teeth whitening SOP > Take-home whitening Take-home whitenin",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -10.77287769317627
     },
     "110680883f8c9618964c9b710855c5f9a198efa3b9b1f3cbf89ce7c8d78af112": {
       "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
@@ -425,6 +520,11 @@
       "query": "Do we validate parking for patients who park on Example Road?",
       "score": -11.248805046081543
     },
+    "12b466eaa076b740e332acea6948249155b0ab511bee87f631169f9715e05835": {
+      "passage": "New patient registration > Identity documents Patients aged ",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -10.892807960510254
+    },
     "12bab6a8f6b1fc77387f9841dda48e40b2d82d4d7169456cae7a6c35c41b43cd": {
       "passage": "New patient registration > Before the first visit New patien",
       "query": "A patient wants their records emailed to their new dentist. What do we need from",
@@ -434,6 +534,16 @@
       "passage": "Reception phone guide > Difficult callers Stay calm and poli",
       "query": "Which suburb does Lerato Mokoena live in?",
       "score": -11.349344253540039
+    },
+    "1329faae96ffde81a4774d710f421dd9cd56e8f39af890251225985a412ab4e1": {
+      "passage": "Infection control policy > Personal protective equipment Wea",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -11.122086524963379
+    },
+    "132f3fdda5e40030992ae0e2d41185074132153602ee4c6367ce4f855db0fbe5": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "What extension is the oral hygienist on?",
+      "score": -0.6204497814178467
     },
     "134aa6330ff81229d4bc943df5dae4f6d10efc0bb0db2c2a7f77e077cfc4d22a": {
       "passage": "Billing and payments > When payment is due Payment is due on",
@@ -475,6 +585,11 @@
       "query": "Can staff work from home on Fridays?",
       "score": -11.129240036010742
     },
+    "149bc0e4bd2f0ca66bde1ba77fb19892d47b80a51a30cc37907c54f9abe4eede": {
+      "passage": "Patient record requests SOP > Verifying identity Check the r",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -11.20954704284668
+    },
     "15346fa77063c1a3624c71f71be0ffedc86f5fd69ef27fca483b8ce1b0ab4547": {
       "passage": "Leave policy > Maternity and parental leave Staff may take 4",
       "query": "A patient says she might be pregnant. Can we still take her bitewing X-rays toda",
@@ -510,6 +625,16 @@
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
       "score": -10.847000122070312
     },
+    "15f83c19fbec2ccf93850f3d864fe52ab69b91fb6652c92894e60f8a3d40bccd": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -9.168313980102539
+    },
+    "16239aba6611e1ef9de49edc4352f7d9027572ecffd084ea625edcae7aa702da": {
+      "passage": "Laboratory work and turnaround times > Booking the fit appoi",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.659575462341309
+    },
     "1629ab070542171ce6240c590cab3a644c46d197dbf2e19c4440e59a5c800433": {
       "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
       "query": "Do we offer clear aligner treatment?",
@@ -534,6 +659,11 @@
       "passage": "Opening hours and public holidays > December closure The pra",
       "query": "What time do we close on Saturdays?",
       "score": -3.7464487552642822
+    },
+    "167876e7abb743e3e2ff1a0b24382bffc06861f6954903e1773029daf6258a2c": {
+      "passage": "Leave policy > Reporting an absence If you are sick, phone t",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -11.20488166809082
     },
     "16af28576f9cf9054f43dc79810a5dfb4320447d5a9ba8688a83123b37757539": {
       "passage": "Remuneration and overtime > Overtime Overtime must be approv",
@@ -560,10 +690,20 @@
       "query": "How much deposit does a patient pay before getting a porcelain crown?",
       "score": -7.8134765625
     },
+    "16fd7cc261310cd8f3b14c4f5e6eacc9731a7292f1346b672575975401500d07": {
+      "passage": "Fee schedule 2026 > Root canals and extractions - Simple ext",
+      "query": "What is the fee for a surgical extraction?",
+      "score": 5.005110263824463
+    },
     "17213f09a6f68594f5aa6e1acddc898f94e446847a9296884688577fe0944baf": {
       "passage": "Patient records and retention > Retention periods Keep adult",
       "query": "How many days of sick leave do staff get?",
       "score": -6.045155048370361
+    },
+    "1753eed99089c3b7d6249ab79659e3cda6ee791344251c1e41154bac39b5e0f1": {
+      "passage": "Leave policy > December closure Working days when the practi",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.3523530960083
     },
     "175f11d8cab9730b36b44cec55dd3860e4f84b776b4854cc32ee7db427ea9637": {
       "passage": "Disciplinary and grievance procedure > Serious misconduct Se",
@@ -574,6 +714,11 @@
       "passage": "Treatment quotes and estimates > What a quote includes A quo",
       "query": "What is patient Thandi Mokoena's ID number?",
       "score": -11.459320068359375
+    },
+    "17af42b525ceff94c2557862e35f5992bcfae1b853ee05b5b0248821e779d127": {
+      "passage": "Treatment quotes and estimates > How long a quote is valid A",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -9.0796480178833
     },
     "180a7ec48631774cf1a246acedd930fbe60e02b34e86ad3243c76212076a5116": {
       "passage": "Leave policy > Reporting an absence If you are sick, phone t",
@@ -590,6 +735,11 @@
       "query": "When are salaries paid?",
       "score": -11.409921646118164
     },
+    "18ccd628e715d067b4876d08238533d8228ede34e63f1b098537c332e91bec82": {
+      "passage": "Fee schedule 2026 > Fillings - Composite filling, one surfac",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.357008934020996
+    },
     "18d71e8a456542e09c9f4fdffdc1c0053651be2f8c37f048c484078d5554e456": {
       "passage": "Patient record requests SOP > Verifying identity Check the r",
       "query": "Who signs the consent form for a 15 year old's extraction, and is written consen",
@@ -599,6 +749,11 @@
       "passage": "Surgery cleaning schedule > End of day Flush the suction lin",
       "query": "Which day is the healthcare risk waste collected?",
       "score": -11.123859405517578
+    },
+    "193ef707817b7d0ff77d964d4825b851379675fb38ea37b26eea8cc43cc67323": {
+      "passage": "Opening hours and public holidays > Reception hours Receptio",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -8.55459976196289
     },
     "1997fd501f7bab22c6a622982033b5667d2288d878613edc51fd20afc48e9467": {
       "passage": "Billing and payments > Deposits for larger treatment Treatme",
@@ -614,6 +769,11 @@
       "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
       "query": "How much does Thabo Khumalo earn?",
       "score": -11.328995704650879
+    },
+    "1a02ab5f6c44fa84a4b5062e7747a07eb830d00a86f1d1dda92bade7fca5d432": {
+      "passage": "Infection control policy > Needle-stick and sharps injuries ",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -10.15023422241211
     },
     "1a4a628fc8849d64ae50bc191d0a2d27a15e917b260bd008d5fb7613043f6343": {
       "passage": "Stock ordering SOP > Receiving deliveries Check every delive",
@@ -680,10 +840,20 @@
       "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
       "score": -6.959051132202148
     },
+    "1c9dcbe1a11cb82bd9dff0bb1e7e922b1bec3217262bfa91b7a1e799895f8365": {
+      "passage": "Medical emergency protocol > Fainting Stop treatment. Lay th",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -5.449856758117676
+    },
     "1cc1d7eb1b0fd034febe3bdbeaae3cb9954d9881b7e73ba0e13e8984dd52f734": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
       "query": "Do we validate parking for patients who park on Example Road?",
       "score": -10.933298110961914
+    },
+    "1cf022d3dfff79221ed63c61da5ac8ec90f212ccea88556c515f42bd0c63cb0e": {
+      "passage": "Treatment consent policy > When written consent is needed Wr",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.949536323547363
     },
     "1cfe325cc345959a3a5f93f39f1d255ca52c2e20d2494a7fec0d213051f6a13d": {
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
@@ -715,20 +885,30 @@
       "query": "Which medical schemes have we signed designated service provider agreements with",
       "score": -10.861783027648926
     },
-    "1d9b65a5264efa414477f1cb21f8ee15d78008abdaa1c4e441ff111dec344214": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "Who has to approve a stock order of R12,000?",
-      "score": -11.323869705200195
+    "1dbcb48ca7265a2b41f505f83e2e98a0d1b8545de7bdc4771cfe349de61f0a91": {
+      "passage": "Leave policy > Maternity and parental leave Staff may take 4",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -7.228969097137451
     },
     "1dc07c5fe3ce3495df456f3666a5d81b4a0ba5c6f8e6ac82ce807259d7dc3cd3": {
       "passage": "Fee schedule 2026 > Fillings - Composite filling, one surfac",
       "query": "How much is a fluoride treatment?",
       "score": -10.610980033874512
     },
+    "1deb4eefaf3a6cf6331abd9bca949302a6999846cc116b30ac1627a038236e0a": {
+      "passage": "Cancellations and no-shows > Late cancellation fee A cancell",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -6.642004013061523
+    },
     "1e0c383890772f2d27df1af069e8a9e00dbbd47d775e72702b15c1abb578d12b": {
       "passage": "Patient privacy notice (POPIA) > What we collect We collect ",
       "query": "What is patient Thandi Mokoena's ID number?",
       "score": -9.548550605773926
+    },
+    "1e374bffe69f7ec8558d886b1b7d2e115d2ca63f90e915eca064bd3c4d4bd940": {
+      "passage": "Remuneration and overtime > Overtime Overtime must be approv",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -10.103984832763672
     },
     "1e6c5c0db4b5404ecdc372415e137711f34736137620801acff879c68986b54c": {
       "passage": "Appointment booking SOP > Waiting list Patients who want an ",
@@ -744,6 +924,11 @@
       "passage": "Fee schedule 2026 > Crowns and dentures - Porcelain crown, p",
       "query": "How much does Thabo Khumalo earn?",
       "score": -11.176475524902344
+    },
+    "1e918d0b7b73ef84b02f7fc74372da2be83ec1abe51e2ca8948b819912e25dd6": {
+      "passage": "New patient registration > Identity documents Patients aged ",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.351651191711426
     },
     "1e960a5c02149ddc481cd7b63c8ec691d31b5d0f88d47db443e472ec1cb7ddd4": {
       "passage": "Appointment booking SOP > Confirmations and reminders The sy",
@@ -764,6 +949,11 @@
       "passage": "Staff directory > How to use this directory Work extensions ",
       "query": "Who is the infection control lead, and what is their extension?",
       "score": -10.86909294128418
+    },
+    "1f0c183fffd3c5c9f03d21983f1283a6d1507d070bf177be1d73936bba54f4a7": {
+      "passage": "Information security policy > Messaging and email Patient in",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -9.917777061462402
     },
     "1f91924c4eca5e846e652efeb719481473cb8b806c443a96da46235b5ab3c6ff": {
       "passage": "Fee schedule 2026 > Crowns and dentures - Porcelain crown, p",
@@ -815,6 +1005,16 @@
       "query": "How much does a check-up with two bitewing X-rays cost for an existing patient?",
       "score": -7.38845682144165
     },
+    "20b68afe107bbcf60c16c82b44cbf9e37990c76743cd9e416ccda1856dda2c39": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "Which suburb does Lerato Mokoena live in?",
+      "score": -10.245614051818848
+    },
+    "2163a82754541b1509a7404adf81610ff11684830ab82b72ad1082d10eb2f670": {
+      "passage": "Children's dentistry > Appointment times for children Book c",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": 2.658137798309326
+    },
     "21a1aa286af02400c68e69cd9fbfef1672493800c49c3111156b8cd745cfe9be": {
       "passage": "After-hours emergencies > On-call rota One dentist is on cal",
       "query": "Can staff work from home on Fridays?",
@@ -829,6 +1029,11 @@
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
       "query": "What's the extension for the practice manager?",
       "score": -6.224709510803223
+    },
+    "22aafb10570ec058e99aa47b0f7744b7fa53756e2fd1e211eb748206f3a0f8bf": {
+      "passage": "Billing and payments > When payment is due Payment is due on",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -10.621132850646973
     },
     "22c60040719398a5d01e06adeb02be46de12b8e9d92ad2a1cec065498a566c7b": {
       "passage": "Medical aid claims > Our fees and scheme rates The practice ",
@@ -920,15 +1125,15 @@
       "query": "A patient wants their records emailed to their new dentist. What do we need from",
       "score": -4.770866394042969
     },
-    "2537fb191bb9904eb69cc22745870de6a9b4d3605bdf69350d3231e21e9b0656": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "Which suburb does Lerato Mokoena live in?",
-      "score": -9.097931861877441
-    },
     "25533edfc8afa2c521dfcf48ec7f6b43917d5dcd3a77a02104db32bd126a53ce": {
       "passage": "Fee schedule 2026 > Crowns and dentures - Porcelain crown, p",
       "query": "A crown case goes to the lab on Monday 2 November 2026. What is the earliest day",
       "score": -5.736087322235107
+    },
+    "25aea5058b011144869c54307f0c83df4a7e2512695995343476a66d86beeffe": {
+      "passage": "Remuneration and overtime > Pay day Salaries are paid on the",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -9.102232933044434
     },
     "25cf970fb52621b43e5aa12d067868a4153edcfa32658b34c007bfbfc3410235": {
       "passage": "Medical emergency protocol > Emergency drills The whole team",
@@ -949,6 +1154,11 @@
       "passage": "Infection control policy > Surface disinfection Between pati",
       "query": "How many days of annual leave will the 2026 December closure use?",
       "score": -11.315129280090332
+    },
+    "272a25e4b98b45e3c086a5fd64f469d203c5d6d0e256d316a97fb93c09055fa0": {
+      "passage": "Patient privacy notice (POPIA) > How long we keep it We keep",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -11.064217567443848
     },
     "27678c2048dc40ce5575336968e2ecb872bf79755cce2d2821d0c3da332a2ac9": {
       "passage": "Fee schedule 2026 > Crowns and dentures - Porcelain crown, p",
@@ -994,6 +1204,11 @@
       "passage": "Patient records and retention > Retention periods Keep adult",
       "query": "Where should staff send the patient list for backup?",
       "score": -7.1524977684021
+    },
+    "2902c5c028b5f07ac1eacddcdb3bfdcf2fe755eaca8eeef8658a2a49f9c4e69f": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "What is the guest Wi-Fi password?",
+      "score": -11.3026123046875
     },
     "2958394ba2b60ca1751ef50c316cdfa95e63bd673d307e8b5a8f026f2f514cbd": {
       "passage": "Healthcare waste management > Collection A licensed waste co",
@@ -1065,6 +1280,11 @@
       "query": "How quickly do we need to acknowledge a patient complaint?",
       "score": -4.947695255279541
     },
+    "2c3d3e9c35acaf3ffb39f5e2e10f14537a2a08a63ce72d8af56027ad9d16d7df": {
+      "passage": "Appointment booking SOP > Confirmations and reminders The sy",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -4.4435882568359375
+    },
     "2c452d985443835d058ba01ca48aaf587cb668419e1e5f9eb2e7a3de19520ccf": {
       "passage": "Sterilisation cycle checklist > Every cycle Do not overload ",
       "query": "How often are the dosimeter badges read?",
@@ -1085,15 +1305,20 @@
       "query": "What is Dr van Wyk's cell number?",
       "score": -11.494760513305664
     },
+    "2cc1231be743addc4cc23b93da24ec89b5a09c5c054fce4f0447d2f9099caba8": {
+      "passage": "After-hours emergencies > On-call rota One dentist is on cal",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -11.252676010131836
+    },
+    "2d41a3ae12d0c4e139be30ebff21b8744aa1d9a5560f53eb36463acd406292a6": {
+      "passage": "Appointment booking SOP > Confirmations and reminders The sy",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -1.9850437641143799
+    },
     "2d89e3d064e96b5404b0a7eaa4eddb0e07ca5b7d3148270429974a582c6c74d8": {
       "passage": "Complaints handling > Receiving a complaint Any staff member",
       "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
       "score": -5.053491592407227
-    },
-    "2dc9c3c1573b3749dc0f5c5a8b263b5ca7af92e7919a57a6a166fbeea7923a92": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "Who is Sipho Ndlovu's emergency contact?",
-      "score": 2.8486757278442383
     },
     "2dd7471e1301825b19099dab8630fb4b9b35871e35863a0d65d51696bb5d1275": {
       "passage": "Instrument reprocessing SOP > Inspection and packaging Inspe",
@@ -1109,6 +1334,11 @@
       "passage": "Stock ordering SOP > Changing supplier bank details Never ch",
       "query": "Who has to approve a stock order of R12,000?",
       "score": -4.927610874176025
+    },
+    "2e4a3404b07613609d735803be8c3998ad4516886ccb0b733fc0f99c9c98d345": {
+      "passage": "Teeth whitening SOP > Take-home whitening Take-home whitenin",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.380154609680176
     },
     "2e74056c51b3253cae5c0bca1000f5c63d674ad13a8a3749cdde894ce599ec9b": {
       "passage": "Instrument reprocessing SOP > Inspection and packaging Inspe",
@@ -1145,6 +1375,11 @@
       "query": "What is the practice's B-BBEE level?",
       "score": -10.774319648742676
     },
+    "3062d5c950b2568b5fc499c77345718329364a9b5adfed8887541086dd9ece8e": {
+      "passage": "Treatment consent policy > When written consent is needed Wr",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -6.285351276397705
+    },
     "306a76d1ca3b64ff8653b54fe041670104b9835873470b3358b26159954f044b": {
       "passage": "Medical emergency protocol > Emergency drills The whole team",
       "query": "Which medical schemes have we signed designated service provider agreements with",
@@ -1154,6 +1389,36 @@
       "passage": "Treatment quotes and estimates > How long a quote is valid A",
       "query": "How long before a practice computer locks itself?",
       "score": -10.256884574890137
+    },
+    "30bd1ac57135df089b02679a9be89c42bc77381de256f45dd7fc54b39d35256f": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
+      "score": -11.059459686279297
+    },
+    "30c58addf989c6bab83b5351db51001187bd1f3fd03e03e7a987e197de57b6db": {
+      "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -8.633214950561523
+    },
+    "30d4e2d8ae38c6cc8aae861008f98d6316948ecf3940b6eb47642f4612881980": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Do we validate parking for patients who park on Example Road?",
+      "score": -11.449488639831543
+    },
+    "3151d2fad1e7fd16178f317146a7567d2955d0ddad0d56db48bde7e0f640bb30": {
+      "passage": "Fee schedule 2026 > Root canals and extractions - Simple ext",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -2.9662411212921143
+    },
+    "31790a8699fb8bc2d0cebb77980c3d0fba9f9d8836e4e8bb0612dd94b14ecc90": {
+      "passage": "Staff directory > How to use this directory Work extensions ",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -9.945688247680664
+    },
+    "317a37cc9b8e6b3e410c1ebd4a6c255016c5279d20ceebc90c25caa1e1299f60": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
+      "score": 1.8700413703918457
     },
     "31bb3bd1d8cf366f0845fd2634d5463cf1644d5a678888f165f9f04a91952246": {
       "passage": "Treatment consent policy > When written consent is needed Wr",
@@ -1179,6 +1444,11 @@
       "passage": "New patient registration > Before the first visit New patien",
       "query": "Do we validate parking for patients who park on Example Road?",
       "score": -10.93691635131836
+    },
+    "32593bf98f198f5a4e68248a5a3b63b67a546e808527de2b0e4c191278646d1d": {
+      "passage": "Patient record requests SOP > Fees The first copy of a patie",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -8.665274620056152
     },
     "32807f71254e3141c0b0b2896202a81fe767721c0ecc18b3bc9434648df394ae": {
       "passage": "Leave policy > Reporting an absence If you are sick, phone t",
@@ -1240,6 +1510,11 @@
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
       "score": 4.897909641265869
     },
+    "33dbb4abae7fdafbcb3ecc82116cbb364807ede0bc524df794697449f80ca96c": {
+      "passage": "Practice overview > Surgeries and rooms Surgery 1 is Dr Naid",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.320757865905762
+    },
     "33f4b3f15959d03d9d87c4acb8f619ae9f40f0743b3e486424c51e056eb20aa3": {
       "passage": "Teeth whitening SOP > Promotions and discounts There is no s",
       "query": "Do we offer clear aligner treatment?",
@@ -1255,10 +1530,20 @@
       "query": "Which day is the healthcare risk waste collected?",
       "score": -10.397021293640137
     },
-    "34a87a6c537c885fdabb15a7697b599ba1cb306ecec67bc0c339d4cd7ef0abc7": {
-      "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
-      "query": "Can staff work from home on Fridays?",
-      "score": -11.282524108886719
+    "3448280b15e94a39c5279244b86a952788ab34fdfd4672e26928b619be5682c4": {
+      "passage": "Medical aid claims > Our fees and scheme rates The practice ",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -9.099910736083984
+    },
+    "3458a963e44e8187cab71b9b26c3179103595455e2057d4c21b4a97cc9968c8c": {
+      "passage": "After-hours emergencies > On-call rota One dentist is on cal",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.305521965026855
+    },
+    "34a3ebca1b52ffb0aecd6b681baeeeb40fa7f831a838777a0c97227d51f3b640": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "What are the protected emergency slots in the diary?",
+      "score": -11.150824546813965
     },
     "34c76a1b245c3213c54b230324cab7a359d276243c2bd86e213c2280454b5bff": {
       "passage": "Infection control policy > Surface disinfection Between pati",
@@ -1280,6 +1565,11 @@
       "query": "Is there a free whitening offer for patients in November?",
       "score": 1.3251510858535767
     },
+    "35828c11d62f062d7057556ed4e78168cac379964af6ef5c66616dc46e44aa3b": {
+      "passage": "Medical aid claims > How we claim Reception submits claims e",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -9.423343658447266
+    },
     "361ff443d65ad52a321d49059e9f61ed781b313e8068ce4356f89f15f51772c2": {
       "passage": "Appointment booking SOP > Booking rules Book every appointme",
       "query": "Who is Sipho Ndlovu's emergency contact?",
@@ -1289,6 +1579,21 @@
       "passage": "Medical aid claims > Checking benefits Reception can check a",
       "query": "Which payment methods can patients use?",
       "score": -3.144045114517212
+    },
+    "372aae7fa77cb1e12124b66c2c19dd365e1762769247a898c948012139f64384": {
+      "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -10.837911605834961
+    },
+    "373626291b86b53bcbca70710d14a38ad7e6400108b3dc0530a9a4e94639ad7c": {
+      "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -8.17800521850586
+    },
+    "377f1ac3167f40583c63b5683f4d3a2d44ccbbbc0498d08ed7faff9d43aa8673": {
+      "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.44884204864502
     },
     "37b5f81d61f4b065aaf9c39a9b9afcfbc27a9cd9eb1a7b9cf25e2cfe168432a7": {
       "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
@@ -1345,20 +1650,40 @@
       "query": "What time do we close on Saturdays?",
       "score": -4.184921741485596
     },
+    "396ca0af45768345d36394fa8409cd7b45119570082c6506e01f8ff19b535bbd": {
+      "passage": "Complaints handling > Escalation Clinical complaints go to t",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -11.315797805786133
+    },
     "39fd670d265441ee0840f9e04a7a0ddac46095bcec0a351ae7785c1423f3f826": {
       "passage": "Teeth whitening SOP > In-chair whitening In-chair whitening ",
       "query": "Are we running a whitening special at the moment?",
       "score": -5.579314231872559
+    },
+    "3a0b77113723925c05a4c077b74fd4e5d4468050934cf8f343a3e6ac2bd284ce": {
+      "passage": "Code of conduct > Dress code Clinical staff wear practice sc",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -11.339735984802246
     },
     "3a290ee0b85572f310fbbd4935eadaa14399a0e19890dd494365776492b5948a": {
       "passage": "Information security policy > Messaging and email Patient in",
       "query": "What is patient Thandi Mokoena's ID number?",
       "score": -11.263182640075684
     },
+    "3a71e76adb94a0e3b80eb80fc75872ab6a6b2ab945804fbb49bb262281de6291": {
+      "passage": "Cancellations and no-shows > No-show fee A patient who does ",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -8.906898498535156
+    },
     "3aedf92cb0f0286766fec24e5cd54cf5d9ca670f8e333ee75e3402ab707c18bd": {
       "passage": "Remuneration and overtime > Salary information is confidenti",
       "query": "When are salaries paid?",
       "score": -2.891939163208008
+    },
+    "3b20d5efdf98218feda9f6d4a66dc6fdca0d0be11fe73da639f3217f827b83d8": {
+      "passage": "Medical aid claims > Our fees and scheme rates The practice ",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -10.770064353942871
     },
     "3b2bb731eda648269108555be3bfa2617aae32a38dd0e0d6c874c5a4d21094f6": {
       "passage": "Children's dentistry > Appointment times for children Book c",
@@ -1375,10 +1700,20 @@
       "query": "What is Dr Naidoo's personal cell number?",
       "score": -3.4535741806030273
     },
+    "3b73b0464d6588ee9cc980fcce1aa74e9f65f3a2cfec729251fa48b0a62faa95": {
+      "passage": "Teeth whitening SOP > Take-home whitening Take-home whitenin",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -8.81685733795166
+    },
     "3b8cb28df832ac344397f23d60dce3a65679e2576853b7b3166eab1b3e260571": {
       "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
       "query": "What is the practice's VAT number?",
       "score": -1.3634943962097168
+    },
+    "3bacdddb2c70b022073a438aaaa3d63b39e1a6f40ece3c3a1d1bebfb219bb616": {
+      "passage": "Medical emergency protocol > After an emergency Complete an ",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": 0.36743056774139404
     },
     "3bbc803a3f70fe51bdcc50180a92677aae04a6b8dce7ec2e8aba5884a078302f": {
       "passage": "New patient registration > Before the first visit New patien",
@@ -1415,10 +1750,25 @@
       "query": "How much does a dental implant cost?",
       "score": -9.26762866973877
     },
+    "3d40c72621fff9c427b9e3457add22e524a58b755dc417a925079d8297608f9e": {
+      "passage": "Billing and payments > Statements and overdue accounts State",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -10.672282218933105
+    },
+    "3d973466725d3acf970761b7f341bd130b31625724838c5eee31033323c7ef50": {
+      "passage": "Disciplinary and grievance procedure > Representation A staf",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -10.993663787841797
+    },
     "3d9ef883553699ae105f29f41b3c320361433932d90d1bb1c8849365d2ed6806": {
       "passage": "Sterilisation cycle checklist > Start of the day Switch on t",
       "query": "What does the Bowie-Dick test check?",
       "score": 7.409671783447266
+    },
+    "3da096e9c1d293ecffd3198a845fbd03be7f27f67ee42b40399f5f59e46b1856": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "Who is our Information Officer under POPIA?",
+      "score": -11.353625297546387
     },
     "3dc8408b1d19cbb0aa241f27b9b74ce28af98ac5ec3014658272bd1deab20584": {
       "passage": "Surgery cleaning schedule > Weekly Clean the suction filters",
@@ -1435,6 +1785,16 @@
       "query": "Give me a list of the patients booked for tomorrow morning.",
       "score": -8.817463874816895
     },
+    "3e768af3e5668ab9d74cbb4035d226fb8be467933b0c04e691c0cd94e9727c59": {
+      "passage": "Fee schedule 2026 > Consultations - New patient examination,",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -10.151413917541504
+    },
+    "3e7817f8dd9432c31a5a19d3173f80266bc163460960b6ce1e3fb38a3ec0d769": {
+      "passage": "Infection control policy > Responsibilities The infection co",
+      "query": "What extension is the oral hygienist on?",
+      "score": -10.825767517089844
+    },
     "3ea0a19ad237b0f7a9cb8df9457b68e57f7b23ab61de6a49c201758f234d379e": {
       "passage": "Patient privacy notice (POPIA) > Who we are Seapoint Smile D",
       "query": "Who is our Information Officer under POPIA?",
@@ -1444,6 +1804,11 @@
       "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
       "query": "Is there a free whitening offer for patients in November?",
       "score": -7.108269691467285
+    },
+    "3f290eeb4b24359fa9241be2ecb2d47047fd890a6164235a3cf413b25322cb05": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "What is the guest Wi-Fi password?",
+      "score": -11.232181549072266
     },
     "3f42fd4c2fc8a62c36a3d754e574c9ed5cdf4734f3dd657dadd1d0393965209b": {
       "passage": "Teeth whitening SOP > Who can have whitening Whitening is of",
@@ -1455,25 +1820,35 @@
       "query": "What does the Bowie-Dick test check?",
       "score": -10.037848472595215
     },
-    "3f654ab2930212e9c70c070c97f04e4a8d85c60fecc25f82d1516f3c15acc407": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "What is Dr van Wyk's cell number?",
-      "score": -1.76760995388031
-    },
     "3f7edc3185e18103d911fcddc01bafd87b41729849f2b8c5ad02516e2e9ae765": {
       "passage": "Sterilisation cycle checklist > Weekly spore test Every Mond",
       "query": "Who keeps the infection control file, and how long are the sterilisation logs in",
       "score": 2.7492294311523438
+    },
+    "3f985c2a6c5fa4864356cfb7a21313372c49dfd050e87742ac0d08312704d0f0": {
+      "passage": "Infection control policy > Needle-stick and sharps injuries ",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -9.910531997680664
     },
     "3f9f10f8546fd5bce264ce95c2860983bffdd9d4df9458ae59a8880f0c65ef1c": {
       "passage": "Laboratory work and turnaround times > Booking the fit appoi",
       "query": "What's the latest time we can start a new patient exam on a Saturday?",
       "score": -8.54000473022461
     },
+    "3f9f5b99eb12fabbf1f6968a6978739cec2635ebec5e269e6b0bc385afdb0d5f": {
+      "passage": "Billing and payments > Refunds Refunds are paid within 7 wor",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -10.351455688476562
+    },
     "3ff3412dd7716a5382c5e5ed144dc763cc38022a1585314928cb465c4dc25546": {
       "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
       "query": "How much does a check-up with two bitewing X-rays cost for an existing patient?",
       "score": -10.679482460021973
+    },
+    "407ebb0f2e32e0edced6e4e41b56ca26204863dc28a88dab02622f8268dfeb1c": {
+      "passage": "Practice overview > Contact details The main line is +27 00 ",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -7.17933464050293
     },
     "40862c8f87d40f1bf4c2e90b6c27dbd3cf7607cee1c7e33de6624f6f98d67b12": {
       "passage": "Complaints handling > Response times Acknowledge every compl",
@@ -1489,6 +1864,11 @@
       "passage": "Practice overview > Referrals Patients who need a specialist",
       "query": "How much deposit does a patient pay before getting a porcelain crown?",
       "score": -11.265496253967285
+    },
+    "41193f30eaa658c0bce51cbbed81aef1c9f07c9b1355fe84427588cc2a92d107": {
+      "passage": "Practice overview > Referrals Patients who need a specialist",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -10.497617721557617
     },
     "415eadc923783d545c525c65c8e3efafaacb73d661d1648c36b08991a7e0b7cc": {
       "passage": "Sterilisation cycle checklist > Maintenance Clean the door s",
@@ -1515,6 +1895,11 @@
       "query": "How much are nitrile gloves from the supplier now?",
       "score": -10.539449691772461
     },
+    "41fb8d001473fe21dee7f37e6fb89ed9952ef6ac8bc55808f16e2ebbc46b9b90": {
+      "passage": "Treatment quotes and estimates > What a quote includes A quo",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -8.42970085144043
+    },
     "42362af1ac2390db35f7d161041dac66e0dab3fa604332da3c152d59e7c7aad1": {
       "passage": "Complaints handling > Learning from complaints Complaints ar",
       "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
@@ -1524,6 +1909,11 @@
       "passage": "Healthcare waste management > Sharps containers Close and se",
       "query": "What's the autoclave cycle temperature and hold time?",
       "score": -11.445996284484863
+    },
+    "4265cedce86b35f3e6bc5a603a147d4dc1a6c73f4164e6eced5c715deaf08fd3": {
+      "passage": "Laboratory work and turnaround times > Booking the fit appoi",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -10.944764137268066
     },
     "427975fda3a6da7ddfb2accd7dc15994cca926dc7b96b97a1e166a81a7586caa": {
       "passage": "Healthcare waste management > Amalgam Check the amalgam sepa",
@@ -1540,11 +1930,6 @@
       "query": "What is the guest Wi-Fi password?",
       "score": -11.459171295166016
     },
-    "42c868da30b8ee9c5309ed224cfb23f62c1874a917c982af6f4211da85debe1e": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "Who is our Information Officer under POPIA?",
-      "score": -11.366617202758789
-    },
     "42ca8fd92be27b7449a1e7413b9f84693542a88287d42717b516a5878d49a630": {
       "passage": "Cancellations and no-shows > Late cancellation fee A cancell",
       "query": "A patient fainted in the chair. What do we do?",
@@ -1555,10 +1940,25 @@
       "query": "Which payment methods can patients use?",
       "score": -9.16805648803711
     },
+    "4339aadf9bd51d5b9a48d02ddaae13b0ad7065f31ea3c75f55a114ec79151a0f": {
+      "passage": "Radiography safety > Protection Use a thyroid collar for eve",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.205537796020508
+    },
     "438583e6a1da0898afb480066ee8e74415d80d334ef091e29bed4cb0081a2d10": {
       "passage": "Sterilisation cycle checklist > Maintenance Clean the door s",
       "query": "What brand of composite do we use for fillings?",
       "score": -11.459756851196289
+    },
+    "4408b2ac98c1c1d013d3492cd7f5bf718df0c8a7e90d18200c450abbc3d76620": {
+      "passage": "Complaints handling > Learning from complaints Complaints ar",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.249326705932617
+    },
+    "442308872bd12733d5157b4687acf68ff73c5510c14cd3432a5c3392f6e7caf5": {
+      "passage": "Opening hours and public holidays > Regular hours The practi",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -8.336181640625
     },
     "4459c22b5584ef89b42d123de963b8b8306b75af277ae43b63e39c7d78e3d2fa": {
       "passage": "Remuneration and overtime > Saturday rota Saturday mornings ",
@@ -1575,6 +1975,11 @@
       "query": "How much does Thabo Khumalo earn?",
       "score": -11.171380996704102
     },
+    "44858f6818c7a17ae546fbd7ef70a1cd0b1b5d927a9363c6d254e8728fa2f034": {
+      "passage": "Laboratory work and turnaround times > Turnaround times Coun",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": 2.2771449089050293
+    },
     "448afec2b878f5dbb2d81d4a2656cfd75f8962872861f8fa4fcc4e9b7661f309": {
       "passage": "Healthcare waste management > Collection A licensed waste co",
       "query": "How many days of sick leave do staff get?",
@@ -1589,6 +1994,11 @@
       "passage": "Appointment booking SOP > When the dentist is running late I",
       "query": "Is there a free whitening offer for patients in November?",
       "score": -11.208029747009277
+    },
+    "44fa9dd3fad671949cc107afcc1e495a21cef15063f137265595c14a5bc777cf": {
+      "passage": "Medical emergency protocol > Fainting Stop treatment. Lay th",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.302142143249512
     },
     "4508ef792a3152fbfb0262f5051f01d743616961c5cb9b45da9688b2a4126307": {
       "passage": "Billing and payments > Statements and overdue accounts State",
@@ -1629,6 +2039,11 @@
       "passage": "Instrument reprocessing SOP > Storage and shelf life Store s",
       "query": "Who keeps the infection control file, and how long are the sterilisation logs in",
       "score": -4.741839408874512
+    },
+    "45c761cfceb377506a86bbca67e808fb4064388f495aa7bfd0e99fafdd998d4b": {
+      "passage": "Appointment booking SOP > Appointment lengths Book these len",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": 3.5634877681732178
     },
     "45ffc3a8f2dd8c46dae86ff28f700495391c6ea36b481deefd88da50ecb63513": {
       "passage": "Laboratory work and turnaround times > Booking the fit appoi",
@@ -1685,6 +2100,11 @@
       "query": "What is the guest Wi-Fi password?",
       "score": -11.428275108337402
     },
+    "47706d4c16a4bc586277e1bef58f38033b32796b9862b5ba97ddec1f8b7a1d9d": {
+      "passage": "Appointment booking SOP > Appointment lengths Book these len",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -9.292255401611328
+    },
     "47e2ea6a685359dc9d4d72f23a9416807e2af1ac94ba71114fc088d5e9637b4f": {
       "passage": "Leave policy > Reporting an absence If you are sick, phone t",
       "query": "A patient fainted in the chair. What do we do?",
@@ -1730,6 +2150,11 @@
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
       "score": -4.915979385375977
     },
+    "4a46e184a017fea4a4d1f2ed77bcb2d704698807b4ef51e43ae19371714d7c17": {
+      "passage": "Complaints handling > Escalation Clinical complaints go to t",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.35865306854248
+    },
     "4aab01400f7c8cd8dab8a2c9cc826ae8f5552f42e9b5fae1abc72babe02e46dd": {
       "passage": "Healthcare waste management > Sharps containers Close and se",
       "query": "What brand of composite do we use for fillings?",
@@ -1744,6 +2169,11 @@
       "passage": "Stock ordering SOP > Changing supplier bank details Never ch",
       "query": "What whitening gel promotion did our supplier announce for November?",
       "score": -11.36455249786377
+    },
+    "4ae1972e8c3b1d7bfcea35af9906a0f373937fe319394dad6d2f40acf720a8e3": {
+      "passage": "Cancellations and no-shows > Late cancellation fee A cancell",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": 8.350611686706543
     },
     "4b305bc32737da782b524ecd254bf94a0df4097bba0d2482988dda024fcf6e49": {
       "passage": "Sterilisation cycle checklist > If a test fails Do not use t",
@@ -1760,15 +2190,30 @@
       "query": "What's the latest time we can start a new patient exam on a Saturday?",
       "score": -6.219235897064209
     },
+    "4bee80e885f627df92f1244b806d039da45be057d3bfb6eb091563e7b3c0baf0": {
+      "passage": "Medical emergency protocol > Anaphylaxis Stop treatment, cal",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -1.120373010635376
+    },
     "4c34282400f8c575a333ebee4c6fa7c9f832fd1c13de54f207a395adc9ace344": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
       "query": "How often does the autoclave get serviced?",
       "score": -0.1851547211408615
     },
+    "4c3e7ba7e0d977ea04376aaad723cd28b218d16d2454f2dd5859720f57b4d46f": {
+      "passage": "Information security policy > Suspicious emails and document",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -9.922941207885742
+    },
     "4c4073a78020ae8135cc51a05e00493ed1bdb967739eafd6b5f23773389c8450": {
       "passage": "Patient records and retention > Retention periods Keep adult",
       "query": "What's the autoclave cycle temperature and hold time?",
       "score": -11.356481552124023
+    },
+    "4c67c3d27ca8f8e0f4bd2541cb590fc75896380c64dbde673105eb92fc3807d7": {
+      "passage": "Leave policy > Family responsibility leave Staff get 3 days ",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -7.8717570304870605
     },
     "4c94397bf85d85c2b9cf9acaedeeb2c26d933486ee982dea79902bf86c3acc43": {
       "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
@@ -1794,6 +2239,11 @@
       "passage": "Cancellations and no-shows > When fees are waived The practi",
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
       "score": -7.5794878005981445
+    },
+    "4d224992461c63378c0e6ba8c9294ab01b63fb4cb3ec02dbaf58ef9298040bc8": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Who is Sipho Ndlovu's emergency contact?",
+      "score": -1.9188239574432373
     },
     "4d7e9a9a757063f2cc09cd618a95ff2e692571a58ef38cf9408b4fc49f16c205": {
       "passage": "Treatment quotes and estimates > How long a quote is valid A",
@@ -1835,10 +2285,25 @@
       "query": "Who keeps the infection control file, and how long are the sterilisation logs in",
       "score": -7.175230979919434
     },
+    "4f3533cbd1cec7678bc3349ae59dc299d30b1c8e74e1cf7b55896288bf61cf4a": {
+      "passage": "Fee schedule 2026 > X-rays - Bitewing X-ray, per film: R320 ",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -8.792679786682129
+    },
     "4ff47dd5a4e2308eb355b9ac44f6cd2110ccfd5a722cb51ccc36d54ee15309ae": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > White",
       "query": "What whitening gel promotion did our supplier announce for November?",
       "score": 7.2432661056518555
+    },
+    "5009c7a3b0a24331958326e47ce2344dfed5ab35e173b157318bb5b0b8c25e8f": {
+      "passage": "Patient records and retention > Retention periods Keep adult",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -4.575304985046387
+    },
+    "5011f49630beb74f7d80e30beb833be0fdead8cb064f3fd64c44f9c326de04f7": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "What is Dr van Wyk's cell number?",
+      "score": -0.5550612211227417
     },
     "5017fead9951cb221c718eccb6f1824aa63bec3ff2a5273009a290401c13f1a3": {
       "passage": "Patient records and retention > Retention periods Keep adult",
@@ -1860,10 +2325,15 @@
       "query": "How often do we run the spore test on the autoclave?",
       "score": -11.423368453979492
     },
-    "507da1a00bd74379dfff16085b4f652d5ac73e98ff469d96193262bdc2f0ea3d": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Do we validate parking for patients who park on Example Road?",
-      "score": -11.466984748840332
+    "50b41a8338fbe873b8b16dc78e313c6ea004350fd0c727aaf6469aa7b3727b60": {
+      "passage": "Medical aid claims > Our fees and scheme rates The practice ",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -10.63355827331543
+    },
+    "51175516b8771371a6e9ef0c4f4315ec9ae3b1ce6ded8bb043770d03d6199377": {
+      "passage": "Surgery cleaning schedule > Monthly Deep clean every surgery",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.491132736206055
     },
     "5130eda14f59d7e63fa708a9d395269e3c9b78f0794d0ef8eea4d0e947207426": {
       "passage": "Patient privacy notice (POPIA) > Who we are Seapoint Smile D",
@@ -1875,20 +2345,25 @@
       "query": "Where should staff send the patient list for backup?",
       "score": -7.4811906814575195
     },
-    "51cfc8488d53d42699095df39925f91ba174ddb485d716c6a418b32a9b177f60": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "Which suburb does Lerato Mokoena live in?",
-      "score": -11.395792007446289
-    },
     "51f6d6fa5e632ae1d5f24b05a2e8084501e537c5aae794af81d75fee66f1a694": {
       "passage": "After-hours emergencies > What counts as a dental emergency ",
       "query": "How much does a dental implant cost?",
       "score": -10.896591186523438
     },
+    "522b16f77a1b2865237019d8dc9bb536a1945cc7f0fe34bc81646783cb929311": {
+      "passage": "Cancellations and no-shows > Notice required Patients must g",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -7.963622093200684
+    },
     "5236616baba3b630d5616c777989c157544a6b889a2b2eac9dee07dad0a19ff8": {
       "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
       "query": "A patient wants their records emailed to their new dentist. What do we need from",
       "score": -6.795114994049072
+    },
+    "5241ff2d36a1ab4346b200c35ac0c6dfb2ba0e09a5b4207ea420a035a87fac3d": {
+      "passage": "Cancellations and no-shows > When fees are waived The practi",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -11.261478424072266
     },
     "5291afffa32b8ff40e7f9aa3792d77f26a37b896c164baf3ca611ef44c05bb6a": {
       "passage": "Patient record requests SOP > Verifying identity Check the r",
@@ -1909,6 +2384,11 @@
       "passage": "Leave policy > Sick leave Staff get 30 days of paid sick lea",
       "query": "When are salaries paid?",
       "score": -7.657797813415527
+    },
+    "530e3adffe3cc8ca9befa72375310b31b74fd1c0476a16b4195d7b76f6b49c65": {
+      "passage": "Code of conduct > Punctuality Arrive at least 15 minutes bef",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -9.668492317199707
     },
     "5317747fff4d38ea918c53d05c91b184af00e6bcc7ede0e9c803edae53e0c916": {
       "passage": "Information security policy > Backups The practice managemen",
@@ -2005,6 +2485,11 @@
       "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
       "score": -11.33662223815918
     },
+    "55800487f17d1e863bbfd7d6bf5fb8ac32974f838f08e729a9754efe2db9b748": {
+      "passage": "Infection control policy > Responsibilities The infection co",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -10.905025482177734
+    },
     "5587eadb025063feb613f600756d42ca82a5c20d194ff723289a2f5103b6feed": {
       "passage": "Practice overview > Surgeries and rooms Surgery 1 is Dr Naid",
       "query": "Do we offer sedation with a visiting dental anaesthetist?",
@@ -2015,10 +2500,20 @@
       "query": "How long before a practice computer locks itself?",
       "score": -7.9161481857299805
     },
+    "55ab891889a00ab7f3050e9a06b202c5e96a911c734d3a2fc76389def341117e": {
+      "passage": "Patient record requests SOP > Sending records to another den",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -8.561079025268555
+    },
     "55d80f28de30a9e027bfa71b588402bb6af9bd7730eda8d6d64fbcb27ea1d204": {
       "passage": "Medical aid claims > Checking benefits Reception can check a",
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
       "score": -10.67447280883789
+    },
+    "55e651b490bd153cc16c795db0c1cfa075d8e4fd3be4958663ad3de26812d1bd": {
+      "passage": "Laboratory work and turnaround times > Checking returned wor",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -10.400534629821777
     },
     "55f462a4beb1a23f363b2ea858404bb89f17ddc13738918c200651c6241de29f": {
       "passage": "Laboratory work and turnaround times > Booking the fit appoi",
@@ -2044,6 +2539,11 @@
       "passage": "Patient privacy notice (POPIA) > Marketing messages We only ",
       "query": "Is there a free whitening offer for patients in November?",
       "score": -6.293271064758301
+    },
+    "56d11cb011dc030b1db7ce10b71cf0f2b814978cab60618648643b264e52a077": {
+      "passage": "Reception phone guide > Privacy on the phone Never confirm t",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -11.307982444763184
     },
     "56d7bb9c7d2f2cd29ffb5384b0501a8561ffce207c1714425a7c4c70a51e69aa": {
       "passage": "Appointment booking SOP > When the dentist is running late I",
@@ -2165,11 +2665,6 @@
       "query": "How quickly do we need to acknowledge a patient complaint?",
       "score": -9.63038158416748
     },
-    "5b2a76cfeff3c039d544dd3936d55346a07eb82aae08e840da9e02093bf648bb": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "What is patient Thandi Mokoena's ID number?",
-      "score": -11.379926681518555
-    },
     "5b4ab472797082d954d441568a3c1c7d7363baaf7344b0f73e13f1fb2a186f53": {
       "passage": "Radiography safety > Equipment Every X-ray unit is licensed ",
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
@@ -2179,11 +2674,6 @@
       "passage": "Medical emergency protocol > After an emergency Complete an ",
       "query": "What is the practice's B-BBEE level?",
       "score": -11.114710807800293
-    },
-    "5bc69c1589d40da9a6fe98054dd14a895923807b7f1176738d9d5499779b13db": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Who is our Information Officer under POPIA?",
-      "score": -10.905146598815918
     },
     "5bc92bc58187cbf09cde5773b21015aa2a3ca5651037f1d69c7373fe0042c0a4": {
       "passage": "Sterilisation cycle checklist > If a test fails Do not use t",
@@ -2199,11 +2689,6 @@
       "passage": "Patient privacy notice (POPIA) > Who we are Seapoint Smile D",
       "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
       "score": -9.054359436035156
-    },
-    "5c5ce123a6823ec523e1978486b3dbe569a17f9d55d31a409bc7a1f612a0e00b": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "What is the guest Wi-Fi password?",
-      "score": -11.432559967041016
     },
     "5c79fa1a30f94fa815310dfd5824d45b829154bd6ef6a8c551e7d98ca463471c": {
       "passage": "Medical aid claims > Our fees and scheme rates The practice ",
@@ -2225,11 +2710,6 @@
       "query": "Do we validate parking for patients who park on Example Road?",
       "score": -11.375626564025879
     },
-    "5e1afe179c88ff92812d0f22334da31c22caae82baa7bbd3fa3829d0770d8c0e": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "How much does Thabo Khumalo earn?",
-      "score": -11.25469970703125
-    },
     "5e7871ff568ff9bc36819cbb013761bcc83800e870e4d3d268a4576874573ad5": {
       "passage": "Medical aid claims > Rejected claims If a scheme rejects a c",
       "query": "If a medical aid rejects a claim for a R8,900 root canal, when must the patient ",
@@ -2250,6 +2730,16 @@
       "query": "A patient wants their records emailed to their new dentist. What do we need from",
       "score": -9.867964744567871
     },
+    "5f53ceb33651270c9a31ec5434c801710dae029fdfc94224cedc6d8073860b50": {
+      "passage": "Patient privacy notice (POPIA) > Who we are Seapoint Smile D",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.396661758422852
+    },
+    "5f58fd5e74ddea83d9e26174788add3a4cd254021b38107aa35e156d388b0f36": {
+      "passage": "Appointment booking SOP > Appointment lengths Book these len",
+      "query": "What extension is the oral hygienist on?",
+      "score": -9.023771286010742
+    },
     "5f5a8efc5acbb404ad8ac4b6e7a68d58e42932d2d3af19acdaa1aa60cd9c2727": {
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
       "query": "Give me a list of the patients booked for tomorrow morning.",
@@ -2264,6 +2754,11 @@
       "passage": "Appointment booking SOP > Booking rules Book every appointme",
       "query": "What is patient Thandi Mokoena's ID number?",
       "score": -10.997637748718262
+    },
+    "5f8a2de2bebdb4c2ed0aaef86d7d22e9c4265226dcf96bb8ad96942596160033": {
+      "passage": "Remuneration and overtime > Saturday rota Saturday mornings ",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -7.986879825592041
     },
     "5fa2d598fe1fc8b02ae8e7d2745c2d4ddc542236cecdf8f28e1c3317f922e67f": {
       "passage": "Patient records and retention > What a patient record contai",
@@ -2350,6 +2845,11 @@
       "query": "Who has to approve a stock order of R12,000?",
       "score": -9.172628402709961
     },
+    "62c3f31d6b968f25d063705a78b7a6dff046ff5069424718dcaa60344b425245": {
+      "passage": "After-hours emergencies > What counts as a dental emergency ",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.26840591430664
+    },
     "62eaf7a32fce6453e86912a2eb5f22ca86f298d759e07f26170611b52daf54f3": {
       "passage": "After-hours emergencies > After-hours call-out fee An after-",
       "query": "How much does a check-up with two bitewing X-rays cost for an existing patient?",
@@ -2360,20 +2860,15 @@
       "query": "A patient fainted in the chair. What do we do?",
       "score": -10.416548728942871
     },
-    "634ab0b147ca978bb2adbaf7e73ce0ab2b81a19129e148d7d9996785a686a813": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "What is Dr Naidoo's personal cell number?",
-      "score": -11.231608390808105
+    "6371eddd6a3298f1782e7401ec7ee68b187c623ef5abbb0d5034d1829fa6aa69": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Who is our Information Officer under POPIA?",
+      "score": -11.435635566711426
     },
     "63fbe3302a794ec78cc5a296bc17666370d4a90eec1abd0322117301cc807647": {
       "passage": "Staff directory > How to use this directory Work extensions ",
       "query": "How much are nitrile gloves from the supplier now?",
       "score": -11.446695327758789
-    },
-    "64207b4b1c5df9d07004a84c2112b6452cf19046512f7de91466bcf9425f1b55": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Do we offer clear aligner treatment?",
-      "score": -11.492057800292969
     },
     "6438b04830e2f93cff33cbba9228c05000c1e838eec159ddf60e9934eca36853": {
       "passage": "Information security policy > Suspicious emails and document",
@@ -2384,6 +2879,16 @@
       "passage": "Sterilisation cycle checklist > Maintenance Clean the door s",
       "query": "How long can a sterile pouch be stored before it must be redone?",
       "score": -10.766561508178711
+    },
+    "649ed3c13cfad96b42b58962ea3faceb4a58a069aa2502d0ab9108026101ae12": {
+      "passage": "After-hours emergencies > On-call rota One dentist is on cal",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.231483459472656
+    },
+    "64a4a9e1d0f5ec058655f563f29b0e2b6aaf8b1561724e9ff17897986d72ddfe": {
+      "passage": "Practice overview > Referrals Patients who need a specialist",
+      "query": "What extension is the oral hygienist on?",
+      "score": -10.674823760986328
     },
     "64cff4468677fd67705d97aada10101d9680bd747e9da13131924a0d3624b55e": {
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
@@ -2404,6 +2909,11 @@
       "passage": "Patient privacy notice (POPIA) > Your rights You may ask to ",
       "query": "Who has to approve a stock order of R12,000?",
       "score": -11.356258392333984
+    },
+    "658bb3ef3c95a0a964052e0f39b7af428018f55fb88fab4ccf21bf08efc27aa8": {
+      "passage": "Cancellations and no-shows > When fees are waived The practi",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -10.663576126098633
     },
     "65a34a02f40869243700b8ce7ff1e7cbedae2c46dabb94d4c1041394c0244f29": {
       "passage": "Remuneration and overtime > Overtime Overtime must be approv",
@@ -2430,6 +2940,11 @@
       "query": "What brand of composite do we use for fillings?",
       "score": -11.052796363830566
     },
+    "6629373232146240b6a061a720256b2507a4d3ddc669b43be01360b7fd964b96": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
+      "score": -11.007438659667969
+    },
     "6642c568eab48fcc4d763dbda2d4b3dcef56814a3299e9b648c63ba6cda18a0b": {
       "passage": "Reception phone guide > Taking messages Write every message ",
       "query": "What is the dress code for the staff year-end function?",
@@ -2445,6 +2960,11 @@
       "query": "How often do we run the spore test on the autoclave?",
       "score": -11.139612197875977
     },
+    "668f6a8fa13be39eac4d8fef52456caa03e054130c94117f44fb5629ca0da9ef": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "What's the extension for the practice manager?",
+      "score": -3.9589600563049316
+    },
     "6690842eede23ad84d08b8b5a3583cd27842e8748645f375c5293d04bcbfdb53": {
       "passage": "Patient privacy notice (POPIA) > Who we share it with We sha",
       "query": "What is Dr van Wyk's cell number?",
@@ -2454,6 +2974,16 @@
       "passage": "Opening hours and public holidays > Regular hours The practi",
       "query": "What is the practice's B-BBEE level?",
       "score": -11.03256893157959
+    },
+    "66c4ca5388c73bf922136de054a478e0d5188ee9f86d10cd489cbc5ce9b25436": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "What are the protected emergency slots in the diary?",
+      "score": -11.049941062927246
+    },
+    "670e7e91b08c49a1061ee36c6c8a73a0319c00a24567df97dabf4a965dae1b34": {
+      "passage": "Teeth whitening SOP > Promotions and discounts There is no s",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.009503364562988
     },
     "671f6d3a67f1f42857ba4284f1731951d606084e4175bb67328e6d885d00778d": {
       "passage": "Patient record requests SOP > Who can request records A pati",
@@ -2474,6 +3004,11 @@
       "passage": "Patient records and retention > What a patient record contai",
       "query": "Which medical schemes have we signed designated service provider agreements with",
       "score": -11.1526460647583
+    },
+    "6867e271b614bc0a91a62b1e3938e480389990737a1d7ef3de1e2f64b9ef1407": {
+      "passage": "Surgery cleaning schedule > Weekly Clean the suction filters",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.441373825073242
     },
     "6870dea16bbb62018cdfcb7663748539a5f7c62fa9623082094361b12acfcc63": {
       "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
@@ -2515,11 +3050,6 @@
       "query": "Who keeps the infection control file, and how long are the sterilisation logs in",
       "score": -6.530147552490234
     },
-    "6967308846218a0ae6c620abcfb6dccb4c78f26528a395950f1b0e97c70dc257": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
-      "score": -11.151269912719727
-    },
     "697c198f1b8e1a88a376b1562a7a2518bfc73e7151ac1c7358e98e418b83ef1e": {
       "passage": "New patient registration > Children A parent or legal guardi",
       "query": "Who has to approve a stock order of R12,000?",
@@ -2545,6 +3075,11 @@
       "query": "When are salaries paid?",
       "score": -8.98910903930664
     },
+    "69f4cc75f1935943d20c455ea034851fabd4afd7d77fb91fa0913c9d94c7bedc": {
+      "passage": "Children's dentistry > Appointment times for children Book c",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.521464347839355
+    },
     "69fa5f220d4769381c633d80b96ee5649cfd137f5111661b939aaba0a39d65bb": {
       "passage": "Medical emergency protocol > Emergency drills The whole team",
       "query": "What are the protected emergency slots in the diary?",
@@ -2559,6 +3094,11 @@
       "passage": "Medical emergency protocol > Emergency kit and AED The emerg",
       "query": "What's the autoclave cycle temperature and hold time?",
       "score": -11.439554214477539
+    },
+    "6a74ee76cd427e6de79e723a17d2586663f36c2ce925ac685bc17d0737b0196f": {
+      "passage": "Staff directory > How to use this directory Work extensions ",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.23073959350586
     },
     "6a7eb3b7d216d85bea5048383f8b3aba4127873335224eb80ea0b991f2c99585": {
       "passage": "Patient privacy notice (POPIA) > Your rights You may ask to ",
@@ -2579,6 +3119,11 @@
       "passage": "Sterilisation cycle checklist > Start of the day Switch on t",
       "query": "How often do we run the spore test on the autoclave?",
       "score": -0.743586540222168
+    },
+    "6ad0915e7a5e05b07a1f65a7faee5da30ac7a8d357de9aa197f5f9eb889ddc9f": {
+      "passage": "Practice overview > Contact details The main line is +27 00 ",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.397478103637695
     },
     "6af61c4da4e71e4f09fa18a821f35939da638b27c6d7816c68d7423c37f13feb": {
       "passage": "Radiography safety > Before taking X-rays Ask every patient ",
@@ -2615,10 +3160,25 @@
       "query": "How quickly do we need to acknowledge a patient complaint?",
       "score": -9.498468399047852
     },
+    "6b8b2d097fbfe57b133d01bc90ccc7d72a2fdc1ea89c21b2679694caaf5eb195": {
+      "passage": "Disciplinary and grievance procedure > Serious misconduct Se",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -11.08747386932373
+    },
     "6b8c6bf1c8b11a4913e51af08ed3fba0046c4ca3f800349e4bbb96e9888a2fe5": {
       "passage": "Teeth whitening SOP > Promotions and discounts There is no s",
       "query": "Are we running a whitening special at the moment?",
       "score": -5.940185546875
+    },
+    "6b94d670794ca9017fda4e0bae9fc704ed7bfa536ef1ffeab61b14ed521c7f40": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Which suburb does Lerato Mokoena live in?",
+      "score": -5.427919387817383
+    },
+    "6bc00c2fd31c7876e1d5e3f7a28afd8404a3a72308d19fe1c21b9bdb921d6c4a": {
+      "passage": "After-hours emergencies > After-hours call-out fee An after-",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.313233375549316
     },
     "6bd1d29610e0e4bdf2cc0c8ca219c6a9dd86957b1492f4a985a2b7d6e7701cdd": {
       "passage": "Patient privacy notice (POPIA) > Who we are Seapoint Smile D",
@@ -2630,10 +3190,20 @@
       "query": "How often are the dosimeter badges read?",
       "score": -10.113563537597656
     },
+    "6c215413fb21bcd95296e5245d3a7988325e7328bcd9ee2585bbd924a5b00195": {
+      "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -6.04384708404541
+    },
     "6c478f65f0c3144a728073577c4e6eb72a83b8d177f90d76be05e0ffdb8ba1c2": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
       "query": "Are we running a whitening special at the moment?",
       "score": -7.389141082763672
+    },
+    "6c8a99d0db359a58f48b8f4b93bf99676e9cde0277f948f12c98726ab1bf0856": {
+      "passage": "Stock ordering SOP > Changing supplier bank details Never ch",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -11.381448745727539
     },
     "6cb4cad1d3ef466190a18f790b0befa4d6a90a5eaa7ce5ab58716377dbc8793b": {
       "passage": "Medical aid claims > Our fees and scheme rates The practice ",
@@ -2644,11 +3214,6 @@
       "passage": "Remuneration and overtime > Pay day Salaries are paid on the",
       "query": "When are salaries paid?",
       "score": 8.034683227539062
-    },
-    "6cd557d9e4294583c3c428b2156d093e5e6604be283583f39beced2c6643bc63": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "What are the protected emergency slots in the diary?",
-      "score": -11.122391700744629
     },
     "6d08ed8574f92e4786b45564dea884f3cda47288a92a926dd4c80c21f9e546dc": {
       "passage": "Leave policy > Annual leave Full-time staff get 15 working d",
@@ -2664,6 +3229,11 @@
       "passage": "Medical emergency protocol > After an emergency Complete an ",
       "query": "Which day is the healthcare risk waste collected?",
       "score": -10.549714088439941
+    },
+    "6d55153c657bbeae780a25f607cfb5f789d032da1ca4aee2ddb03b77e4756b96": {
+      "passage": "Patient privacy notice (POPIA) > Who we share it with We sha",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.424491882324219
     },
     "6d61c2ac5263d17ab21cf188ae5b6c83224ba1c1fa7b352c6b45c2c6721a4087": {
       "passage": "After-hours emergencies > After-hours call-out fee An after-",
@@ -2685,10 +3255,20 @@
       "query": "How long is a written treatment quote valid for?",
       "score": -4.873172283172607
     },
+    "6da3d6793cc8fe4421a81dfa976d2a8d969be06aea20d01d0c3a1c401861f6e5": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -5.825970649719238
+    },
     "6da571679b44734394e90d83e9b51afa2a35a3158e9655b0da32762c57d695be": {
       "passage": "Patient records and retention > What a patient record contai",
       "query": "When should a sharps container be sealed?",
       "score": -11.39777660369873
+    },
+    "6de8496a67a24ac55682af9b5e3e42715005456037dd822647493d75ca5d5062": {
+      "passage": "Practice overview > Referrals Patients who need a specialist",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -9.990009307861328
     },
     "6e164040b681de55670ca50f492e0bb861190c088bd84677f786c0f99fa11ec2": {
       "passage": "Billing and payments > When payment is due Payment is due on",
@@ -2699,6 +3279,11 @@
       "passage": "New patient registration > Identity documents Patients aged ",
       "query": "What's the latest time we can start a new patient exam on a Saturday?",
       "score": -7.508256912231445
+    },
+    "6e40fb06d6965b1fb548ac2b97d33e73618e644243171d7d4b5548563bbac769": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "What is Dr van Wyk's cell number?",
+      "score": -10.277260780334473
     },
     "6e49c6baf0d6c1e9c9e0ed3a99f05e1adef3ab2ab6e17d0cfefbe5219dc2cc1f": {
       "passage": "Laboratory work and turnaround times > Turnaround times Coun",
@@ -2720,15 +3305,35 @@
       "query": "How much does Thabo Khumalo earn?",
       "score": -11.30290412902832
     },
-    "6eecb12de489540c6ddffcaf6bed02bc24f517ee91bd16992bb70c19ac072ebb": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Who is the infection control lead, and what is their extension?",
-      "score": -11.299768447875977
+    "6ed9a3dd624c336c457471a2ebf293433748b1bee8369ccf30b1f259b3b85630": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "Who is our Information Officer under POPIA?",
+      "score": -11.275617599487305
+    },
+    "6ef91b63586995cad0d70ca7832de9dca28582d5d7dbd6d5ebbd8dfc54304dcb": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "What is Dr Naidoo's personal cell number?",
+      "score": -6.275531768798828
+    },
+    "6f2f79f1eb119f1e5bce61540d47128585c43d67b2181cd3840103a2623edfc4": {
+      "passage": "Medical aid claims > Rejected claims If a scheme rejects a c",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -8.852645874023438
+    },
+    "6f34e185c4020f6f5fdb5c5f9b0206505c7944d9bca4f25329f511e544fe8b61": {
+      "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.673263549804688
     },
     "6f36a9357eab5eebcf73a3bd3f5a1ee50dd4ec84da52d73176110a875f6edebb": {
       "passage": "Treatment consent policy > Patients under 18 For every patie",
       "query": "Which medical schemes have we signed designated service provider agreements with",
       "score": -11.072769165039062
+    },
+    "6f65178f6b7cea858f33fc1fd85eb9d5c146d5d02d19dca1b6545cc1030f71c3": {
+      "passage": "Appointment booking SOP > Booking rules Book every appointme",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -7.702456474304199
     },
     "6f6f61551b28795c5dc235cc5c132bb48d5893ad3c16adaddba85d36a51f3650": {
       "passage": "Leave policy > Sick leave Staff get 30 days of paid sick lea",
@@ -2805,6 +3410,11 @@
       "query": "Who keeps the infection control file, and how long are the sterilisation logs in",
       "score": 4.349026203155518
     },
+    "727ed6681819db089f9ca81969719556ced4b0843dd4f5c1c216f13ae7406f5b": {
+      "passage": "Practice overview > About the practice Seapoint Smile Dental",
+      "query": "What extension is the oral hygienist on?",
+      "score": -10.455373764038086
+    },
     "729d3813c7bedec149de9bf570993b58ecc5e23ef27fd81a13a21b6482aa5243": {
       "passage": "Patient privacy notice (POPIA) > How long we keep it We keep",
       "query": "Who keeps the infection control file, and how long are the sterilisation logs in",
@@ -2830,15 +3440,20 @@
       "query": "Are we running a whitening special at the moment?",
       "score": -11.459659576416016
     },
+    "730fdb64e7def2a9def24615d7d897c4a295f98b5a6a9d789ec88c2fd75e6351": {
+      "passage": "Patient privacy notice (POPIA) > Who we are Seapoint Smile D",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": 1.2067923545837402
+    },
+    "7319847e3a343fdcd6ca71547351189cc8598bfe462d1f44a2ffc4085489db54": {
+      "passage": "Treatment quotes and estimates > How long a quote is valid A",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -7.8552141189575195
+    },
     "736686243f5b3f25b67d4e8ac41038fe32cb0241c9344168a0d8b237042e0d32": {
       "passage": "Patient privacy notice (POPIA) > What we collect We collect ",
       "query": "What is the practice's VAT number?",
       "score": -11.242633819580078
-    },
-    "73778c20b49fafb4e5550594bb46ee5d86859354a9f078ad5e3b0acbe7e51ab8": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "What is Dr Naidoo's personal cell number?",
-      "score": -3.402170181274414
     },
     "738b406233bf45a51f0a8d3662b6876363c9af6fb9e9adeb56d8599f7f3e9a44": {
       "passage": "Medical emergency protocol > Emergency kit and AED The emerg",
@@ -2859,6 +3474,26 @@
       "passage": "Patient privacy notice (POPIA) > How long we keep it We keep",
       "query": "How long must we keep an adult patient's records?",
       "score": 6.112737655639648
+    },
+    "7429b4bdc938d16a186ec5560d6735173e46fef08aab906916d7c97342f1e581": {
+      "passage": "After-hours emergencies > When to send a patient to hospital",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.395101547241211
+    },
+    "744c97fb748e45a5f41f13d4388f1738db85e3abef9a9495776a6a63a94b66fd": {
+      "passage": "Code of conduct > Social media Never post photos of patients",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.415680885314941
+    },
+    "745e15dd85b41c8fe7f9420549044e22ab47029038221a0adebf090c37c7d68c": {
+      "passage": "Remuneration and overtime > Pay day Salaries are paid on the",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -0.0715644434094429
+    },
+    "7463c8aea3993fac98003b7ca86866a05e5d3e480c6a144b947d30007674437f": {
+      "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -1.2901479005813599
     },
     "747b46927688bcd3bb77150bb0e5a06a4ae3882e4a969f8344d4e0c6fd163a50": {
       "passage": "Sterilisation cycle checklist > Logs and records The sterili",
@@ -2905,20 +3540,40 @@
       "query": "Which payment methods can patients use?",
       "score": -2.4831225872039795
     },
+    "7568c1f40bf0aea67317e0f5407dd30b174ec80017d20aa92501b4598ed87464": {
+      "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -1.0979385375976562
+    },
     "75aaaa8435fb930a41c889dc6f3bcd7987b1bbce2d70241d17e29159d2253da2": {
       "passage": "Teeth whitening SOP > Take-home whitening Take-home whitenin",
       "query": "Which payment methods can patients use?",
       "score": -9.712162971496582
+    },
+    "75c137ddd9bf6c02d39bd3364a9bcd1e9deb94a53a858645afc04db401f3cf4c": {
+      "passage": "Appointment booking SOP > Appointment lengths Book these len",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -10.483195304870605
     },
     "75cba9242fa86c230b738f4fa90149ff8b475415009f9875031f18d09208a7ca": {
       "passage": "After-hours emergencies > After-hours call-out fee An after-",
       "query": "How much is a fluoride treatment?",
       "score": -6.369847297668457
     },
+    "7627e7720026728a46efc2bff304b416f83ebb3169d7e900a8cc99df5b0abbb3": {
+      "passage": "Patient privacy notice (POPIA) > Your rights You may ask to ",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -11.304136276245117
+    },
     "76751834d1f4d03a6484147cf4300f437205725074f09e689e3495d03f2c08b5": {
       "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
       "query": "How many days of annual leave will the 2026 December closure use?",
       "score": -10.71000862121582
+    },
+    "76ee1798de023ff0f1b04bc19683706c709a958ba1d134144f779ad44f21634c": {
+      "passage": "Fee schedule 2026 > Crowns and dentures - Porcelain crown, p",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -6.725893020629883
     },
     "77099c474de3137c86225c0e79b6753d9fa5a272b0a8b65eeecfc7c5fba2d18f": {
       "passage": "Leave policy > December closure Working days when the practi",
@@ -2950,11 +3605,6 @@
       "query": "What's the extension for the practice manager?",
       "score": -0.6820363402366638
     },
-    "7875837c3cabce69de09031e343e3d48c8e89119239811657708210f9af8609a": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "What is patient Thandi Mokoena's ID number?",
-      "score": -10.220287322998047
-    },
     "788a698f61e35034a8bc5d10da7ce20768aefd3c32dccfcf6007c25dfe5821be": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > White",
       "query": "A patient says she might be pregnant. Can we still take her bitewing X-rays toda",
@@ -2964,6 +3614,11 @@
       "passage": "Sterilisation cycle checklist > Start of the day Switch on t",
       "query": "How often does the autoclave get serviced?",
       "score": -6.26583194732666
+    },
+    "78fda698de49dded1b8236faa74144d8c4cb0fdf63c483026fb11430ec1fd767": {
+      "passage": "New patient registration > Medical history updates The medic",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -4.429258346557617
     },
     "79239ad65233ccb9fdc3813a19dc07649e927018594216c920af8d3ffa650920": {
       "passage": "Surgery cleaning schedule > Between patients Disinfect all t",
@@ -2975,10 +3630,25 @@
       "query": "A crown case goes to the lab on Monday 2 November 2026. What is the earliest day",
       "score": -10.539058685302734
     },
+    "79dca33719bc5c8f05e7e1ebdc7e5990cee0a2879ba1d114697aee5aad41859b": {
+      "passage": "After-hours emergencies > After-hours call-out fee An after-",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -3.6119394302368164
+    },
     "79ea90f10432f46c90a0d33d52d6dbd3df1f112158d1794853256e26fdcd20b1": {
       "passage": "Medical emergency protocol > Fainting Stop treatment. Lay th",
       "query": "Do we offer sedation with a visiting dental anaesthetist?",
       "score": -10.294086456298828
+    },
+    "7a02a7485ce78cc4046bc24fad3f5cec632f5d24e2d2e437523336946493fa4f": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "How much does Thabo Khumalo earn?",
+      "score": -1.0804089307785034
+    },
+    "7a02b0306e747400f6228bd48513e013ae3ffc47c4b3d66e73c1f97b01e8c95f": {
+      "passage": "Billing and payments > Statements and overdue accounts State",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -10.851511001586914
     },
     "7a1cc931dc9a504fd103f5eb573d75dd3eca26c44b713f369411e387155f9bbc": {
       "passage": "Radiography safety > Equipment Every X-ray unit is licensed ",
@@ -2989,6 +3659,11 @@
       "passage": "Children's dentistry > Fissure sealants and fluoride Fissure",
       "query": "What brand of composite do we use for fillings?",
       "score": -11.246578216552734
+    },
+    "7a6e6135e47d9b63c03e68e927a050a7d62e15812ac5a5b30d38708946f2773a": {
+      "passage": "Staff directory > How to use this directory Work extensions ",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -2.423804759979248
     },
     "7a9cf0201af21d846648f0e90991223e932c1f253b4c2203f3ef52885626623a": {
       "passage": "Reception phone guide > Privacy on the phone Never confirm t",
@@ -3004,6 +3679,11 @@
       "passage": "Infection control policy > Surface disinfection Between pati",
       "query": "When should a sharps container be sealed?",
       "score": -11.32075309753418
+    },
+    "7b59d920441f5c9a9cbe796779b50e4742a4abe85a5bc0a22f796a2553ab456a": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "What is Dr van Wyk's cell number?",
+      "score": 5.568387508392334
     },
     "7b791360aac266583c25ed197eebb3b465b3b2e1dd8158ffa702a8b3b35920e9": {
       "passage": "Radiography safety > Protection Use a thyroid collar for eve",
@@ -3029,6 +3709,11 @@
       "passage": "Teeth whitening SOP > Promotions and discounts There is no s",
       "query": "What whitening gel promotion did our supplier announce for November?",
       "score": -5.650237560272217
+    },
+    "7c272170c732df2a8e99b4761bcee01e918d949022e4e27dc26c3b24d7930e95": {
+      "passage": "Practice overview > Contact details The main line is +27 00 ",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.386310577392578
     },
     "7c42157ec0f3b7ed3a53d90b6c98a302015287b9bee98a60f6866ea1b919415e": {
       "passage": "Practice overview > Contact details The main line is +27 00 ",
@@ -3065,6 +3750,11 @@
       "query": "How much are nitrile gloves from the supplier now?",
       "score": -9.881612777709961
     },
+    "7d8d39f87b8829598d5f5a1e7f9e41831ce0f0e5bd26d0e58fa33fa615795523": {
+      "passage": "Medical emergency protocol > Emergency kit and AED The emerg",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.257122039794922
+    },
     "7dbfd9a2fe16717692c3c6857aeb6bee5c2c81ba8157757c5718f4e53db595c3": {
       "passage": "Patient record requests SOP > Sending records to another den",
       "query": "What are the protected emergency slots in the diary?",
@@ -3085,6 +3775,11 @@
       "query": "How much notice does a patient need to give to avoid a cancellation fee?",
       "score": -9.524615287780762
     },
+    "7e30358b1685e6d0f4323827e8e140dde394f7c09ac6c10aeb914c8dcba43e5a": {
+      "passage": "Fee schedule 2026 > Consultations - New patient examination,",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.328624725341797
+    },
     "7e44471c201df6dec91ad4d2e5f8943a38c3d1d187f3e69ccc8e9dd93c041cc5": {
       "passage": "Code of conduct > Social media Never post photos of patients",
       "query": "Who is our Information Officer under POPIA?",
@@ -3094,6 +3789,16 @@
       "passage": "Information security policy > Backups The practice managemen",
       "query": "What is the guest Wi-Fi password?",
       "score": -11.308091163635254
+    },
+    "7e858a254814586084bb92b8835e61ea3e08601d7b30cdf2283b04c1ca1818a3": {
+      "passage": "Remuneration and overtime > Expense claims Submit expense cl",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": 2.5400326251983643
+    },
+    "7ed3724393d899ed5341e5ec061abcc00bf2fbb699afbecd721b1f848cad16ad": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Can staff work from home on Fridays?",
+      "score": -11.060622215270996
     },
     "7ee413f3bfa3e9c11b0970514264492f650772a8128eb45095f080fd4a51c8cc": {
       "passage": "Cancellations and no-shows > When fees are waived The practi",
@@ -3109,11 +3814,6 @@
       "passage": "Patient privacy notice (POPIA) > Who we share it with We sha",
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
       "score": -10.827441215515137
-    },
-    "7f932f954e393cc17eefa364541a4e1ab98b53b86cd001f9ce2d315f364877d0": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
-      "score": -10.909688949584961
     },
     "7fd4dd0a1dc10634bcc06c91138ca1aac2c149d6327e9b98d050ec145df370ff": {
       "passage": "Laboratory work and turnaround times > Turnaround times Coun",
@@ -3155,6 +3855,11 @@
       "query": "Is there a free whitening offer for patients in November?",
       "score": -11.362070083618164
     },
+    "8176610769184bb2e6a77c16aeb98a612a0bd563827ad21fb80659a9036f390a": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Where should staff send the patient list for backup?",
+      "score": -11.219390869140625
+    },
     "81a534981ebdc07e9a99555ee858efe2d5c26d7feeafea18e9b930c70c67d10e": {
       "passage": "After-hours emergencies > What counts as a dental emergency ",
       "query": "If a medical aid rejects a claim for a R8,900 root canal, when must the patient ",
@@ -3195,6 +3900,11 @@
       "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
       "score": -10.925352096557617
     },
+    "83186c92882da98b0b6847db0fa79a39f7a7e3c29e46f0a88e88c12b6cfacd83": {
+      "passage": "Complaints handling > Response times Acknowledge every compl",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -9.28835678100586
+    },
     "834dfcef8d9fd8f55f05973cb58c454d78bbbc97911e43d1e721e16c783019d7": {
       "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
       "query": "What is Dr van Wyk's cell number?",
@@ -3209,6 +3919,11 @@
       "passage": "Leave policy > December closure Working days when the practi",
       "query": "How long must we keep an adult patient's records?",
       "score": -10.835762023925781
+    },
+    "8404910b400c01d1db348432bd00a26b10dd07414163f6b30c75ac10c397c1ab": {
+      "passage": "Supplier newsletter, October 2026 (saved from email) > White",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.429214477539062
     },
     "840842c3000e0bcb971537c2e16fbcf5613dd2be5d4016d9ea7b9d77ada94a96": {
       "passage": "Patient record requests SOP > Who can request records A pati",
@@ -3225,6 +3940,11 @@
       "query": "How much is a fluoride treatment?",
       "score": -7.577704906463623
     },
+    "8424ef8e7c6e34a1a553a30381908bac8b792464964ea62e4d14cf21b7a2b8e4": {
+      "passage": "Patient privacy notice (POPIA) > Who we are Seapoint Smile D",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -11.154499053955078
+    },
     "84acf19f5a4ec91bfc605db0844c8446b7042da3ab6af42e606b8f95f8995964": {
       "passage": "Medical aid claims > Rejected claims If a scheme rejects a c",
       "query": "How much notice does a patient need to give to avoid a cancellation fee?",
@@ -3239,6 +3959,11 @@
       "passage": "Billing and payments > Deposits for larger treatment Treatme",
       "query": "Who has to approve a stock order of R12,000?",
       "score": -9.050050735473633
+    },
+    "856b1aa66907ea237133d6dc9b529036b9e3449deda5b4d11eb5b49c3f4f3c18": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": 2.9308786392211914
     },
     "85899a00d8033e488b3334b0781e6681d738740adb6ef991311d99aa2e2e37db": {
       "passage": "Infection control policy > Needle-stick and sharps injuries ",
@@ -3280,6 +4005,11 @@
       "query": "Do we validate parking for patients who park on Example Road?",
       "score": -11.194792747497559
     },
+    "86b5c55d2236df90a652b198227a0f0e564c850bf48202c9cfb0aa16035ffe55": {
+      "passage": "After-hours emergencies > After-hours call-out fee An after-",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.190519332885742
+    },
     "87147fd3f06e3c85f374b364ba655f76cc84f5edc08bce9be44abfba92979377": {
       "passage": "Treatment consent policy > When written consent is needed Wr",
       "query": "Is there a free whitening offer for patients in November?",
@@ -3289,6 +4019,11 @@
       "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
       "query": "Is there a free whitening offer for patients in November?",
       "score": -9.994858741760254
+    },
+    "8731ea0700724855610e948dfb9f668e2ee4e583a272be638fdca2e11347d119": {
+      "passage": "Cancellations and no-shows > When fees are waived The practi",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -3.534891128540039
     },
     "87379b26597d173bbaa316825d0c51313bbcf3469d184abe10080db3b9a6c648": {
       "passage": "Medical aid claims > Checking benefits Reception can check a",
@@ -3345,6 +4080,11 @@
       "query": "Can staff work from home on Fridays?",
       "score": -8.950887680053711
     },
+    "894de360418468a9a00b3f611e2f27aa23f9725a09c150fcfd175f215b351e47": {
+      "passage": "Appointment booking SOP > Appointment lengths Book these len",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": 0.43401405215263367
+    },
     "8957af6831b184a3f9b4f7e4470ec39b8159e67f81a8f466d86495c6ce42968f": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > White",
       "query": "Are we running a whitening special at the moment?",
@@ -3375,6 +4115,11 @@
       "query": "What whitening gel promotion did our supplier announce for November?",
       "score": -11.412049293518066
     },
+    "8a3c9d592ca2608fea0d15bdf1330e2f2facc01c69c0dff14ab11c6e765dd4d5": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "Who is Sipho Ndlovu's emergency contact?",
+      "score": -8.421815872192383
+    },
     "8a4bf6ff5d4136d8d2784603cd36e615888174d841ffe4b94da2e17adf268ff7": {
       "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
       "query": "What brand of composite do we use for fillings?",
@@ -3389,6 +4134,11 @@
       "passage": "Laboratory work and turnaround times > Turnaround times Coun",
       "query": "When should a sharps container be sealed?",
       "score": -11.331006050109863
+    },
+    "8b03d5518ca5bda8ba2ab0fc14aaccf25223303662e042f9d2c064e5189f6e85": {
+      "passage": "Teeth whitening SOP > Who can have whitening Whitening is of",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.322092056274414
     },
     "8b0425bed6135d779d84a40a0866a1b7eef6cd81d5ac8042e65b34e445698f14": {
       "passage": "Treatment consent policy > When written consent is needed Wr",
@@ -3414,6 +4164,16 @@
       "passage": "Leave policy > Annual leave Full-time staff get 15 working d",
       "query": "What is the dress code for the staff year-end function?",
       "score": -8.944538116455078
+    },
+    "8bcbe1c9ecd7c34c81cfca5f67c92ba36dee586ce8d8399ece2edc37d3b75111": {
+      "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -6.096188545227051
+    },
+    "8beb581a9811c14852419fc4f0990f7c5705f0d6af25427a0f2b147c7ad368af": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "Who is the infection control lead, and what is their extension?",
+      "score": -11.160078048706055
     },
     "8c3125e3aa7cdea99e89fa092c87dfa57589c40c3b4c0653bc94c00bee5903f3": {
       "passage": "Patient records and retention > Retention periods Keep adult",
@@ -3460,6 +4220,11 @@
       "query": "What is patient Thandi Mokoena's ID number?",
       "score": -9.548847198486328
     },
+    "8d76d36f5115b82260c2819fe34a7a962538fad2957a7db6d4c5c4ae3b84e125": {
+      "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.346212387084961
+    },
     "8db63f2fd25c75efaca945c451c2512590be413ff1056af08431d28415dcadd8": {
       "passage": "Radiography safety > Before taking X-rays Ask every patient ",
       "query": "A patient says she might be pregnant. Can we still take her bitewing X-rays toda",
@@ -3505,6 +4270,11 @@
       "query": "How often are the dosimeter badges read?",
       "score": -11.358457565307617
     },
+    "8e7953fe41ce2aca87db3f6af2b0bca210d2f1e394c5887cc7c1ecb5c8ffe5cc": {
+      "passage": "After-hours emergencies > After-hours call-out fee An after-",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -9.911043167114258
+    },
     "8e7e1a20f84e9da949cdb548e19d6e40943055072bbc041e6267325aa69d7ae7": {
       "passage": "Treatment consent policy > What the dentist explains Before ",
       "query": "Which day is the healthcare risk waste collected?",
@@ -3535,10 +4305,20 @@
       "query": "What is Dr van Wyk's cell number?",
       "score": -11.470407485961914
     },
+    "8ffcbe3e564b437fe48ae10a091acea00abf217511ccbe708bb0e80aaba00bff": {
+      "passage": "Disciplinary and grievance procedure > Raising a grievance S",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -11.146167755126953
+    },
     "90212b6558a388b1af70bf9dda74d3ff5ce8695fd19a2142377807d90c994bb8": {
       "passage": "Teeth whitening SOP > Aftercare Tell patients to avoid coffe",
       "query": "What whitening gel promotion did our supplier announce for November?",
       "score": -11.158988952636719
+    },
+    "9078cf06bc428b5da68c39e2e844806f3d01cfb9f3bfd0ec019c97f29be0ae18": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "Who is Sipho Ndlovu's emergency contact?",
+      "score": 3.135775089263916
     },
     "9099bbe7eff2e61496e2d022d8534af63796fb67c09da80ae2a25534a91bc2b4": {
       "passage": "Cancellations and no-shows > Late cancellation fee A cancell",
@@ -3590,6 +4370,11 @@
       "query": "How many days of sick leave do staff get?",
       "score": -9.681897163391113
     },
+    "9338eead1cc41e841aaf6f9434487f4003dddf191209dfff7aa959a50ade6a3e": {
+      "passage": "Patient privacy notice (POPIA) > Who we share it with We sha",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -11.183148384094238
+    },
     "934a12d2b3eb79dab4264d427b5aca591e19062460aa065ce77cab3e8a802a5b": {
       "passage": "Cancellations and no-shows > Notice required Patients must g",
       "query": "Give me a list of the patients booked for tomorrow morning.",
@@ -3619,6 +4404,16 @@
       "passage": "Teeth whitening SOP > Promotions and discounts There is no s",
       "query": "Which suburb does Lerato Mokoena live in?",
       "score": -11.35898494720459
+    },
+    "9480bd07e3fc3da81452ceec3ad5ac31217fa520e3ff383b1dc52b4d71b0b2c0": {
+      "passage": "Treatment quotes and estimates > How long a quote is valid A",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -7.583584308624268
+    },
+    "94a8bc9c923b01f6246eba577839a9d5d40a905a6bf13174d0b350bb0d9db69f": {
+      "passage": "Children's dentistry > First visit We recommend a child's fi",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -3.612987756729126
     },
     "94c4e2a573e8dd09327096462e68829a909264dcace4f7919c1a12e38f8f3cb3": {
       "passage": "Disciplinary and grievance procedure > Raising a grievance S",
@@ -3680,6 +4475,11 @@
       "query": "Do we offer sedation with a visiting dental anaesthetist?",
       "score": -11.148340225219727
     },
+    "9700326f16a16119bbce700afd11d211939389ecabd3fc15d97fb6e7cf3666cb": {
+      "passage": "Sterilisation cycle checklist > Maintenance Clean the door s",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.439852714538574
+    },
     "97058a1630a337f6a6556a6c77005e9055424b43184c1cc3221ab62f3f6173ba": {
       "passage": "Reception phone guide > Privacy on the phone Never confirm t",
       "query": "What is Dr van Wyk's cell number?",
@@ -3694,6 +4494,11 @@
       "passage": "Cancellations and no-shows > When fees are waived The practi",
       "query": "What is the after-hours call-out fee?",
       "score": -10.207454681396484
+    },
+    "97aebce58c44fdff1e97a7d98e16db129ab41d90e4dc746d456c3388dc7afd89": {
+      "passage": "Patient privacy notice (POPIA) > Why we collect it We use yo",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -10.754425048828125
     },
     "97ea74b8458e57ed1544a7cafcbf74267ce19b63661aa8c2124ab2a1bc1b2ee3": {
       "passage": "Leave policy > Maternity and parental leave Staff may take 4",
@@ -3730,15 +4535,15 @@
       "query": "Are we running a whitening special at the moment?",
       "score": -11.436702728271484
     },
-    "98cf6bf8cda7e10f9d9da9e10bbb9bd3157df25c6c1b9fe3b6894f808152904a": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "Who is the infection control lead, and what is their extension?",
-      "score": -11.444866180419922
-    },
     "98da603dee72efea77a01d5052347189215762b5b768a418f3ebac68664cfe7c": {
       "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
       "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
       "score": -11.334118843078613
+    },
+    "9921160fd3b937c31d8e01507036d731f478bbe57fbb1b912a4fea60292506d9": {
+      "passage": "Patient privacy notice (POPIA) > Why we collect it We use yo",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.312637329101562
     },
     "9941402d76028dca8df8e89d19d2ed1fe26e7fd0229410f3a0b7e7c893d1990a": {
       "passage": "After-hours emergencies > What counts as a dental emergency ",
@@ -3760,11 +4565,6 @@
       "query": "How often do we run the spore test on the autoclave?",
       "score": -8.014389038085938
     },
-    "9999a2063bd0739939ae4aea1296e362eebfaeb73a7f244264081722ac65a729": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Where should staff send the patient list for backup?",
-      "score": -11.09754467010498
-    },
     "99b3f9a69d97ed8deb5448e8428127d059cacc0bd6da675cadb0056dbe74a873": {
       "passage": "Instrument reprocessing SOP > Inspection and packaging Inspe",
       "query": "How often does the autoclave get serviced?",
@@ -3785,20 +4585,15 @@
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
       "score": -0.12012307345867157
     },
-    "9a527a79d3d1acb02a62cfe4eb7492fb6c28f35a646beda203ee71a489f38e30": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "Who is Sipho Ndlovu's emergency contact?",
-      "score": -11.42647647857666
-    },
-    "9a63365b35d2c1ba543f4cb5b537cf64bd0bcfcfe5bb9e0ad98c4d563a35166b": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "Who has to approve a stock order of R12,000?",
-      "score": -11.324014663696289
-    },
     "9a7d2c2d48ea28f5034e7b2388708706cef485622058ccd228b6a068968de7f9": {
       "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
       "query": "What is the after-hours call-out fee?",
       "score": -10.543927192687988
+    },
+    "9a8e1c92fafc7155e2c2fd95e009cb83299980acafa5661cdffee6cf0becae20": {
+      "passage": "Treatment consent policy > What the dentist explains Before ",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -11.193714141845703
     },
     "9aa4fdd62850e6f6bb7bcf3ef7dc8ac1ae1b31568b123c1323c476d60f40792c": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
@@ -3815,10 +4610,20 @@
       "query": "Are we running a whitening special at the moment?",
       "score": -7.79524564743042
     },
+    "9b0fa24641c82ba4933c4140881b2600d74e8a2ab4784e51d6c405a220a6e57f": {
+      "passage": "Leave policy > Family responsibility leave Staff get 3 days ",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.306782722473145
+    },
     "9b391a54f19d6167f08688f9fab0097de01ebe8e12dd849cb359bd6817f5bfa3": {
       "passage": "Code of conduct > Punctuality Arrive at least 15 minutes bef",
       "query": "A crown case goes to the lab on Monday 2 November 2026. What is the earliest day",
       "score": -5.971014022827148
+    },
+    "9b3ff7ed8e15c4ccbad520c9bd7c0a34a328359234b2916729a1233cd556600b": {
+      "passage": "Cancellations and no-shows > No-show fee A patient who does ",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -6.425936698913574
     },
     "9b49f227d382d1d3f6e8af62d9d5fb30b46c33973179d532e85fbae333bce208": {
       "passage": "Children's dentistry > Parent or guardian present A parent o",
@@ -3850,10 +4655,10 @@
       "query": "What's the latest time we can start a new patient exam on a Saturday?",
       "score": -4.886737823486328
     },
-    "9bc381436612703ceecf271d403344eb708d2c59e25fdfef6a6df77438809767": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
+    "9c80e77f6f6507285b0bad7fb9cb47e2598c6f3538b84cf2b114087a1666a46c": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
       "query": "How much does Thabo Khumalo earn?",
-      "score": 0.8404496908187866
+      "score": -8.895136833190918
     },
     "9caf9c9cc2b97bddaa2284d5248a51f0b87a2620100d01bbe0790b24590c99ee": {
       "passage": "Billing and payments > Statements and overdue accounts State",
@@ -3875,10 +4680,20 @@
       "query": "Who signs the consent form for a 15 year old's extraction, and is written consen",
       "score": -11.225984573364258
     },
+    "9d045525939efaf89c5701314f77dc420dd2ee503bfddd87aa29352c315d1e89": {
+      "passage": "Information security policy > Backups The practice managemen",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -10.991982460021973
+    },
     "9d13b797284ed74265b31afffac33405ecd8c131946756c3e9462cad7d435081": {
       "passage": "Complaints handling > Receiving a complaint Any staff member",
       "query": "How quickly do we need to acknowledge a patient complaint?",
       "score": -5.187175750732422
+    },
+    "9d19f551615f3625b1e9eb0f38519becb3da601b2d09530a68c915f8a77c1240": {
+      "passage": "Fee schedule 2026 > X-rays - Bitewing X-ray, per film: R320 ",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.39483642578125
     },
     "9d1ff79090f55cbb0119b2b659962a01860fa629c377e5f9715331696a8819d2": {
       "passage": "Stock ordering SOP > Approval limits The senior dental assis",
@@ -3890,10 +4705,20 @@
       "query": "Is there a free whitening offer for patients in November?",
       "score": 0.5788522362709045
     },
+    "9d5f0410db60cef7c0048f1fc440846e9c31d7d963a89a6216e69fe58accf963": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "Who has to approve a stock order of R12,000?",
+      "score": -11.256346702575684
+    },
     "9d6825a38193b31709b85ab0701f314265b6bc1d288cee5774ae91f8a4b2f951": {
       "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
       "query": "If a medical aid rejects a claim for a R8,900 root canal, when must the patient ",
       "score": -9.806591033935547
+    },
+    "9dbab8cfc9543fc524c4a2ab37fdda6e6e59a7d25419aa49c90eba9c57dd3b0e": {
+      "passage": "Laboratory work and turnaround times > Sending a case Every ",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -9.8263521194458
     },
     "9dc71f5f88061c0bb67ae5d6bedaa6b2c574ad4e81f7609e3d21f4e3cec937e7": {
       "passage": "Remuneration and overtime > Salary information is confidenti",
@@ -3960,10 +4785,15 @@
       "query": "How much is a fluoride treatment?",
       "score": -7.2896833419799805
     },
-    "9fbd0ba6941cbc76f971feee0982e22eb00d5c21f6d9b5fb3ac926ba434b60dd": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
-      "score": -10.579432487487793
+    "9f689a31ce62ffd560075306a82d080940a73d3afc542ea12b80b29b2bb69e25": {
+      "passage": "Laboratory work and turnaround times > Booking the fit appoi",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -4.781569480895996
+    },
+    "9f8f4de765aec7358e56b6cb3cea32451a356c59598c310e59b51a42e0cc352b": {
+      "passage": "Code of conduct > Gifts from patients and suppliers Declare ",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.430335998535156
     },
     "9ff969c7661230974a557f594052ee4f25e75d2cd049f56ee72c255bf1f59c83": {
       "passage": "Reception phone guide > Privacy on the phone Never confirm t",
@@ -3989,6 +4819,11 @@
       "passage": "Stock ordering SOP > Approval limits The senior dental assis",
       "query": "Who has to approve a stock order of R12,000?",
       "score": 5.4829254150390625
+    },
+    "a0e53b99ed5af3eb74658da25f1a7d9c7899af88b624290f093f0f7fec6fb2d8": {
+      "passage": "Medical aid claims > Rejected claims If a scheme rejects a c",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -8.646943092346191
     },
     "a1052ff5c7866d0e5de67b7ec6063bd450a8be00a163c410a88affd2ad70d1f5": {
       "passage": "Leave policy > Reporting an absence If you are sick, phone t",
@@ -4020,15 +4855,35 @@
       "query": "When are salaries paid?",
       "score": -10.574982643127441
     },
+    "a28817d5416312e3edb2509195ee3e8894f9404113ba32a05f874a2f0af5d323": {
+      "passage": "Opening hours and public holidays > Regular hours The practi",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.002573013305664
+    },
+    "a2d369cc615c87b6b2681fd8e50294bc532950f8b4ccb232752316445a257a33": {
+      "passage": "Treatment consent policy > What the dentist explains Before ",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -11.40509033203125
+    },
     "a31a5cdead17437d515589d3974eb3c2094d07639943781dbe941a3d05d757f1": {
       "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
       "query": "How much does Thabo Khumalo earn?",
       "score": -11.313136100769043
     },
+    "a3371f398c02e8bd88383406b26d3ecabdd6fb7b33cb078c5d1b4d20cb0cd214": {
+      "passage": "Treatment quotes and estimates > How long a quote is valid A",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -7.357147693634033
+    },
     "a3521d4b4ecd02a6896c0b1763d4b9f5428ae121e8298ec823d31688166b1bd7": {
       "passage": "Sterilisation cycle checklist > If a test fails Do not use t",
       "query": "Where should staff send the patient list for backup?",
       "score": -9.79705810546875
+    },
+    "a3575b065ce6de9e806936b70c6beac057aaabe591a031bc0bb1f5c0f19e7407": {
+      "passage": "Patient privacy notice (POPIA) > Who we are Seapoint Smile D",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.325554847717285
     },
     "a37dbf236ce99e14356b40d2970d8ddfaf2161aef3e881a26ec68d7f306e5160": {
       "passage": "Teeth whitening SOP > Take-home whitening Take-home whitenin",
@@ -4045,10 +4900,25 @@
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
       "score": -10.047338485717773
     },
+    "a4fbfcd727493db207efa8106afbc123a1e21935b18c9a10dfcee84cd108a096": {
+      "passage": "Practice overview > About the practice Seapoint Smile Dental",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.35993766784668
+    },
     "a54beea23882b2dd228d57e537a8c97102c3a20d313d2dce9e81a2c648de1c79": {
       "passage": "Instrument reprocessing SOP > Single-use items Never reproce",
       "query": "When should a sharps container be sealed?",
       "score": -11.287845611572266
+    },
+    "a585d6ed16410e1be109901d69aae3cc52ca978e079ab53afb152348910a5271": {
+      "passage": "Cancellations and no-shows > Notice required Patients must g",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -1.0166881084442139
+    },
+    "a60915153503940fa970ff6ed087c4ca82b735f12fab77098d68593543e281ce": {
+      "passage": "Information security policy > Messaging and email Patient in",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.403789520263672
     },
     "a629063fff9e838b435cf2711fae888da8c83b64eb7c4329ebdae5b41b1126d8": {
       "passage": "Information security policy > Suspicious emails and document",
@@ -4180,11 +5050,6 @@
       "query": "What is the practice's B-BBEE level?",
       "score": -11.125432968139648
     },
-    "a9b1d15d06ecc7b07396c3ffa77b5492b4c266ffc6b11bb718f1ad852a34ed73": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
-      "score": -2.085002899169922
-    },
     "aa042af27e34892de011cf1d0089076786d65022a6b7e2c612b6c1db9299dca5": {
       "passage": "Appointment booking SOP > Confirmations and reminders The sy",
       "query": "Where should staff send the patient list for backup?",
@@ -4210,20 +5075,25 @@
       "query": "A patient says she might be pregnant. Can we still take her bitewing X-rays toda",
       "score": -9.292722702026367
     },
-    "aafe1807445dfcac7513105ed3696d21d72b2b89bf748a92c76a8f701b3e33a5": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Who is Sipho Ndlovu's emergency contact?",
-      "score": -2.598132848739624
-    },
-    "aaff68feaee42e3c364624d9fd0fb8ef395f04243caa1ded1f36ebf9cf963b18": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "What is Dr Naidoo's personal cell number?",
-      "score": 5.7023091316223145
+    "aae4f750b47ed0f729f791adb6eac4e49cb11b64f7ccd05b6ec56caad1d13f65": {
+      "passage": "Opening hours and public holidays > December closure The pra",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -8.457376480102539
     },
     "ab046940fa29706244e7e12cf00aebec16979bd278da5d0e5d845f983e67b414": {
       "passage": "Treatment consent policy > What the dentist explains Before ",
       "query": "How much does a check-up with two bitewing X-rays cost for an existing patient?",
       "score": -11.348445892333984
+    },
+    "ab1abb6bc1e8f588f2f9f9e9c13f6140bd79b768153b4ba1923b596e62577dc0": {
+      "passage": "Code of conduct > Punctuality Arrive at least 15 minutes bef",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -3.2884020805358887
+    },
+    "ab5d7c95a2b66517241686eaa1440f0370684c4dd9c8bf5d906ff1371acf0695": {
+      "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.416706085205078
     },
     "ab74b57e257c481fa703c202db034853e617d88854be933b3f2e7efbfa2dea38": {
       "passage": "New patient registration > Before the first visit New patien",
@@ -4239,6 +5109,11 @@
       "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
       "query": "How much are nitrile gloves from the supplier now?",
       "score": -11.436819076538086
+    },
+    "ac1b7d8b5203fbf5b515c41fa742c602551803384e0c586b2bbc430bf281e2fd": {
+      "passage": "Treatment consent policy > When written consent is needed Wr",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -9.847213745117188
     },
     "ac226945a0d7f3d79905d3904b359f30680bc27258bc3e386bdc0b5ae10cf9ef": {
       "passage": "Patient privacy notice (POPIA) > Who we share it with We sha",
@@ -4260,10 +5135,20 @@
       "query": "How much deposit does a patient pay before getting a porcelain crown?",
       "score": -11.019978523254395
     },
+    "ad0ac64db812bb3dcf63430ebd101cb9655eedbc31ea62646f6dc372b21476dd": {
+      "passage": "Laboratory work and turnaround times > Turnaround times Coun",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -11.376977920532227
+    },
     "ad201b9b2a127de196a22ad161cbd32dad58005a182b74dbd2ccf292c5d6f2fd": {
       "passage": "Appointment booking SOP > Booking rules Book every appointme",
       "query": "Who has to approve a stock order of R12,000?",
       "score": -11.324983596801758
+    },
+    "ad32fcfa4f0fa2fafada72b426b91fe2db65137a30b88081026c9e61ebb0229d": {
+      "passage": "After-hours emergencies > After-hours call-out fee An after-",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -7.654121398925781
     },
     "ad56e9e354f6a6e212db211c6bbb07c1c1e2beae3726086b1b126ddc13687d36": {
       "passage": "Treatment consent policy > What the dentist explains Before ",
@@ -4295,6 +5180,11 @@
       "query": "What's the autoclave cycle temperature and hold time?",
       "score": -11.29258918762207
     },
+    "ae28cd303614564766417c1fb84059a6a8d2b694c11464a94d02bb42184c6fc6": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -10.752435684204102
+    },
     "ae4ce43d9e085b7dc238c9c364847464a3ea96ffe603569e3ed1ac90f83e6c98": {
       "passage": "Infection control policy > Personal protective equipment Wea",
       "query": "What are the protected emergency slots in the diary?",
@@ -4309,6 +5199,11 @@
       "passage": "Instrument reprocessing SOP > Inspection and packaging Inspe",
       "query": "What is Dr van Wyk's cell number?",
       "score": -11.473052024841309
+    },
+    "aeb2bb08fb72f843f274e567bf3ba0f837d4c4ed512584bcea617aa6bcf57a36": {
+      "passage": "Cancellations and no-shows > When fees are waived The practi",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -9.860509872436523
     },
     "aedf794fb271d71d3678707be4f2b6a105b1efdc1676dfefa22923b968193036": {
       "passage": "Instrument reprocessing SOP > Zones in the sterilisation roo",
@@ -4325,15 +5220,15 @@
       "query": "How much does Thabo Khumalo earn?",
       "score": -11.267199516296387
     },
-    "af1af01a95f067d815ee1d7e25ab41c380c9411a2f8d12eb3b4c29e02d88937a": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "What is Dr van Wyk's cell number?",
-      "score": -11.433761596679688
-    },
     "af298fe983282f2503da6534602481a5c81617dc988495d4b489268ae3351c8e": {
       "passage": "Information security policy > Devices and USB drives Persona",
       "query": "What is Dr Naidoo's personal cell number?",
       "score": -11.457979202270508
+    },
+    "af38990717177f2b7ce4b0552d47d69a816b09c0f8775dcadae02aee136b11f0": {
+      "passage": "Patient record requests SOP > Fees The first copy of a patie",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -10.88460636138916
     },
     "af40a441e155cd2c7f13760646487849f67f2bd8b999dd749d8d60aa7ce4cb21": {
       "passage": "Surgery cleaning schedule > End of day Flush the suction lin",
@@ -4354,6 +5249,11 @@
       "passage": "Reception phone guide > Answering the phone Answer within th",
       "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
       "score": -11.305405616760254
+    },
+    "b0394edebc6c5b798e9965a372f87dd692ad9d202245390d47db8e1951f5f66e": {
+      "passage": "After-hours emergencies > On-call rota One dentist is on cal",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.318903923034668
     },
     "b03f4e10e263f9e5bb6bc2b8cb75195cfa8d12055c5e663745be344b6bb8feec": {
       "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
@@ -4395,6 +5295,11 @@
       "query": "Who keeps the infection control file, and how long are the sterilisation logs in",
       "score": -7.870426654815674
     },
+    "b1d160d12aed754827779481c1c4af3c56077fc0baaf2147666a7326f43dd47b": {
+      "passage": "Patient record requests SOP > Fees The first copy of a patie",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -8.110479354858398
+    },
     "b1ea44511b472aed9831d046e18c170d241623f9e104162437fb7de109c0028b": {
       "passage": "New patient registration > Before the first visit New patien",
       "query": "Who is our Information Officer under POPIA?",
@@ -4425,6 +5330,11 @@
       "query": "What is the practice's VAT number?",
       "score": -8.741476058959961
     },
+    "b273be6998133af6527c5de1be60dc034e0681169a9faf1f447a73941c8dd56e": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -10.896684646606445
+    },
     "b2aca27b27d9b1899997720061bd7b5adb3df263f4180be4cacca5af2d98ad1e": {
       "passage": "Leave policy > Annual leave Full-time staff get 15 working d",
       "query": "How many days of sick leave do staff get?",
@@ -4434,6 +5344,11 @@
       "passage": "Laboratory work and turnaround times > Booking the fit appoi",
       "query": "Give me a list of the patients booked for tomorrow morning.",
       "score": -6.24461030960083
+    },
+    "b314497c8d80ac5e088315d4f552669549df6552e85fd9d1c2a09250f0ec2fa9": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "Which suburb does Lerato Mokoena live in?",
+      "score": 1.4392706155776978
     },
     "b33d88ff1bcc31be9791f317b2b9ba2355a9580c1e508cad398bfb22ca976453": {
       "passage": "Patient record requests SOP > Sending records to another den",
@@ -4459,6 +5374,11 @@
       "passage": "Fee schedule 2026 > X-rays - Bitewing X-ray, per film: R320 ",
       "query": "A patient says she might be pregnant. Can we still take her bitewing X-rays toda",
       "score": -5.3430495262146
+    },
+    "b3fbfd3ef44471d86151516b8163d1a80dc5c201c9584227474185861fea43f6": {
+      "passage": "Patient privacy notice (POPIA) > How long we keep it We keep",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -10.72518539428711
     },
     "b42609dfd34486c3da91189d3ce5225ed4525623cc81f0bbfc03bdb8855ea9f3": {
       "passage": "Instrument reprocessing SOP > Inspection and packaging Inspe",
@@ -4510,6 +5430,11 @@
       "query": "When should a sharps container be sealed?",
       "score": -11.181646347045898
     },
+    "b58ceee2f8b92e7f757716227824682253997981b0c3711a11a70de5a778b6db": {
+      "passage": "Remuneration and overtime > Salary information is confidenti",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -10.690353393554688
+    },
     "b5a33516bf857ccef7c0eb3c23869a067179bbd298798deb635a92b8779d23c4": {
       "passage": "Practice overview > Surgeries and rooms Surgery 1 is Dr Naid",
       "query": "What brand of composite do we use for fillings?",
@@ -4535,6 +5460,11 @@
       "query": "Which day is the healthcare risk waste collected?",
       "score": -9.910247802734375
     },
+    "b5f95bef719c8d06187a2abf9e39ff610d51bf9ddce2073cff3644bf3ec12c1b": {
+      "passage": "Teeth whitening SOP > In-chair whitening In-chair whitening ",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.308246612548828
+    },
     "b60c07da0a797135c87a7b749902a972ba06f5d0277b094e44993474ccd0825b": {
       "passage": "Cancellations and no-shows > Notice required Patients must g",
       "query": "How much notice does a patient need to give to avoid a cancellation fee?",
@@ -4544,6 +5474,11 @@
       "passage": "Leave policy > Sick leave Staff get 30 days of paid sick lea",
       "query": "Can staff work from home on Fridays?",
       "score": -8.53471851348877
+    },
+    "b6627e6c720ffbf7f847f3bc60b97a421b4a929fb8d3aaa71f578a48074b0998": {
+      "passage": "Medical emergency protocol > Emergency drills The whole team",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": 5.540637969970703
     },
     "b66e1698a2bdefda5ae771382d088c525c4a0fed087d1a16d2d5ad9d6b777516": {
       "passage": "Sterilisation cycle checklist > Weekly spore test Every Mond",
@@ -4590,6 +5525,11 @@
       "query": "How long before a practice computer locks itself?",
       "score": -11.348146438598633
     },
+    "b7eb3b03b8e11069d50338767d74f74dbf29b3fc8f9dc112b521a5ea3500d0b7": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "How much are nitrile gloves from the supplier now?",
+      "score": -11.340686798095703
+    },
     "b7f7fdb05db7a529bfccca05ea13c19eae3c1fbd644b2c55b2ea95c10e20bb95": {
       "passage": "Leave policy > Reporting an absence If you are sick, phone t",
       "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
@@ -4620,6 +5560,11 @@
       "query": "Do we offer clear aligner treatment?",
       "score": -11.390519142150879
     },
+    "b8c73835a9afda8ec7c7d32d3dd5395773752c03843f1ae4c47c82cdcbd22ea8": {
+      "passage": "Patient privacy notice (POPIA) > Who we share it with We sha",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.315570831298828
+    },
     "b8d38ef521191ade4c6e7111c0beaa8c7080e46ec5ea55bc41bbacfc56d89524": {
       "passage": "Treatment quotes and estimates > What a quote includes A quo",
       "query": "What is the practice's VAT number?",
@@ -4639,6 +5584,11 @@
       "passage": "Instrument reprocessing SOP > Single-use items Never reproce",
       "query": "Which payment methods can patients use?",
       "score": -10.926615715026855
+    },
+    "b98e889122b30e64a61dec83170fcd24b064a7f40a80f191f8c33355dd0affdb": {
+      "passage": "Opening hours and public holidays > Public holidays The prac",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.309663772583008
     },
     "b9a87ea016ebfd5b1c806df7cd964f31ba796c82cf36d2cb5e5252fbc6244196": {
       "passage": "Opening hours and public holidays > Public holidays The prac",
@@ -4675,6 +5625,11 @@
       "query": "Who is Sipho Ndlovu's emergency contact?",
       "score": -11.085138320922852
     },
+    "ba7e383a4d9754e0d6c90b40291ae87c525dc1cf9aa68fa9da27e58c51ba03f8": {
+      "passage": "Patient record requests SOP > Who can request records A pati",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.361981391906738
+    },
     "ba9885d152b47b7387ed6b88d4c4f55964e9b0f39d27e3dea5f0460fa57833d1": {
       "passage": "Complaints handling > Escalation Clinical complaints go to t",
       "query": "What is the practice's VAT number?",
@@ -4700,6 +5655,11 @@
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
       "score": -8.988100051879883
     },
+    "badd7fb630d1289dbcae084c1e893ab941d6a14f4dead7391e662f056002ce50": {
+      "passage": "Patient records and retention > Destruction Records past the",
+      "query": "Who is the Deputy Information Officer, and what is their work email address?",
+      "score": -9.640914916992188
+    },
     "bade1956b8be0cfb47d7309c9cd0b7fa470de1e1ff089a3f21dea789ea0d3c59": {
       "passage": "Information security policy > Messaging and email Patient in",
       "query": "What's the extension for the practice manager?",
@@ -4720,6 +5680,11 @@
       "query": "How much does a check-up with two bitewing X-rays cost for an existing patient?",
       "score": -10.471418380737305
     },
+    "bbafbb88c2cc3df07fd5befdf08efb8f57436e7479cd6065785c7696fc669b51": {
+      "passage": "Medical emergency protocol > Collapse Call for help and phon",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -6.839389801025391
+    },
     "bbe2484a704e826701c1dae8811f776a64b80a136af100e145a70ae496003f3b": {
       "passage": "Practice overview > About the practice Seapoint Smile Dental",
       "query": "How much does Thabo Khumalo earn?",
@@ -4739,6 +5704,11 @@
       "passage": "Information security policy > Suspicious emails and document",
       "query": "A patient wants their records emailed to their new dentist. What do we need from",
       "score": -8.043134689331055
+    },
+    "bcfe1f2bd60bee056427c0d888d81009c8691b41143e39419e091e0d5cc28989": {
+      "passage": "Cancellations and no-shows > Late cancellation fee A cancell",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -7.224942684173584
     },
     "bd449bedbc43677936fcf81fc6c1c17829f74fab1182f395fc29dfd331f89a9d": {
       "passage": "Leave policy > Maternity and parental leave Staff may take 4",
@@ -4790,10 +5760,20 @@
       "query": "What is the dress code for the staff year-end function?",
       "score": -10.816963195800781
     },
+    "bf28c9507d2966ba9e08b723dc29616c261c4a4c4fdda11c48dc2103911285d6": {
+      "passage": "Code of conduct > Dress code Clinical staff wear practice sc",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -11.384438514709473
+    },
     "bf977e4e732379e24a86c03e746e5d469f12281d99506fca46ec3efb190ee259": {
       "passage": "Leave policy > Family responsibility leave Staff get 3 days ",
       "query": "Can staff work from home on Fridays?",
       "score": -8.488444328308105
+    },
+    "bfcdac9236e3bfe3ca486aaf9ce2614a0b7f69558c26b37504bbecfa37e985cf": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "Who is the infection control lead, and what is their extension?",
+      "score": -11.406035423278809
     },
     "bfd6de60fac306a9f703436d95c3d5ce291b76a808fc068a093c2320570ab5b1": {
       "passage": "Opening hours and public holidays > Regular hours The practi",
@@ -4820,6 +5800,11 @@
       "query": "Do we offer clear aligner treatment?",
       "score": -11.343907356262207
     },
+    "c04fa8dab93503c8b28b4489803542a26f3a3367c7aa0c2eb7a40a22442e8046": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "How much are nitrile gloves from the supplier now?",
+      "score": -11.299436569213867
+    },
     "c063f749ec29665ee3e604cb604fa5b4102645387abfc1ddb766be2ac84f54b1": {
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
       "query": "How often are the dosimeter badges read?",
@@ -4829,6 +5814,11 @@
       "passage": "Treatment quotes and estimates > What a quote includes A quo",
       "query": "Which medical schemes have we signed designated service provider agreements with",
       "score": -11.347478866577148
+    },
+    "c09e2641cd65a892dc53494357238de3b5fdd0fb9dc3e0a8810579793bd20a96": {
+      "passage": "Radiography safety > Protection Use a thyroid collar for eve",
+      "query": "What extension is the oral hygienist on?",
+      "score": -10.220861434936523
     },
     "c0b22bc835318130944af592b8205bc7f5440636a68f03731ac93f0822d82b49": {
       "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
@@ -4870,6 +5860,11 @@
       "query": "Which medical schemes have we signed designated service provider agreements with",
       "score": -9.955657005310059
     },
+    "c19ee297edd44c53367bf625a5056fc39683ee9475a4b6e6ec80c77bc2aa1c09": {
+      "passage": "Cancellations and no-shows > No-show fee A patient who does ",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -0.327262818813324
+    },
     "c1dbbef98a15d2f7881026a2238e273696f7541888c82dd3c199921cb3cda37d": {
       "passage": "Information security policy > Messaging and email Patient in",
       "query": "Where should staff send the patient list for backup?",
@@ -4890,10 +5885,20 @@
       "query": "Which medical schemes have we signed designated service provider agreements with",
       "score": -8.216117858886719
     },
+    "c2dd2a25728e11c5bf97b362bb67b4a6483dc3630b80bc767e720d77ec90557f": {
+      "passage": "Fee schedule 2026 > Consultations - New patient examination,",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -9.731366157531738
+    },
     "c314abb66e6758c006137d793246d00ed1cdacf2cdf1a60069c0e92c97ed01bb": {
       "passage": "Patient privacy notice (POPIA) > Why we collect it We use yo",
       "query": "Who is our Information Officer under POPIA?",
       "score": 0.8213350772857666
+    },
+    "c317dd315470ef42532d15ff4e9db573a3b713a42c529e5fe1b79d874c5ef240": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "Who has to approve a stock order of R12,000?",
+      "score": -11.243210792541504
     },
     "c36761a70b55e1443a756157951713429f3f2a7c24f9984b1225fddf0624c013": {
       "passage": "Information security policy > Reporting incidents Report any",
@@ -4955,11 +5960,6 @@
       "query": "When are salaries paid?",
       "score": -11.36242961883545
     },
-    "c5ed7802aff89508f4cf5eef84edf2d4ae592d35bf91321534e0a09d3a0a71cd": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "How much are nitrile gloves from the supplier now?",
-      "score": -11.389959335327148
-    },
     "c6195297e55c7fa5699f605f3461bfbbd190ac004f846f14b5238f1c2c826f1e": {
       "passage": "Teeth whitening SOP > Who can have whitening Whitening is of",
       "query": "What whitening gel promotion did our supplier announce for November?",
@@ -4975,6 +5975,11 @@
       "query": "Who signs the consent form for a 15 year old's extraction, and is written consen",
       "score": -10.993746757507324
     },
+    "c68e55f5f0d2a53587df319520fd8cff20e720cbaad08631270710dc3f36f9e8": {
+      "passage": "Teeth whitening SOP > Aftercare Tell patients to avoid coffe",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.442487716674805
+    },
     "c6d5f46773f608dd62f1ec6464cead6aae2e915b8ad9d63dd391d67a74f70460": {
       "passage": "Remuneration and overtime > Expense claims Submit expense cl",
       "query": "What's the extension for the practice manager?",
@@ -4984,6 +5989,16 @@
       "passage": "Billing and payments > Payment methods We accept debit and c",
       "query": "What is the dress code for the staff year-end function?",
       "score": -11.458467483520508
+    },
+    "c708f545e3c1fb925687a121474d9d0b7813d651a03fedd1e33b2dd78e955770": {
+      "passage": "Fee schedule 2026 > Fillings - Composite filling, one surfac",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -8.024696350097656
+    },
+    "c71b9e1cb85b6e9034271f343d73e055eb615d038d2ca5c93983ed6a0c4ae446": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "What is Dr Naidoo's personal cell number?",
+      "score": -1.776358962059021
     },
     "c727758fc16f50832f7eaf5ca76b739073580b40dc7d693e276e545ee599c245": {
       "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
@@ -5039,11 +6054,6 @@
       "passage": "Cancellations and no-shows > No-show fee A patient who does ",
       "query": "How much does a check-up with two bitewing X-rays cost for an existing patient?",
       "score": -7.106759071350098
-    },
-    "c8cd12c9a9e4d9d6c34610eab4750abb23010d6dadf4882e50ea714af13efbef": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "What is patient Thandi Mokoena's ID number?",
-      "score": -10.055628776550293
     },
     "c8e7566ec9c15ae1ae784a61785ff36efe2d9783fe353c06c6d4aa46532ab7f9": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > White",
@@ -5125,10 +6135,20 @@
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
       "score": -8.093311309814453
     },
+    "cc27673efd1988c6f1cedccfa01a510d4fb394184dc57e63e33131994a532350": {
+      "passage": "Patient record requests SOP > Fees The first copy of a patie",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -11.348731994628906
+    },
     "cc8235ab9107b65d7495941d0a48e95cb3766adf50f36df37d09687ee44af6cd": {
       "passage": "Instrument reprocessing SOP > Storage and shelf life Store s",
       "query": "What brand of composite do we use for fillings?",
       "score": -11.41091251373291
+    },
+    "cce741ddc3e5052fe03f1c8dce5a3e79d9437c57f0ce24d073d1c86ac3b47c9f": {
+      "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -10.014688491821289
     },
     "cce90e144696f6535e68436ebc47ae0537e5b2bfd7c0b955b72499b29a33faa2": {
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
@@ -5140,6 +6160,11 @@
       "query": "If a medical aid rejects a claim for a R8,900 root canal, when must the patient ",
       "score": -2.547435760498047
     },
+    "cd108b6693989ab17e033d4bbfa8ef2fc256aea9a8d933cfb1f2ccb988df921d": {
+      "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.402849197387695
+    },
     "cd1ca356c4ec3c82aae4c0b10c9d5f310ae89473648ed28d7ad907abd29e202c": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > New g",
       "query": "What whitening gel promotion did our supplier announce for November?",
@@ -5149,11 +6174,6 @@
       "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
       "query": "What is the practice's B-BBEE level?",
       "score": -11.054048538208008
-    },
-    "cd5502ab08be73e582b7d4e44dfaa7124f4682aefbe5a643a775d4a9399ecfb2": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "How much does Thabo Khumalo earn?",
-      "score": -10.34183406829834
     },
     "cd893214f6ba950ab5dca175245e6a9d860baa57f6be9c9cc9ab4e72622c1faf": {
       "passage": "Patient record requests SOP > Verifying identity Check the r",
@@ -5185,15 +6205,15 @@
       "query": "How long must we keep an adult patient's records?",
       "score": -9.605907440185547
     },
-    "ce8398e0ad77b276acda1e14d7f117856dd5bf8a8c27836c1f94eadffa69e58d": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "What's the extension for the practice manager?",
-      "score": -2.968583822250366
-    },
     "ce9b2bb0bb86eb6dabdddcb48ffedbcce91dca4c59ed96ccffe64005f44bd997": {
       "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
       "score": -5.868988990783691
+    },
+    "ceb24b44a195dd83049e7fa943fdd88cb9633d2420eb741d7a19e9b702ad0148": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "What is patient Thandi Mokoena's ID number?",
+      "score": -11.099088668823242
     },
     "cee8a9c39f9577e2d0e79564746872e3849f8cd3c33e91f321042f712e833a4d": {
       "passage": "Information security policy > Backups The practice managemen",
@@ -5209,6 +6229,11 @@
       "passage": "Medical emergency protocol > Emergency drills The whole team",
       "query": "Who is Sipho Ndlovu's emergency contact?",
       "score": -11.073957443237305
+    },
+    "cf65f2e7d27c994857d589c997c06d67be80bd6a50d5dd60c0b9b82a52ea35b3": {
+      "passage": "Teeth whitening SOP > Promotions and discounts There is no s",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -10.804203987121582
     },
     "cf71316b393d4a368b9f69fd56c44fbd1af122de85322f45df26eea89fec9870": {
       "passage": "Instrument reprocessing SOP > Storage and shelf life Store s",
@@ -5285,6 +6310,11 @@
       "query": "What is the practice's B-BBEE level?",
       "score": -11.003682136535645
     },
+    "d1a112ad8fc10170faa33c8633d9e33b01727fdded112f18e3dd59df2b8292de": {
+      "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -6.13140344619751
+    },
     "d1e840483610a2fe9058ad40715f76814615ac5a1832a7c5b7ecd766352472ca": {
       "passage": "Information security policy > Devices and USB drives Persona",
       "query": "What is the practice's B-BBEE level?",
@@ -5300,6 +6330,11 @@
       "query": "Which medical schemes have we signed designated service provider agreements with",
       "score": -9.690437316894531
     },
+    "d24241d08a119552e95c9a9f308a0506f82edd8a26f6d64c3cebfe1579896df5": {
+      "passage": "Staff directory > Personal details (confidential) Name: Mega",
+      "query": "Can staff work from home on Fridays?",
+      "score": -10.632493019104004
+    },
     "d2511f5f384dc4f84d96422c9862f2d15bd9d79da8a92e4c99598c69d8feed32": {
       "passage": "After-hours emergencies > When to send a patient to hospital",
       "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
@@ -5310,10 +6345,25 @@
       "query": "What is the dress code for the staff year-end function?",
       "score": -11.424851417541504
     },
+    "d27f09b8e7c55d34016c665504c1df740f5d6cc7af90a1f4b1ef49f860314d9e": {
+      "passage": "Cancellations and no-shows > Late cancellation fee A cancell",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -10.644525527954102
+    },
+    "d2f371db0274bb48c821f9d0384156edcc039a92ecb96a954045ed8bcec99023": {
+      "passage": "Reception phone guide > Privacy on the phone Never confirm t",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.434115409851074
+    },
     "d2fce6cbfcc2929ec5afc913679ce9c14436461566451f75eb10268110e24a6f": {
       "passage": "Stock ordering SOP > Receiving deliveries Check every delive",
       "query": "How long can a sterile pouch be stored before it must be redone?",
       "score": -11.374360084533691
+    },
+    "d31d7f63b758996c2a5f6425092a42eeda67d61bb9610d4b92284b1197fdab00": {
+      "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -2.4211783409118652
     },
     "d329ec40c35e8ba78a7095d7b89ebdfafb09d979bef425c6ba21f6ec7cbe1ab5": {
       "passage": "New patient registration > Identity documents Patients aged ",
@@ -5329,6 +6379,11 @@
       "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
       "query": "Who is the infection control lead, and what is their extension?",
       "score": -11.518461227416992
+    },
+    "d345d57fa3e3f037f3ec981c0d63514b3385beff996893f1828a1b14f7757468": {
+      "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.43274211883545
     },
     "d381f9203b94fbe43e9bdbcc40876a4f01f9a26b84a29f066ae4e4bfeff41ea1": {
       "passage": "Complaints handling > Escalation Clinical complaints go to t",
@@ -5360,6 +6415,11 @@
       "query": "What is Dr Naidoo's personal cell number?",
       "score": -11.347782135009766
     },
+    "d45a66d94217ba309e52086a408c7709f60e42b41602932b8e48cd1ca67205e3": {
+      "passage": "Laboratory work and turnaround times > Checking returned wor",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -10.719759941101074
+    },
     "d46ba2d50b4bb7120fd3a64f52901ed792028b8035a203fe0bd1203cf06f2d28": {
       "passage": "Information security policy > Backups The practice managemen",
       "query": "What does the Bowie-Dick test check?",
@@ -5385,6 +6445,11 @@
       "query": "A patient wants their records emailed to their new dentist. What do we need from",
       "score": -2.9744479656219482
     },
+    "d5b9fe0445df768e5cbef3d06f3556b1ab7d4b3fe6b6caaa17768ac7a390bb1d": {
+      "passage": "Children's dentistry > Parent or guardian present A parent o",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -8.535746574401855
+    },
     "d5ca62277870f055f49cc444c16abde15b3a7244731d20e2d12e75eabf9c4188": {
       "passage": "After-hours emergencies > After-hours call-out fee An after-",
       "query": "How much notice does a patient need to give to avoid a cancellation fee?",
@@ -5400,6 +6465,11 @@
       "query": "Can staff work from home on Fridays?",
       "score": -7.69010066986084
     },
+    "d5e97e926e796eff7d3073c381f29b62d922ff7042c798d71c49dda54e3687ce": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "What is Dr Naidoo's personal cell number?",
+      "score": 7.623258113861084
+    },
     "d600faa3a8ce3a80a818397a96b596a9259f1b2be84b3e32fae1d50754142be1": {
       "passage": "New patient registration > Before the first visit New patien",
       "query": "What is patient Thandi Mokoena's ID number?",
@@ -5409,6 +6479,11 @@
       "passage": "Treatment consent policy > Patients under 18 For every patie",
       "query": "Who signs the consent form for a 15 year old's extraction, and is written consen",
       "score": -2.040565252304077
+    },
+    "d6589513df4d7ddad66271903ff2ee3f58579e2a45d31f641641f3c98f703a5e": {
+      "passage": "Medical emergency protocol > Emergency kit and AED The emerg",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": 5.795026779174805
     },
     "d67c57f8e8ba7b116eb4b03bc79c0bae387a9c2f657d7fed20df2150f21b6efc": {
       "passage": "Sterilisation cycle checklist > Maintenance Clean the door s",
@@ -5420,6 +6495,16 @@
       "query": "How long must we keep an adult patient's records?",
       "score": -6.481916904449463
     },
+    "d69acd76756bd007da80d3d8bcd3e6d0a2275cce7f400869b2014f458b4f2b15": {
+      "passage": "Remuneration and overtime > Overtime Overtime must be approv",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": 5.025540351867676
+    },
+    "d6c0e0848a8e85ae079a6b0ae85a0823fb5b0762c65fea51ff2e3fc2ce5f5006": {
+      "passage": "Fee schedule 2026 > Consultations - New patient examination,",
+      "query": "What is the fee for a surgical extraction?",
+      "score": -4.1977128982543945
+    },
     "d6fb107540f8cfaf4924e3ed1d52266aad3d621069d9b25a7d63794081b9cc7a": {
       "passage": "Billing and payments > Statements and overdue accounts State",
       "query": "Which payment methods can patients use?",
@@ -5430,6 +6515,16 @@
       "query": "Do we offer sedation with a visiting dental anaesthetist?",
       "score": -11.210003852844238
     },
+    "d74f4b708e01d251df0ac5ba752fa6e00b12b5286d6168087879c74d67efb18e": {
+      "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -11.452808380126953
+    },
+    "d7afe3f22760c285ab3bd673021e32f0c02bbf9bf0fefa784027af6a8832b230": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "A staff member got a needle-stick injury. Who do they report it to, and what is ",
+      "score": -10.76025390625
+    },
     "d7b95d0b0103feefabe48f13aa4535707de2e1d895eff0142af5bf33894bb210": {
       "passage": "Children's dentistry > Appointment times for children Book c",
       "query": "Give me a list of the patients booked for tomorrow morning.",
@@ -5439,6 +6534,11 @@
       "passage": "Medical aid claims > Our fees and scheme rates The practice ",
       "query": "Which payment methods can patients use?",
       "score": -3.9900882244110107
+    },
+    "d7c9472688c02a24551676179621affff23257d1111071a3363a61fb5f4bdd73": {
+      "passage": "Stock ordering SOP > Approval limits The senior dental assis",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -9.564796447753906
     },
     "d7d25bde2ac875c652b6ff82aec47af70f87c476f3bc87d6fff710bbb43a9b76": {
       "passage": "Billing and payments > Payment methods We accept debit and c",
@@ -5459,6 +6559,11 @@
       "passage": "Treatment consent policy > What the dentist explains Before ",
       "query": "Do we offer clear aligner treatment?",
       "score": -11.211461067199707
+    },
+    "d960793a63f64dd10b0f0c4a0e20770321cf1770b005f1c698069e0c21e69660": {
+      "passage": "Practice overview > Surgeries and rooms Surgery 1 is Dr Naid",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.39306354522705
     },
     "d9a264f3eaffb54b5dba10af341a4d0dcbf96d851195c0b2c258b3f1f28140c7": {
       "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
@@ -5485,6 +6590,11 @@
       "query": "What brand of composite do we use for fillings?",
       "score": -11.412596702575684
     },
+    "da495045798332d38dc6d57b0ddd056f20cf61cc07a928f049332ecf4f559c1d": {
+      "passage": "Opening hours and public holidays > Public holidays The prac",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -8.001111030578613
+    },
     "da4fb6c2a7be35e065761d3cc0b9667e152ce6f34b9e08755f31601d35ec5a17": {
       "passage": "Laboratory work and turnaround times > Checking returned wor",
       "query": "A crown case goes to the lab on Monday 2 November 2026. What is the earliest day",
@@ -5494,6 +6604,11 @@
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
       "query": "What brand of composite do we use for fillings?",
       "score": -11.271919250488281
+    },
+    "da722bd6d394f1fc046265c9493fe7c28639b494dcb58193bfd39e49053f40be": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "What is patient Thandi Mokoena's ID number?",
+      "score": -4.371122360229492
     },
     "da915d203c57532be9e91b7830cb6bd9bfcf6e74d0d2bf93a3d3cf253fa1065b": {
       "passage": "Medical aid claims > Rejected claims If a scheme rejects a c",
@@ -5530,6 +6645,11 @@
       "query": "How many days of sick leave do staff get?",
       "score": -9.616633415222168
     },
+    "dc33512bdaa151417d7330cd69b47efebc66e201b21d1b76eb7ec77b10ca8a13": {
+      "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.438451766967773
+    },
     "dc7648c2d72c360e840b7789ef3a2b33baca1486bd1ac3adde837a25b5fc8290": {
       "passage": "Patient record requests SOP > Who can request records A pati",
       "query": "Who signs the consent form for a 15 year old's extraction, and is written consen",
@@ -5554,6 +6674,11 @@
       "passage": "Medical emergency protocol > Anaphylaxis Stop treatment, cal",
       "query": "What is patient Thandi Mokoena's ID number?",
       "score": -11.08812427520752
+    },
+    "dd0b6f54ecd7d1ba34fc24ae96d6464103d8748e0962e5794f031300f1e46d63": {
+      "passage": "Fee schedule 2026 > Consultations - New patient examination,",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.222837448120117
     },
     "dd24433a3c12a018605841eff4f35efb122f72ff27b9a915518a6bcc12e9308d": {
       "passage": "Disciplinary and grievance procedure > Serious misconduct Se",
@@ -5610,6 +6735,11 @@
       "query": "What are the protected emergency slots in the diary?",
       "score": -10.842174530029297
     },
+    "df76741167ff8d6f56e37758f0b256e02525ac6f2266ea49cfeee9860dd3a338": {
+      "passage": "Appointment booking SOP > Booking rules Book every appointme",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.875862121582031
+    },
     "df8ac6997c7fc85aa37848810b103a8f62ec9689af0e5a6b1c73df5df895df4e": {
       "passage": "Fee schedule 2026 > Fillings - Composite filling, one surfac",
       "query": "Which suburb does Lerato Mokoena live in?",
@@ -5634,6 +6764,11 @@
       "passage": "Information security policy > Reporting incidents Report any",
       "query": "Who is our Information Officer under POPIA?",
       "score": -8.195037841796875
+    },
+    "e01d5a0a9dbb8d8ff88e36194745077f8035123f82b8c25951ba77ea295f0a69": {
+      "passage": "Medical aid claims > Our fees and scheme rates The practice ",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -11.412569999694824
     },
     "e02640021e5596159da58daa3364f6e47d5e6215cf9748a45a2cfc064faa7f4a": {
       "passage": "Appointment booking SOP > Waiting list Patients who want an ",
@@ -5675,6 +6810,11 @@
       "query": "How often are the dosimeter badges read?",
       "score": -11.399027824401855
     },
+    "e177561340cb52dbf314b467051dfac6330d0d76d2abcafbd2fadc27863d3596": {
+      "passage": "Medical aid claims > Checking benefits Reception can check a",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -9.981962203979492
+    },
     "e18f7d532391fe602c9af75e4bbf4accde077bdf0589bdf53ddd0d32e232ea3d": {
       "passage": "Billing and payments > Statements and overdue accounts State",
       "query": "How long is a written treatment quote valid for?",
@@ -5689,6 +6829,11 @@
       "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
       "query": "Do we validate parking for patients who park on Example Road?",
       "score": -11.32179069519043
+    },
+    "e1bbeda951488ad657caec75d62792c3e6efaf1a696d781d0f5d89dc94d3d229": {
+      "passage": "Reception phone guide > Answering the phone Answer within th",
+      "query": "What is Zanele Dube's home suburb?",
+      "score": -11.469230651855469
     },
     "e20e976895f8b2ff9e11c6d1ad97289b419e804bbf277db89fd467ca93de8d9e": {
       "passage": "Infection control policy > Surface disinfection Between pati",
@@ -5775,6 +6920,11 @@
       "query": "Which suburb does Lerato Mokoena live in?",
       "score": -11.291956901550293
     },
+    "e40b541c3b2e09eeea9c081090143b5860d9e2984c7dac5bde3dbf6447f3cea7": {
+      "passage": "Appointment booking SOP > Appointment lengths Book these len",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": 2.1176676750183105
+    },
     "e49aa7da7d2596968ac800d7266fcb247176bcebc99f759cea9e68986a5e5465": {
       "passage": "Fee schedule 2026 > Preventive care - Scale and polish: R890",
       "query": "How much deposit does a patient pay before getting a porcelain crown?",
@@ -5799,6 +6949,21 @@
       "passage": "Sterilisation cycle checklist > Logs and records The sterili",
       "query": "How often do we run the spore test on the autoclave?",
       "score": -2.6897144317626953
+    },
+    "e56d7573b7845aa14cc933992625d60e1774801352b16314e7db9e2d022399a2": {
+      "passage": "Cancellations and no-shows > Late cancellation fee A cancell",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.144165992736816
+    },
+    "e56e914978866e8f832c6877784126365dff24b8ad226e7ba1ccccc30a65b0d2": {
+      "passage": "Practice overview > Parking and access There are four patien",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": 4.676271438598633
+    },
+    "e58047532a8d1ea73ccae63c5744d7c5d33bd7fc929d2fb876f24346cc0f20c6": {
+      "passage": "New patient registration > Children A parent or legal guardi",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -8.027381896972656
     },
     "e5c1e393e4fd3a91d0fec5ab123b28fb01f18fc58b586a0b1889ce7a8e252e3f": {
       "passage": "Cancellations and no-shows > Repeat no-shows After three no-",
@@ -5825,11 +6990,6 @@
       "query": "What brand of composite do we use for fillings?",
       "score": -11.421612739562988
     },
-    "e69ec5cc41112fcc02acf73d0a56748044121b109addc24bbb76e1a48689a4af": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "What is Dr van Wyk's cell number?",
-      "score": 3.7733287811279297
-    },
     "e6d0a001b3d9b8b97989816011b4fbea614626a45afbc7cb57cdf8d1da72b59f": {
       "passage": "Leave policy > Reporting an absence If you are sick, phone t",
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
@@ -5849,11 +7009,6 @@
       "passage": "Billing and payments > Statements and overdue accounts State",
       "query": "How many days of annual leave will the 2026 December closure use?",
       "score": -10.12718391418457
-    },
-    "e72d45cd69caa063d32bddd5fcd6c97faca4a8a8a37b30d9d42c9e59be123d81": {
-      "passage": "Staff directory > Personal details (confidential) | Name | P",
-      "query": "What is the guest Wi-Fi password?",
-      "score": -11.354822158813477
     },
     "e76ce0cdb9d8af5a173845815ae0d67bf6877b12f3a89b84cf43aed86bc001b9": {
       "passage": "Patient record requests SOP > Sending records to another den",
@@ -5945,15 +7100,30 @@
       "query": "What is Dr Naidoo's personal cell number?",
       "score": -3.560994863510132
     },
+    "eaad63c66038ff9561172a6973f4023c0f82ceed4e04d43d9d86057ac931fb70": {
+      "passage": "Appointment booking SOP > Booking rules Book every appointme",
+      "query": "How long is a child check-up, and what time should young children be booked befo",
+      "score": -5.1934709548950195
+    },
     "eaba7b66c3f81b61dc28d160b23b56a74f1abcf0a88273498a6b0b1e2103b6cd": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
       "query": "How much does a dental implant cost?",
       "score": -11.117375373840332
     },
+    "eacde6059db43a53ea23385cc7ae2885e311fd2322abafba3d754b95ba21c357": {
+      "passage": "Fee schedule 2026 > How to use this schedule All fees are in",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.843743324279785
+    },
     "ead68ec9459d6312b74d92250a6801e505582655eef03ac521244874a87d4ddd": {
       "passage": "Medical emergency protocol > After an emergency Complete an ",
       "query": "How quickly do we need to acknowledge a patient complaint?",
       "score": -6.226158142089844
+    },
+    "eb0591acd54181c8d47a46c68f8be9c4a3dcafa64aaede0aa36942fbe0a5a82c": {
+      "passage": "Remuneration and overtime > Expense claims Submit expense cl",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -8.700339317321777
     },
     "eb508a972129f45ec3a9a39d37ffd83d7c479d5b455c3e04149823ac098d5359": {
       "passage": "Laboratory work and turnaround times > Checking returned wor",
@@ -5990,10 +7160,20 @@
       "query": "How much notice does a patient need to give to avoid a cancellation fee?",
       "score": 1.488074779510498
     },
+    "ec2c238c4e2a900877b17fcf8e1f6ffc63d497fd6d3d7052550c5457a91327dc": {
+      "passage": "Medical aid claims > Our fees and scheme rates The practice ",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -11.416417121887207
+    },
     "ec5217454a8e69ebc8b3bcb09e0d654caee67634b0254d78222b3d9fdf93635b": {
       "passage": "Opening hours and public holidays > Regular hours The practi",
       "query": "What are the protected emergency slots in the diary?",
       "score": -11.358308792114258
+    },
+    "ec6e2e30a60b724f798087f8c6121f583e1c847064349b98da5e09f3b2351e91": {
+      "passage": "Leave policy > Annual leave Full-time staff get 15 working d",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -7.378353595733643
     },
     "ec9456c133e2b610491151125f6243d0dd8f07f5e07ef2994edda231fdbf7e2e": {
       "passage": "Practice overview > Referrals Patients who need a specialist",
@@ -6080,6 +7260,11 @@
       "query": "Which medical schemes have we signed designated service provider agreements with",
       "score": -10.309967041015625
     },
+    "f053f12bee26751e394d0c3cf42607a242febb2988fb7f12f30ac7c46b6b7db4": {
+      "passage": "Appointment booking SOP > Confirmations and reminders The sy",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -10.002325057983398
+    },
     "f0591f9a86ea9552544267cf04b8788612cb6b57148343bc48bc42f214922d0d": {
       "passage": "Code of conduct > Social media Never post photos of patients",
       "query": "Is it okay to WhatsApp a patient's X-ray to them?",
@@ -6124,6 +7309,11 @@
       "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
       "query": "A crown case goes to the lab on Monday 2 November 2026. What is the earliest day",
       "score": -6.486195087432861
+    },
+    "f1d5060c3dfc1486ffffea667000768973d87d6e0073437b0280a5f23f66da28": {
+      "passage": "Appointment booking SOP > When the dentist is running late I",
+      "query": "How long is a root canal appointment, and what is the late cancellation fee for ",
+      "score": -5.933082580566406
     },
     "f20f01785e607cd2996e3f3543cbbc5d1ef68ad010d2e8bd21ad2292b231b0e3": {
       "passage": "Reception phone guide > Taking messages Write every message ",
@@ -6195,10 +7385,25 @@
       "query": "Do we offer sedation with a visiting dental anaesthetist?",
       "score": -10.710306167602539
     },
+    "f44567e04c02e1a8831a262e6e04f02f6b92828c521cb8f3ea2f28d3e2802e88": {
+      "passage": "Instrument reprocessing SOP > Single-use items Never reproce",
+      "query": "Do we offer clear aligner treatment?",
+      "score": -11.376646995544434
+    },
+    "f47de521e5c1eea066689c6b05f0c6e2ed3b0ae8f48fe84403be391682386625": {
+      "passage": "Cancellations and no-shows > Notice required Patients must g",
+      "query": "Is the patient parking behind the building free of charge?",
+      "score": -11.24055004119873
+    },
     "f495765da4ab15564b708b9319c67aee815772d772a5e102901fd10f230b1eca": {
       "passage": "Fee schedule 2026 > Consultations - New patient examination,",
       "query": "What does the Bowie-Dick test check?",
       "score": -11.286223411560059
+    },
+    "f4da5f3e557cef3c7402a290d532e64c4c29db033161a23ebf9ba60f5f0d8872": {
+      "passage": "Code of conduct > Punctuality Arrive at least 15 minutes bef",
+      "query": "What does a scale and polish cost, and how long is the appointment?",
+      "score": -9.057154655456543
     },
     "f4de6af409c595e3a99f6fa7c6827b72467efdb47e98438aec171db3d598c704": {
       "passage": "Appointment booking SOP > Appointment lengths Book these len",
@@ -6230,6 +7435,11 @@
       "query": "Which suburb does Lerato Mokoena live in?",
       "score": -11.274497985839844
     },
+    "f63ed597ce8f6dad23150cb034692761afe6a0a8bd023e033289cb74e623fd43": {
+      "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
+      "query": "When is the medical emergency drill held, and who checks the emergency kit?",
+      "score": -11.172699928283691
+    },
     "f6cccf5e8b204a7e7a2ca3c2a13f27eec44548fd5c10cf7df315c90f88469baf": {
       "passage": "Code of conduct > Gifts from patients and suppliers Declare ",
       "query": "How much are nitrile gloves from the supplier now?",
@@ -6239,6 +7449,11 @@
       "passage": "Billing and payments > Payment methods We accept debit and c",
       "query": "What is the guest Wi-Fi password?",
       "score": -11.392991065979004
+    },
+    "f6ff3397a6571b9624d0261ffafdb2eaf9f907dc826585addc24aa5ced324762": {
+      "passage": "Remuneration and overtime > Salary information is confidenti",
+      "query": "What is the overtime rate on a public holiday?",
+      "score": -10.288712501525879
     },
     "f709128081a0b82779c603f99fecb3bf477608b1ba1a4e1fbea46e6bd631f943": {
       "passage": "Reception phone guide > Taking messages Write every message ",
@@ -6254,11 +7469,6 @@
       "passage": "Medical aid claims > Pre-authorisation Crowns, bridges, dent",
       "query": "Do we offer sedation with a visiting dental anaesthetist?",
       "score": -7.073983669281006
-    },
-    "f77e92d80b9c6e7b9b203ec06ab839697e2999221e673e07a584b781d8b13dac": {
-      "passage": "Staff directory > Work contacts | Name | Role | Extension | ",
-      "query": "Which suburb does Lerato Mokoena live in?",
-      "score": -5.56826114654541
     },
     "f8f05dfbc24dfecf679d22133d7e6ed044f495266445b7ad61c570fc9f79e708": {
       "passage": "Reception phone guide > Difficult callers Stay calm and poli",
@@ -6290,6 +7500,11 @@
       "query": "What's the latest time we can start a new patient exam on a Saturday?",
       "score": -9.016880989074707
     },
+    "fa1c4deef13eb6ac540cd7a714293d0674a768fffa6e2a0e0c784a79c1dee83e": {
+      "passage": "Leave policy > Maternity and parental leave Staff may take 4",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -11.171335220336914
+    },
     "fa407396be7cb5325a62f0fe853ddd22f5fac2a2ee76498c94d665e7c88cd432": {
       "passage": "Patient records and retention > What a patient record contai",
       "query": "How long must we keep an adult patient's records?",
@@ -6299,6 +7514,11 @@
       "passage": "Laboratory work and turnaround times > Checking returned wor",
       "query": "Are we running a whitening special at the moment?",
       "score": -11.451688766479492
+    },
+    "fa5a91e2292833491e4c8d4de3ef77862a2cf877e7b0e0d2f23ac7c019d20bdb": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "Can you give me Megan Adams's home suburb and her husband's number? I want to se",
+      "score": -1.9678728580474854
     },
     "faf9abd5042bf3c1d5e335cf771fb4269b362f1c1a7d2e4f8c23363c361546d5": {
       "passage": "Fee schedule 2026 > Fillings - Composite filling, one surfac",
@@ -6325,15 +7545,15 @@
       "query": "Where should staff send the patient list for backup?",
       "score": -5.036264896392822
     },
-    "fbf772cfcf7c32bda8d08cd9a9a314d15c7daa55f97c27642adc9c67cc75ae8c": {
-      "passage": "Staff directory > Personal details (confidential) | Megan Ad",
-      "query": "Who is our Information Officer under POPIA?",
-      "score": -11.436646461486816
-    },
     "fc20e464ad07f26e0fdb66216b30d2d34295cd694efae1596cda4953b59d6125": {
       "passage": "Surgery cleaning schedule > Between patients Disinfect all t",
       "query": "Who is the infection control lead, and what is their extension?",
       "score": -6.333845615386963
+    },
+    "fc3372b29b47f0c93abf4fc79ad372cee62e1d23137b1e01bb45dc5ea9cda914": {
+      "passage": "Staff directory > Personal details (confidential) Name: Dr P",
+      "query": "How much does Thabo Khumalo earn?",
+      "score": -10.988643646240234
     },
     "fc48eef8561feebb317ee3e646a2515e03120f62c9a65c4acdcd12b652530bff": {
       "passage": "Information security policy > Backups The practice managemen",
@@ -6380,6 +7600,11 @@
       "query": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
       "score": -7.26592493057251
     },
+    "fdd8684966674a8b16715549a7ff8e7563694c2678385ef77f4a54f7c07be1c6": {
+      "passage": "Staff directory > Work contacts Name: Dr Priya Naidoo; Role:",
+      "query": "What is patient Thandi Mokoena's ID number?",
+      "score": -9.144632339477539
+    },
     "fe047111ea7bd6c9ea11d411e67fe64c71b28efc6a2f222422b039bc319bee1f": {
       "passage": "Information security policy > Suspicious emails and document",
       "query": "Who is our Information Officer under POPIA?",
@@ -6389,6 +7614,11 @@
       "passage": "Fee schedule 2026 > Fillings - Composite filling, one surfac",
       "query": "What brand of composite do we use for fillings?",
       "score": 1.7315925359725952
+    },
+    "fe3d6dd8a49ae41082a419e25c92c642293d6b1ab307e74919a95ac813475aa6": {
+      "passage": "Fee schedule 2026 > Cosmetic treatment - In-chair whitening:",
+      "query": "How long does a denture take at the lab, and how much does a full denture cost?",
+      "score": -10.201197624206543
     },
     "fe6bdbd5bf8588623d9c7176b429029c3913afef76a5e7f16beae9f5f24cac4e": {
       "passage": "Stock ordering SOP > Receiving deliveries Check every delive",
@@ -6415,6 +7645,11 @@
       "query": "Where should staff send the patient list for backup?",
       "score": -10.542407035827637
     },
+    "ff01a74d2944e64d6b8af1bcc8c822ae8ac53981461623a6c2c9b7633b917bb4": {
+      "passage": "Supplier newsletter, October 2026 (saved from email) > Autoc",
+      "query": "What extension is the oral hygienist on?",
+      "score": -11.458181381225586
+    },
     "ff23c045d125239a54a86671c72563c9cf1dcb5683e842811032057cf07d53d6": {
       "passage": "Opening hours and public holidays > Public holidays The prac",
       "query": "Which suburb does Lerato Mokoena live in?",
@@ -6424,6 +7659,11 @@
       "passage": "Sterilisation cycle checklist > Weekly spore test Every Mond",
       "query": "When should a sharps container be sealed?",
       "score": -11.361624717712402
+    },
+    "ff432d9c4c81067440cfdd7ecf074ad752ad513a1271db6933ed56d803e7926f": {
+      "passage": "Infection control policy > Surface disinfection Between pati",
+      "query": "Who approves expense claims, and what is that person's extension?",
+      "score": -11.365133285522461
     },
     "ff6995678464961701d39d0d74bddf0477739669e74fd90ac811459b58735eac": {
       "passage": "Supplier newsletter, October 2026 (saved from email) > White",

@@ -37,12 +37,14 @@ def prepare_chunks(
     return documents, flag_chunks(chunks)
 
 
-def fingerprint(documents: list[Document], config: ChunkingConfig) -> str:
+def fingerprint(documents: list[Document], chunks: list[Chunk], config: ChunkingConfig) -> str:
+    """Changes when a file, the chunking, the text the models see, the flags or the model change."""
     return sha256_hex(
         canonical_json(
             {
                 "docs": [[d.doc_id, d.sha256] for d in documents],
                 "chunking": [config.max_words, config.overlap_words],
+                "chunks": [[c.chunk_id, c.text, c.embed_text, list(c.flags)] for c in chunks],
                 "embed_model": EMBED_MODEL,
                 "store_version": STORE_VERSION,
             }
@@ -62,7 +64,7 @@ def build_index(
     config = config or ChunkingConfig()
     documents, chunks = prepare_chunks(corpus_dir, root, config)
     print_flags = {c.chunk_id: list(c.flags) for c in chunks if c.flags}
-    fp = fingerprint(documents, config)
+    fp = fingerprint(documents, chunks, config)
     if not force and db_path.is_file():
         try:
             store = Store(db_path)

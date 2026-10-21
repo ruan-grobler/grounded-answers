@@ -89,7 +89,9 @@ class Answer:
         errors = sorted(_VALIDATOR.iter_errors(data), key=lambda e: list(e.path))
         if errors:
             where = "/".join(str(p) for p in errors[0].path) or "(root)"
-            raise GenerationError(f"answer does not match the schema at {where}: {errors[0].message}")
+            raise GenerationError(
+                f"answer does not match the schema at {where}: {errors[0].message}"
+            )
         return cls(
             answer=data["answer"],
             claims=tuple(

@@ -124,6 +124,7 @@ class Store:
         fd, tmp_name = tempfile.mkstemp(dir=path.parent, prefix=".index.", suffix=".db")
         os.close(fd)
         tmp = Path(tmp_name)
+        db: sqlite3.Connection | None = None
         try:
             db = _connect(tmp)
             db.executescript(
@@ -175,9 +176,13 @@ class Store:
             db.executemany("INSERT INTO meta VALUES (?, ?)", sorted(all_meta.items()))
             db.commit()
             db.close()
+            db = None
             os.replace(tmp, path)
         except BaseException:
-            tmp.unlink(missing_ok=True)
+            if db is not None:
+                db.close()
+            for leftover in (tmp, tmp.with_name(tmp.name + "-journal")):
+                leftover.unlink(missing_ok=True)
             raise
         return cls(path)
 

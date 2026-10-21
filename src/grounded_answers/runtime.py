@@ -1,4 +1,4 @@
-"""Wire everything together: caches, local models, the index, retrievers, pipelines and LLM clients."""
+"""Wire it together: caches, local models, the index, retrievers, pipelines and LLM clients."""
 
 from __future__ import annotations
 
@@ -96,7 +96,9 @@ def open_runtime(
     configs = load_pipelines(paths.pipelines)
     settings = settings or ModelSettings.from_env()
     pipelines = {
-        name: Pipeline(configs[name], Retriever(store, embedder, reranker, configs[name].retrieval), settings)
+        name: Pipeline(
+            configs[name], Retriever(store, embedder, reranker, configs[name].retrieval), settings
+        )
         for name in PIPELINES
     }
     return Runtime(
