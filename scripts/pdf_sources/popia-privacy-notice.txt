@@ -1,0 +1,26 @@
+title: Patient privacy notice (POPIA)
+meta: Document ID popia-privacy-notice. Owner: Information officer. Version 2.0. Effective 12 January 2026.
+banner: Fictional document. Seapoint Smile Dental is not a real practice. Synthetic data for a software demo. Not legal advice.
+
+# 1 Who we are
+Seapoint Smile Dental is the responsible party for your personal information under the Protection of Personal Information Act (POPIA). Our Information Officer is Dr Priya Naidoo, and our Deputy Information Officer is Megan Adams, the practice manager. You can contact them at privacy@seapointsmile.example.com.
+
+# 2 What we collect
+We collect your name, ID or passport number, contact details, medical aid details, medical history, dental records and X-rays, and payment information.
+
+# 3 Why we collect it
+We use your information to provide dental care, to claim from your medical aid, to bill you, to send appointment reminders, and to meet our legal obligations.
+
+# 4 Who we share it with
+We share information with your medical scheme, with dental laboratories (case details only), with specialists when you are referred and agree, and with service providers who are bound by confidentiality. We never sell personal information.
+
+---page---
+
+# 5 How long we keep it
+We keep your records for at least 6 years after your last visit, and longer for children. Our records and retention policy has the details.
+
+# 6 Your rights
+You may ask to see your information, ask us to correct it, ask us to delete it where the law allows, and object to direct marketing. You may complain to the Information Regulator if you are unhappy with how we handle your information.
+
+# 7 Marketing messages
+We only send marketing messages, such as whitening promotions, if you opted in. Reply STOP to any marketing SMS to opt out.

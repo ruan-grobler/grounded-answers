@@ -1,0 +1,23 @@
+title: Medical emergency protocol
+meta: Document ID emergency-medical-protocol. Owner: Practice principal. Version 2.5. Effective 2 February 2026.
+banner: Fictional document. Seapoint Smile Dental is not a real practice. Synthetic data for a software demo. Not clinical guidance.
+
+# 1 Emergency kit and AED
+The emergency kit, the oxygen cylinder and the AED (defibrillator) are kept at reception, behind the front desk. The senior dental assistant checks the kit on the first Monday of every month and logs expiry dates in the kit register.
+
+# 2 Fainting
+Stop treatment. Lay the patient flat with the legs raised, and loosen tight clothing. Check breathing and pulse. Give oxygen if the patient is slow to recover. Do not let the patient drive home until a dentist has cleared them.
+
+# 3 Anaphylaxis
+Stop treatment, call for help and send someone for the emergency kit. Phone an ambulance on 10177, or 112 from a mobile phone. The dentist gives adrenaline from the kit using the dose chart inside the lid. Lay the patient flat, or let them sit up if breathing is difficult, and monitor them until the ambulance arrives.
+
+---page---
+
+# 4 Collapse
+Call for help and phone an ambulance. If the patient is not breathing normally, start CPR and send someone for the AED. Follow the AED's spoken instructions.
+
+# 5 After an emergency
+Complete an incident form on the same day. The practice principal holds a debrief with the team within 24 hours.
+
+# 6 Emergency drills
+The whole team runs a medical emergency drill twice a year, in March and in September.

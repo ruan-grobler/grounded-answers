@@ -1,0 +1,18 @@
+title: Radiography safety
+meta: Document ID radiography-safety. Owner: Practice principal. Version 2.1. Effective 2 February 2026.
+banner: Fictional document. Seapoint Smile Dental is not a real practice. Synthetic data for a software demo. Not clinical guidance.
+
+# 1 Before taking X-rays
+Ask every patient who could be pregnant whether she is or may be pregnant. If the answer is yes or unsure, postpone any X-ray that is not urgent. For an urgent X-ray, the dentist decides, and the patient wears a lead apron.
+
+# 2 Protection
+Use a thyroid collar for every intra-oral X-ray. Staff stand behind the protective screen, or at least 2 metres away and out of the main beam, during every exposure. Never hold the film for a patient.
+
+# 3 Dosimeter badges
+Staff who take X-rays wear a dosimeter badge at work. The badges are sent away for reading every quarter.
+
+# 4 How often to take X-rays
+Adults at low risk of decay get bitewing X-rays every 2 years at their check-up. Patients at high risk of decay get them every year.
+
+# 5 Equipment
+Every X-ray unit is licensed and gets a quality control test once a year.

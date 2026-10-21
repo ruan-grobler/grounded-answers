@@ -1,0 +1,23 @@
+title: Sterilisation cycle checklist
+meta: Document ID sterilisation-cycle-checklist. Owner: Infection control lead. Version 3.4. Effective 2 February 2026.
+banner: Fictional document. Seapoint Smile Dental is not a real practice. Synthetic data for a software demo.
+
+# 1 Start of the day
+Switch on the Class B autoclave and run the warm-up cycle. Then run the Bowie-Dick test as the first cycle of the day, with an empty chamber. The Bowie-Dick test checks air removal and steam penetration. After it, run the helix test, which checks steam penetration into hollow instruments. Record the result of both tests in the sterilisation log.
+
+# 2 If a test fails
+Do not use the autoclave. Put an OUT OF USE label on it and repeat the failed test once. If it fails a second time, tell the infection control lead straight away, call the service technician, and move all reprocessing to the backup autoclave in surgery 3.
+
+# 3 Every cycle
+Do not overload the chamber. Every pouch has a chemical indicator. The standard wrapped cycle runs at 134 degrees Celsius with a hold time of 3.5 minutes. Check the cycle printout, initial it and file it in the sterilisation log. Never use instruments from a cycle that did not complete.
+
+---page---
+
+# 4 Weekly spore test
+Every Monday, put a biological indicator (spore test) in the first loaded cycle of the day. Incubate it for 24 hours and record the result in the sterilisation log. If the spore test is positive, stop using the autoclave, tell the infection control lead and recall the instruments from every cycle since the last negative test.
+
+# 5 Logs and records
+The sterilisation log is kept in the infection control file. Sterilisation logs, cycle printouts and spore test results are kept for 5 years.
+
+# 6 Maintenance
+Clean the door seal every day with a damp lint-free cloth. The autoclave is serviced and validated by the service technician once a year.

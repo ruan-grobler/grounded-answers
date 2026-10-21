@@ -1,0 +1,43 @@
+title: Fee schedule 2026
+meta: Document ID fee-schedule-2026. Owner: Practice manager. Version 1.0. Effective 2 March 2026.
+banner: Fictional document. Seapoint Smile Dental is not a real practice and these are not real prices. Synthetic data for a software demo.
+
+# 1 How to use this schedule
+All fees are in South African rand and include VAT. These are the practice's own fees. Medical schemes may pay less than these fees, and the patient pays the difference. Written quotes are valid for 90 days.
+
+# 2 Consultations
+- New patient examination, including two bitewing X-rays: R1,150
+- Check-up and examination: R650
+- Emergency consultation during practice hours: R750
+- After-hours call-out fee: R950
+
+# 3 Preventive care
+- Scale and polish: R890
+- Fluoride treatment: R280
+- Fissure sealant, per tooth: R420
+
+# 4 X-rays
+- Bitewing X-ray, per film: R320
+- Periapical X-ray, per film: R320
+- Panoramic X-ray (OPG): R980
+
+---page---
+
+# 5 Fillings
+- Composite filling, one surface: R1,150
+- Composite filling, two surfaces: R1,550
+- Composite filling, three or more surfaces: R1,950
+
+# 6 Root canals and extractions
+- Simple extraction: R980
+- Surgical extraction: R2,400
+- Root canal treatment, front tooth: R6,500
+- Root canal treatment, molar: R8,900
+
+# 7 Crowns and dentures
+- Porcelain crown, per tooth: R9,800
+- Full upper or lower denture: R11,500
+
+# 8 Cosmetic treatment
+- In-chair whitening: R2,950
+- Take-home whitening kit with custom trays: R1,850
