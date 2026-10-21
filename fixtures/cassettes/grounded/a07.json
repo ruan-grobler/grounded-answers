@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "d635c80d4e560d74d2b6c5f1a1b44f23c5881aa98822e1830813d71bfc2f5c01",
+        "messages_sha": "2330e357ee1d",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The Information Officer is Dr Priya Naidoo, and the Deputy Information Officer is Megan Adams, the practice manager. [S1]\", \"claims\": [{\"statement\": \"The Information Officer is Dr Priya Naidoo, and the Deputy Information Officer is Megan Adams, the practice manager.\", \"source_ids\": [\"S1\"], \"quote\": \"Our Information Officer is Dr Priya Naidoo, and our Deputy Information Officer is Megan Adams, the practice manager.\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1022,
+          "output_tokens": 125
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "dc8eb213261e84e30c6585778b20fa10c62cda820e2166d199ce38b49394a45c",
+        "messages_sha": "bac49131b755",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 334,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "Who is our Information Officer under POPIA?",
+  "question_id": "a07"
+}

@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "6dc409b2e6b9bb366cf89985c9a4dfaaa564dc0f32c43b016bdd230ac0ce6565",
+        "messages_sha": "a7fccfa643a7",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The practice manager, because orders over R5,000 need the practice manager's approval. Only orders over R20,000 need the practice principal. [S1]\", \"claims\": [{\"statement\": \"The practice manager, because orders over R5,000 need the practice manager's approval. Only orders over R20,000 need the practice principal.\", \"source_ids\": [\"S1\"], \"quote\": \"Orders over R5,000 need the practice manager's approval\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 732,
+          "output_tokens": 122
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "f8ce93024376304e2871dcca81a22baeb94329088b58b1d973b27c84e0c2522b",
+        "messages_sha": "8f4e7bf23c8b",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 329,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "Who has to approve a stock order of R12,000?",
+  "question_id": "a18"
+}

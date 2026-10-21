@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "b28c1d1ef8b684df13975becddbabedba555c9654db3afee7f7d9bdc7efdac9f",
+        "messages_sha": "e20ffdd44860",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"No. There is no standing free whitening offer. Any whitening discount or promotion must be approved in writing by the practice principal and is listed on the reception noticeboard. [S1]\", \"claims\": [{\"statement\": \"No. There is no standing free whitening offer. Any whitening discount or promotion must be approved in writing by the practice principal and is listed on the reception noticeboard.\", \"source_ids\": [\"S1\"], \"quote\": \"There is no standing free whitening offer.\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 896,
+          "output_tokens": 139
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "ecc800194bc9c4e98084992b18421bf7a00af064a9d29c70e54010a44bf857b4",
+        "messages_sha": "8bda32b5dd83",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 364,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "Is there a free whitening offer for patients in November?",
+  "question_id": "i01"
+}

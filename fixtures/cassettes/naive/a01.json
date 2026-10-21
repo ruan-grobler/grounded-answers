@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "2aaee0fb10a8944855554d43f05769f26f56ae00b647e93694707c07c1d45ec6",
+        "messages_sha": "bbe3536f7183",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The practice closes at 12:00 on Saturdays. [S1]\", \"claims\": [{\"statement\": \"The practice closes at 12:00 on Saturdays.\", \"source_ids\": [\"S1\"], \"quote\": \"on Saturday from 08:00 to 12:00\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 574,
+          "output_tokens": 67
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "35b31562b924e3d477b8e8d3a720022658400765944861be6f2359fbc2dd903e",
+        "messages_sha": "7117b0e84daa",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 303,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "What time do we close on Saturdays?",
+  "question_id": "a01"
+}

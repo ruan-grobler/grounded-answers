@@ -1,0 +1,38 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "b5af75c2babb1ccf1779160ac98e4c3d68b1493304e9f1beaec8e62cabc33ea4",
+        "messages_sha": "6b6ae24c2e09",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"I don't know. The documents provided do not cover this.\", \"claims\": [], \"confidence\": \"low\", \"refused\": true, \"refusal_reason\": \"not_in_documents\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 506,
+          "output_tokens": 40
+        }
+      },
+      "role": "generator"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "How much does a dental implant cost?",
+  "question_id": "u03"
+}

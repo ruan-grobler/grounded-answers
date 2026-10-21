@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "5c7207d3017458dabaa58b8804fc5e84ae68c37c2fb95eedfedfdc66a58f4fe5",
+        "messages_sha": "9bb8bb633479",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The infection control lead, who is the senior dental assistant, keeps the infection control file. [S4] Sterilisation logs are kept for 5 years. [S1]\", \"claims\": [{\"statement\": \"The infection control lead, who is the senior dental assistant, keeps the infection control file.\", \"source_ids\": [\"S4\"], \"quote\": \"keeps the infection control file up to date\"}, {\"statement\": \"Sterilisation logs are kept for 5 years.\", \"source_ids\": [\"S1\"], \"quote\": \"Sterilisation logs, cycle printouts and spore test results are kept for 5 years.\"}], \"confidence\": \"medium\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 670,
+          "output_tokens": 153
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "ef6a276deb4db09b2583da347ceeae2215d4846b9dd0128710b1773edbd70737",
+        "messages_sha": "dac8baa00cbe",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 353,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "Who keeps the infection control file, and how long are the sterilisation logs in it kept?",
+  "question_id": "m07"
+}

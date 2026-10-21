@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "06e346d4d0baf6d9c66e1815c77d9b0722adf8ef369bc6d1d0fd7e2dd40d3d83",
+        "messages_sha": "0d52ff544783",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"Stop treatment, lay the patient flat with the legs raised, loosen tight clothing, check breathing and pulse, and give oxygen if they are slow to recover. [S1]\", \"claims\": [{\"statement\": \"Stop treatment, lay the patient flat with the legs raised, loosen tight clothing, check breathing and pulse, and give oxygen if they are slow to recover.\", \"source_ids\": [\"S1\"], \"quote\": \"Lay the patient flat with the legs raised, and loosen tight clothing.\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 616,
+          "output_tokens": 132
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "f677e8cbeb22871e50dfcb3a8e9f5caa83b71344bbaac4f3b4cd1349face88b9",
+        "messages_sha": "0cc61e7b85e6",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 354,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "A patient fainted in the chair. What do we do?",
+  "question_id": "a12"
+}

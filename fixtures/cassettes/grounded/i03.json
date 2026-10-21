@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "e52fb43df630ca0bb723abd402e69b0c0ee805847fc758d9782feab62da37789",
+        "messages_sha": "0227641648db",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The supplier's 16% carbamide peroxide take-home whitening gel is 10% off for practices in November. [S1]\", \"claims\": [{\"statement\": \"The supplier's 16% carbamide peroxide take-home whitening gel is 10% off for practices in November.\", \"source_ids\": [\"S1\"], \"quote\": \"is 10% off for practices in November\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 808,
+          "output_tokens": 97
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "a2049932237b8990c4dbf8c677923ef04c32f782e96ecdf5bc28e0fd2de26e1e",
+        "messages_sha": "4f8f06f5453a",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 330,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "What whitening gel promotion did our supplier announce for November?",
+  "question_id": "i03"
+}

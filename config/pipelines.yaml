@@ -1,0 +1,31 @@
+# The two pipelines compared by `make demo`. Both read the same index, the same
+# eval set and the same generator model. Only retrieval and the guardrails differ.
+#
+# Rerank scores are raw MS MARCO cross-encoder logits: above 0 reads as
+# relevant, below about -5 as unrelated. The two thresholds below were chosen
+# with `ga tune` on the 12 question dev split (eval/dev.yaml), never on the
+# test questions. See docs/method.md.
+
+naive:
+  description: Dense-only retrieval. The top 5 chunks go straight into a plain prompt. No guardrails.
+  retrieval: dense
+  candidates: 20
+  context_k: 5
+  guardrails: false
+  prompt: naive
+
+grounded:
+  description: >-
+    Personal data guard, then hybrid retrieval (BM25 plus dense, fused with
+    reciprocal rank fusion), cross-encoder rerank, a confidence gate, a
+    hardened prompt that treats documents as untrusted, and an output guard
+    that verifies every quote against its source.
+  retrieval: hybrid_rerank
+  candidates: 20
+  rrf_k: 60
+  rerank_top: 20
+  context_k: 5
+  keep_min_score: -6.5
+  gate_min_score: -5.5
+  guardrails: true
+  prompt: grounded

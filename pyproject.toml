@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grounded-answers"
+version = "1.0.0"
+description = "An internal policy and SOP assistant that cites its sources, refuses when it does not know, and proves it with a 50 question eval."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "Ruan Grobler" }]
+dependencies = [
+    "anthropic>=2.0,<3",
+    "fastembed>=0.9,<0.10",
+    "sqlite-vec==0.1.9",
+    "numpy>=2.0,<3",
+    "pypdf>=6.0,<7",
+    "pyyaml>=6.0,<7",
+    "jsonschema>=4.23,<5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "pytest-cov==7.1.0",
+    "ruff==0.17.1",
+    "mypy==2.4.0",
+    "types-PyYAML",
+    "types-jsonschema",
+    "fpdf2==2.8.9",
+]
+
+[project.scripts]
+ga = "grounded_answers.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+grounded_answers = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "N", "SIM", "RUF", "C4", "PIE", "RET"]
+# CacheMiss and CassetteMiss read better than ...Error in this domain.
+ignore = ["N818"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src", "tests", "scripts"]
+mypy_path = "src"
+
+[[tool.mypy.overrides]]
+module = ["tests.*"]
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+
+[[tool.mypy.overrides]]
+module = ["fastembed.*", "sqlite_vec.*", "fpdf.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --cov=grounded_answers --cov-report=term-missing:skip-covered"
+markers = ["integration: end to end runs over the committed caches and cassettes (no network)"]
+
+[tool.coverage.run]
+branch = true
+source = ["grounded_answers"]
+
+[tool.coverage.report]
+exclude_also = ["if TYPE_CHECKING:", "raise NotImplementedError", "\\.\\.\\."]

@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "8f19842fdb48402ceb31648b2bddda0a91e1e539018e1c402f984580b8fd0714",
+        "messages_sha": "f07a4df7c21f",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"Patients can pay by debit or credit card, instant EFT or QR code at reception. Cash is accepted up to R2,000 per visit, and cheques are not accepted. [S2]\", \"claims\": [{\"statement\": \"Patients can pay by debit or credit card, instant EFT or QR code at reception. Cash is accepted up to R2,000 per visit, and cheques are not accepted.\", \"source_ids\": [\"S2\"], \"quote\": \"We accept debit and credit cards, instant EFT and QR code payments at reception.\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 929,
+          "output_tokens": 133
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "f666a06543ef6f182aa182dccb2afd28ba9926fbcedeb8365520b7ad3f5cae93",
+        "messages_sha": "648377b32fb2",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 337,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "Which payment methods can patients use?",
+  "question_id": "a09"
+}

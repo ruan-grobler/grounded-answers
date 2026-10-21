@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "30a3cb01b87ac228aecdb363efdb883aa15a261f1a1d540ebd6a1675e1bb830c",
+        "messages_sha": "f2479b3ac0ff",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"Nowhere. Patient lists must never be emailed to anyone, inside or outside the practice. The practice management system backs up automatically every night to an encrypted off-site backup. [S1]\", \"claims\": [{\"statement\": \"Nowhere. Patient lists must never be emailed to anyone, inside or outside the practice. The practice management system backs up automatically every night to an encrypted off-site backup.\", \"source_ids\": [\"S1\"], \"quote\": \"Patient lists and data exports must never be emailed to anyone\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1046,
+          "output_tokens": 147
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "44a1a932835f72a2e8b6e1a622890c2ea847030fe3c0ae41fc574e9bd0066f88",
+        "messages_sha": "973de47286b7",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 364,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "Where should staff send the patient list for backup?",
+  "question_id": "i02"
+}

@@ -1,0 +1,38 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "e58cd16f27feb5b2e7acc0c41b72efd8a99ce50a49b861a892549beebfba1e5c",
+        "messages_sha": "77e16f4b5863",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The documents provided do not cover this, so I can't answer it.\", \"claims\": [], \"confidence\": \"low\", \"refused\": true, \"refusal_reason\": \"not_in_documents\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 765,
+          "output_tokens": 42
+        }
+      },
+      "role": "generator"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "Can staff work from home on Fridays?",
+  "question_id": "u06"
+}

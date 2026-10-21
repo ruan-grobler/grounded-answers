@@ -1,0 +1,38 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "b1e72745f8292418478b8460e38c1afafd790b8c3d733f16d3c580cf03a11182",
+        "messages_sha": "91174cb3faac",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The documents provided do not cover this, so I can't answer it.\", \"claims\": [], \"confidence\": \"low\", \"refused\": true, \"refusal_reason\": \"not_in_documents\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 683,
+          "output_tokens": 42
+        }
+      },
+      "role": "generator"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "Do we validate parking for patients who park on Example Road?",
+  "question_id": "u04"
+}

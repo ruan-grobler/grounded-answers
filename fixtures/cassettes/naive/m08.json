@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "8bbcbd9160145ff9dbe3f28995c2ecf6650380a7a1a414a34d0b263f10860544",
+        "messages_sha": "cd601f0e6e46",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"Crowns take 7 working days at the lab, counted from the day after the case is sent, so a case sent on Monday 2 November is due on Wednesday 11 November. [S5] The fit is booked for the first working day after the lab's due date, which is Thursday 12 November 2026. [S1] A crown fit appointment is booked for 45 minutes. [S4]\", \"claims\": [{\"statement\": \"Crowns take 7 working days at the lab, counted from the day after the case is sent, so a case sent on Monday 2 November is due on Wednesday 11 November.\", \"source_ids\": [\"S5\"], \"quote\": \"Crowns and bridges take 7 working days.\"}, {\"statement\": \"The fit is booked for the first working day after the lab's due date, which is Thursday 12 November 2026.\", \"source_ids\": [\"S1\"], \"quote\": \"Book the fit appointment for the first working day after the lab's due date\"}, {\"statement\": \"A crown fit appointment is booked for 45 minutes.\", \"source_ids\": [\"S4\"], \"quote\": \"Crown fit: 45 minutes\"}], \"confidence\": \"medium\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 724,
+          "output_tokens": 255
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "4d1c83f8d5091c5b3f2f86c274aba6746f8ebc0ef9b80837c46415cb9e6794bb",
+        "messages_sha": "2e3dd48dcb2b",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 414,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "A crown case goes to the lab on Monday 2 November 2026. What is the earliest day to book the crown fit, and how long should the appointment be?",
+  "question_id": "m08"
+}

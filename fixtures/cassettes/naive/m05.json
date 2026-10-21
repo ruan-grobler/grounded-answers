@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "ea4b0ec0a3b162789455e3ce08602928fc0e2f87562b9a9517baa2cd7d7e4c6f",
+        "messages_sha": "ea5b62fd4ef7",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The practice closes on Thursday 24 December 2026 and reopens on Monday 4 January 2027. [S3] Christmas Day (Friday 25 December) and New Year's Day (Friday 1 January) are public holidays. [S4] Working days in the closure come out of annual leave, so the closure uses 5 working days (24, 28, 29, 30 and 31 December). [S1]\", \"claims\": [{\"statement\": \"The practice closes on Thursday 24 December 2026 and reopens on Monday 4 January 2027.\", \"source_ids\": [\"S3\"], \"quote\": \"closes for the year on Thursday 24 December 2026 and reopens on Monday 4 January 2027\"}, {\"statement\": \"Christmas Day (Friday 25 December) and New Year's Day (Friday 1 January) are public holidays.\", \"source_ids\": [\"S4\"], \"quote\": \"Christmas Day on Friday 25 December\"}, {\"statement\": \"Working days in the closure come out of annual leave, so the closure uses 5 working days (24, 28, 29, 30 and 31 December).\", \"source_ids\": [\"S1\"], \"quote\": \"Working days when the practice is closed over December are taken from annual leave.\"}], \"confidence\": \"medium\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 608,
+          "output_tokens": 270
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "f41b0b41f2f08204f22d802a9e257fe576f1fbff2f1c964441e570ab62117382",
+        "messages_sha": "6a1bc322c15b",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 392,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "How many days of annual leave will the 2026 December closure use?",
+  "question_id": "m05"
+}

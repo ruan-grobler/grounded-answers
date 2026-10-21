@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "0aa21874d936692aeceb7374b2cc8a03ac271cf24696e791e43d613d72ca68b1",
+        "messages_sha": "d002c8a10be1",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"A needle-stick injury must be reported to the practice manager within 1 hour, and an incident form completed. [S1] I could not find the rest of this in the documents provided.\", \"claims\": [{\"statement\": \"A needle-stick injury must be reported to the practice manager within 1 hour, and an incident form completed.\", \"source_ids\": [\"S1\"], \"quote\": \"Report the injury to the practice manager within 1 hour and complete an incident form.\"}], \"confidence\": \"low\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 793,
+          "output_tokens": 129
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "027e30e08f361ae55a62da7a4e0c7e273ff8269f8f885a0ed8237545504a8b90",
+        "messages_sha": "b188bea4c69a",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"partially_correct\", \"reason\": \"1 of 2 key facts are fully present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 361,
+          "output_tokens": 21
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "A staff member got a needle-stick injury. Who do they report it to, and what is that person's extension?",
+  "question_id": "m04"
+}

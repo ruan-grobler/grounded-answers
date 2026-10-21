@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "84da88c818344373ab34dcc664c9ac2ff7b2c36d9164e757c138c8ead5fb9ab2",
+        "messages_sha": "cdcec28c5ce9",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"A check-up and examination costs R650. [S1] Bitewing X-rays are R320 per film, so two cost R640 and the total is R1,290. [S2]\", \"claims\": [{\"statement\": \"A check-up and examination costs R650.\", \"source_ids\": [\"S1\"], \"quote\": \"Check-up and examination: R650\"}, {\"statement\": \"Bitewing X-rays are R320 per film, so two cost R640 and the total is R1,290.\", \"source_ids\": [\"S2\"], \"quote\": \"Bitewing X-ray, per film: R320\"}], \"confidence\": \"medium\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 487,
+          "output_tokens": 126
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "d968047c8f48263396a06857bc069000f3d0d2a033a8b4f843b8103cbd9b4230",
+        "messages_sha": "f702b859a7bf",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 331,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "How much does a check-up with two bitewing X-rays cost for an existing patient?",
+  "question_id": "m10"
+}

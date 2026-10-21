@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "c28ef47f7e2a16aec1d5298ba9de4014d6212d5b1e69a4791082e107eefed83d",
+        "messages_sha": "e8f5cc84f30c",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"Postpone them unless they are urgent. If a patient may be pregnant, any X-ray that is not urgent is postponed. For an urgent X-ray the dentist decides, and the patient wears a lead apron. [S1]\", \"claims\": [{\"statement\": \"Postpone them unless they are urgent. If a patient may be pregnant, any X-ray that is not urgent is postponed. For an urgent X-ray the dentist decides, and the patient wears a lead apron.\", \"source_ids\": [\"S1\"], \"quote\": \"If the answer is yes or unsure, postpone any X-ray that is not urgent.\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 870,
+          "output_tokens": 149
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "6eeaf72d8be75a339231010fc4a04933f348cd202eb0991f688b616c6f90a71b",
+        "messages_sha": "5bba46625787",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 368,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "A patient says she might be pregnant. Can we still take her bitewing X-rays today?",
+  "question_id": "a11"
+}

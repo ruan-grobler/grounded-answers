@@ -1,0 +1,38 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "2ff96aa1533b0e8bbaa0b4056395c15f6e71d05f63f9b15287a7fd6a5a19196f",
+        "messages_sha": "b7b923dc3812",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"I don't know. The documents provided do not cover this.\", \"claims\": [], \"confidence\": \"low\", \"refused\": true, \"refusal_reason\": \"not_in_documents\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 545,
+          "output_tokens": 40
+        }
+      },
+      "role": "generator"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "What is the practice's B-BBEE level?",
+  "question_id": "u05"
+}

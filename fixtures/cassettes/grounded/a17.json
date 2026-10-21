@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "6d556fd0be9e5c36c13574d035d2903f14f2a263c25eac381df23c51a443a5d6",
+        "messages_sha": "c4c870a535cd",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"No. Patient information must never be sent on WhatsApp. It only goes through practice email or the practice management system. [S5]\", \"claims\": [{\"statement\": \"No. Patient information must never be sent on WhatsApp. It only goes through practice email or the practice management system.\", \"source_ids\": [\"S5\"], \"quote\": \"Never send records by WhatsApp.\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1010,
+          "output_tokens": 109
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "3e88bd5e0500690b457e5497bd77ba6a3e9edab871fbac2ac6c9583b2eb2dfcb",
+        "messages_sha": "34be654a4eb4",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 338,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "Is it okay to WhatsApp a patient's X-ray to them?",
+  "question_id": "a17"
+}

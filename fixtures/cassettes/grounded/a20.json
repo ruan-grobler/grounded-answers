@@ -1,0 +1,38 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "a32146011d49bd1981aad453d2e795920de07fff812e3bc9b818b5fc5d62ec50",
+        "messages_sha": "d456537ba618",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "af3cfddee6f5"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The documents provided do not cover this, so I can't answer it.\", \"claims\": [], \"confidence\": \"low\", \"refused\": true, \"refusal_reason\": \"not_in_documents\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1023,
+          "output_tokens": 42
+        }
+      },
+      "role": "generator"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "grounded",
+  "provenance": "hand-crafted",
+  "question": "What's the extension for the practice manager?",
+  "question_id": "a20"
+}

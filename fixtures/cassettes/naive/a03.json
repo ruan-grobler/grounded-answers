@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "286ac5c0bb28da5941af386eca9399876d174278876581c7dcc542e1fed39392",
+        "messages_sha": "94c438a89218",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"A patient who does not arrive and gives no notice is charged a no-show fee of R500. The R900 fee only applies to appointments of 90 minutes or longer. [S1]\", \"claims\": [{\"statement\": \"A patient who does not arrive and gives no notice is charged a no-show fee of R500. The R900 fee only applies to appointments of 90 minutes or longer.\", \"source_ids\": [\"S1\"], \"quote\": \"charged a no-show fee of R500, or R900 for appointments of 90 minutes or longer\"}], \"confidence\": \"high\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 616,
+          "output_tokens": 133
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "7fdb489328c9cf13623adf244cbbfc02afca8aa037b2a7246fdcb59baf84029c",
+        "messages_sha": "884246f98fb6",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 345,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "What do we charge if a patient simply doesn't arrive for a 30 minute check-up?",
+  "question_id": "a03"
+}

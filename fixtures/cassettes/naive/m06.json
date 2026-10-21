@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "8658b6935a680dea2c8f1f621f5cd68157b49d84aee82bc2b4f798e0add572fe",
+        "messages_sha": "6e859e6fd6fb",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"Records can only be sent to another practice with the patient's written consent, as a password-protected file, with the password sent separately by SMS. [S1] I could not find the rest of this in the documents provided.\", \"claims\": [{\"statement\": \"Records can only be sent to another practice with the patient's written consent, as a password-protected file, with the password sent separately by SMS.\", \"source_ids\": [\"S1\"], \"quote\": \"Only send records to another practice with the patient's written consent.\"}], \"confidence\": \"low\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 651,
+          "output_tokens": 147
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "1f44e7f425388d3b23be02d655dc19be7bbff18df5e25f8202bfab2148cd7762",
+        "messages_sha": "eb3b37b763cc",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"partially_correct\", \"reason\": \"1 of 2 key facts are fully present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 392,
+          "output_tokens": 21
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "A patient wants their records emailed to their new dentist. What do we need from them, and how long do we have to send them?",
+  "question_id": "m06"
+}

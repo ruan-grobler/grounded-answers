@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "763e77927aad14857a0e971aa26de6421aea8a6ce8dffa30127bb1f0db5340cb",
+        "messages_sha": "c7ec3cfaac77",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"The infection control lead is the senior dental assistant. [S1] The senior dental assistant is Zanele Dube, on extension 104. [S3]\", \"claims\": [{\"statement\": \"The infection control lead is the senior dental assistant.\", \"source_ids\": [\"S1\"], \"quote\": \"The infection control lead is the senior dental assistant.\"}, {\"statement\": \"The senior dental assistant is Zanele Dube, on extension 104.\", \"source_ids\": [\"S3\"], \"quote\": \"| Zanele Dube | Senior dental assistant | 104 |\"}], \"confidence\": \"medium\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 721,
+          "output_tokens": 139
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "253a142d1ca4352aaec9009c9ea3945fe46b0ba1eb62a7cc1e64fb95f98a012a",
+        "messages_sha": "85c83509afc6",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 335,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "Who is the infection control lead, and what is their extension?",
+  "question_id": "m02"
+}

@@ -1,0 +1,66 @@
+{
+  "format": "grounded-answers/cassette@1",
+  "interactions": [
+    {
+      "request": {
+        "hash": "3f6c18ac85cccb2168d1c88ca274bb52d9fda8e3f234d623ebea69a8de4a3eb2",
+        "messages_sha": "6c3af5a03a39",
+        "model": "claude-opus-5-5",
+        "output_sha": "f5caf39b5cc7",
+        "params_sha": "4e35cad30a2f",
+        "system_sha": "85e185fdfa5c"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"answer\": \"A porcelain crown costs R9,800. [S1] Treatment plans over R5,000 need a 50% deposit before treatment starts, so the deposit for a crown is R4,900. [S2]\", \"claims\": [{\"statement\": \"A porcelain crown costs R9,800.\", \"source_ids\": [\"S1\"], \"quote\": \"Porcelain crown, per tooth: R9,800\"}, {\"statement\": \"Treatment plans over R5,000 need a 50% deposit before treatment starts, so the deposit for a crown is R4,900.\", \"source_ids\": [\"S2\"], \"quote\": \"Treatment plans over R5,000 need a 50% deposit before treatment starts.\"}], \"confidence\": \"medium\", \"refused\": false, \"refusal_reason\": \"none\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 527,
+          "output_tokens": 150
+        }
+      },
+      "role": "generator"
+    },
+    {
+      "request": {
+        "hash": "c938c07b021d9ddf04f5ea6ba161728c98a51d75709877f9fb72eb48bfce1018",
+        "messages_sha": "e1285a25f2b5",
+        "model": "claude-sonnet-5-5",
+        "output_sha": "009ab2cece35",
+        "params_sha": "a8c69edc4184",
+        "system_sha": "de7b3450e98e"
+      },
+      "response": {
+        "content": [
+          {
+            "text": "{\"verdict\": \"correct\", \"reason\": \"Every key fact in the reference is present.\"}",
+            "type": "text"
+          }
+        ],
+        "latency_ms": null,
+        "model": "claude-sonnet-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 345,
+          "output_tokens": 20
+        }
+      },
+      "role": "judge"
+    }
+  ],
+  "note": "Hand-crafted fixture, not recorded from the Claude API. Built by `ga craft` from fixtures/handcrafted/answers.yaml with the rule in src/grounded_answers/crafting.py. Token counts are estimates (characters / 4).",
+  "pipeline": "naive",
+  "provenance": "hand-crafted",
+  "question": "How much deposit does a patient pay before getting a porcelain crown?",
+  "question_id": "m01"
+}
