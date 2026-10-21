@@ -41,7 +41,7 @@ Both read the same SQLite index, the same questions and the same generator model
 Real, measured by running code:
 
 - Parsing, chunking, flagging, BM25, vector search, rank fusion and every metric.
-- Embeddings and rerank scores: real outputs of the pinned local models, stored in `index/` so CI does not need to download them. `ga bench` re-runs the live models and reports the largest difference from the committed values (0.0 on my machine). The `verify-models` workflow repeats that check on GitHub's machines.
+- Embeddings and rerank scores: real outputs of the pinned local models, stored in `index/` so CI does not need to download them. `ga bench` re-runs the live models and reports the largest difference from the committed values: 0.0 on the Apple M1 that built them. The `verify-models` workflow repeats the check on GitHub's Linux runners, where the largest difference is 4.4e-4 for vectors and 7.6e-6 for rerank scores, and 44 of 50 rankings are identical (the other 6 swap near ties). That is the reason CI replays the committed values instead of recomputing them: the same inputs give the same results on every machine.
 - The guardrails: plain code, no model calls.
 - Retrieval latency.
 
